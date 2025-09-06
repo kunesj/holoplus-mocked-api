@@ -1,0 +1,2 @@
+litestar[standard]==2.16.0
+msgspec
