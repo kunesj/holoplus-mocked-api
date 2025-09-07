@@ -1,0 +1,31 @@
+{
+  "id": "xoJ62USLcuY",
+  "date_time": 1757124067,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=xoJ62USLcuY",
+  "thumbnail": "https://img.youtube.com/vi/xoJ62USLcuY/mqdefault.jpg",
+  "title": "【HOLOPLUS】 HAVE YOU GUYS HEARD OF THIS HOLOKATSU APP?? LET'S TEST OUT FEATURES!! 【Kureiji Ollie】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Kureiji Ollie",
+    "image_url": "https://yt3.ggpht.com/fCQ1LUhWHfIGkCLeZl2BG_uQhQ6IqxJ3AJJxFbG6uEpLJ1hlJ2JOoBG7FJiAREeDeEVtwJoZKA=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+      "name": "Kureiji Ollie",
+      "key_name": "kureiji_ollie",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

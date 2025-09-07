@@ -1,0 +1,61 @@
+{
+  "id": "fM9oq6QcXkQ",
+  "date_time": 1757239200,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=fM9oq6QcXkQ",
+  "thumbnail": "https://img.youtube.com/vi/fM9oq6QcXkQ/mqdefault.jpg",
+  "title": "ReGLOSS 'ミッドサマーシトラス'  Stage Cam",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "ReGLOSS",
+    "image_url": "https://yt3.ggpht.com/VSEPzRMRZy7FNnZmFujYmVgG24tdNxaLYxfbnQT998wkxBBKm-1VAOq-rbsNZJ-hghM4Ov3FyQ=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "c90c0a49-4a54-4f00-a742-0682fe4b6220",
+      "name": "Otonose Kanade",
+      "key_name": "otonose_kanade",
+      "img_url": "https://asset.holoplus.com/talents/hololive/otonose_kanade/icon_20241218.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    },
+    {
+      "id": "f8ae44b1-0eee-48d2-8c91-15fb3c22308b",
+      "name": "Ichijou Ririka",
+      "key_name": "ichijou_ririka",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ichijou_ririka/icon_20241218.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    },
+    {
+      "id": "57d9bc26-485d-443e-9a5d-dc3b186f67e3",
+      "name": "Juufuutei Raden",
+      "key_name": "juufuutei_raden",
+      "img_url": "https://asset.holoplus.com/talents/hololive/juufuutei_raden/icon_20241218.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    },
+    {
+      "id": "756557b8-d1ec-4a3c-bb66-06646e03f07f",
+      "name": "Todoroki Hajime",
+      "key_name": "todoroki_hajime",
+      "img_url": "https://asset.holoplus.com/talents/hololive/todoroki_hajime/icon_20241218.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

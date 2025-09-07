@@ -1,0 +1,31 @@
+{
+  "id": "fDG24jlSHRc",
+  "date_time": 1757152791,
+  "is_live": true,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=fDG24jlSHRc",
+  "thumbnail": "https://img.youtube.com/vi/fDG24jlSHRc/mqdefault.jpg",
+  "title": "【 #ホロライブ甲子園2025 】こんこよ高校1年目！春から夏大会もやる予定だこよおおおお！！！⚾✨【博衣こより/ホロライブ】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Hakui Koyori",
+    "image_url": "https://yt3.ggpht.com/2PoZqbHNPXXxjPRgtAuDGY_p6use0QRNk2rN0oXPeE9NtrQGuTuD1psw6sCFDGy8fO_3JwjQPxw=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "e5fe9858-b28b-4ab1-abeb-060e4b937bff",
+      "name": "Hakui Koyori",
+      "key_name": "hakui_koyori",
+      "img_url": "https://asset.holoplus.com/talents/hololive/hakui_koyori/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

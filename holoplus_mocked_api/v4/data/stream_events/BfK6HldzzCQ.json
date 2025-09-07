@@ -1,0 +1,31 @@
+{
+  "id": "BfK6HldzzCQ",
+  "date_time": 1757192400,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=BfK6HldzzCQ",
+  "thumbnail": "https://img.youtube.com/vi/BfK6HldzzCQ/mqdefault.jpg",
+  "title": "【HOLLOW KNIGHT: SILKSONG】AWOOOOOOOOOOOOOOOOO",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Gigi Murin",
+    "image_url": "https://yt3.ggpht.com/VTrjE6XoUY0QRq9VgwPIADiUA1S2FYPvJ7qRpUpgix8JLiU-mjKwEtADjS35w9C21Yarxk9kKA=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "2F2C615D-58D8-6E8C-BB46-BCB7D6ADC37D",
+      "name": "Gigi Murin",
+      "key_name": "gigi_murin",
+      "img_url": "https://asset.holoplus.com/talents/hololive/gigi_murin/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

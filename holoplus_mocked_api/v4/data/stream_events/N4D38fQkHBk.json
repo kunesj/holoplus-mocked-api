@@ -1,0 +1,51 @@
+{
+  "id": "N4D38fQkHBk",
+  "date_time": 1757084502,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=N4D38fQkHBk",
+  "thumbnail": "https://img.youtube.com/vi/N4D38fQkHBk/mqdefault.jpg",
+  "title": "【Umamusume: Pretty Derby】kuda",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Kobo Kanaeru",
+    "image_url": "https://yt3.ggpht.com/XRCP2PC-lvvielp04Eq8KyBzgd3_bFc_DNfptN5s-ftd1v6SadGuMChY6Jm3elaqaK7xwE1B=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "44bce260-3b93-41b4-ad3e-3bb5220cd7da",
+      "name": "Kobo Kanaeru",
+      "key_name": "kobo_kanaeru",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kobo_kanaeru/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    },
+    {
+      "id": "1421fe96-5a17-4e08-a8c6-4e25846a3708",
+      "name": "Kaela Kovalskia",
+      "key_name": "kaela_kovalskia",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kaela_kovalskia/icon_20241218.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    },
+    {
+      "id": "4aef28fc-b18f-4fd8-b08e-5be9be79449a",
+      "name": "Vestia Zeta",
+      "key_name": "vestia_zeta",
+      "img_url": "https://asset.holoplus.com/talents/hololive/vestia_zeta/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

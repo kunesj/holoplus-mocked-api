@@ -1,0 +1,31 @@
+{
+  "id": "dz84rSt6Atc",
+  "date_time": 1757093390,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=dz84rSt6Atc",
+  "thumbnail": "https://img.youtube.com/vi/dz84rSt6Atc/mqdefault.jpg",
+  "title": "【 縦型/歌雑談】今日はホロ花火‼寝かしつけ歌枠🎶【ホロライブ/ ロボ子さん】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Robocosan",
+    "image_url": "https://yt3.ggpht.com/H8pRHxQm4-FjRl9XUFn9UQbJhVcj5PIvwDW6o7ZlBTRj2bgVP5xonQEl36H-O6NHaWmbP1zaxg=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "f4574895-c0fe-4b0f-825d-c4199bc6d66f",
+      "name": "Robocosan",
+      "key_name": "robocosan",
+      "img_url": "https://asset.holoplus.com/talents/hololive/robocosan/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

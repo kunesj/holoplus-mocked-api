@@ -1,0 +1,31 @@
+{
+  "id": "BaZMZ7gpkTY",
+  "date_time": 1757084498,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=BaZMZ7gpkTY",
+  "thumbnail": "https://img.youtube.com/vi/BaZMZ7gpkTY/mqdefault.jpg",
+  "title": "【WitchSpring R: The Follower’s Fall】new FREE DLC! PIEBERRY IS BACK #sponsored #kfp",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Takanashi Kiara",
+    "image_url": "https://yt3.ggpht.com/vnzn_RiKneABPPnp1-0SO4IAZQRXqVsL5RNDQYGR9GhT-Flm47vM4UJeyGfn4U_gteKqJMBwNA=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "dddf28dc-0166-48c5-a845-88e608121cc0",
+      "name": "Takanashi Kiara",
+      "key_name": "takanashi_kiara",
+      "img_url": "https://asset.holoplus.com/talents/hololive/takanashi_kiara/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

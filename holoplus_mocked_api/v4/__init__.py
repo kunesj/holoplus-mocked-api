@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import uuid
+import pathlib
 from typing import Any, Annotated, Literal
 
 import litestar
@@ -8,6 +9,11 @@ from litestar.exceptions import NotFoundException
 from litestar.params import Body, Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
+
+from .models import ReactionsContentsPostRequest, StreamEventsResponse, StreamEvent
+
+ROOT_PATH = pathlib.Path(__file__).parent
+DATA_PATH = ROOT_PATH / "data"
 
 
 @litestar.get("/v4/threads/favorite", summary="/v4/threads/favorite")
@@ -86,7 +92,7 @@ async def v4__threads__id__favorite__post(
     token: Annotated[str, Parameter(header="authorization")],
 ) -> None:
     """Returns empty response"""
-    ...  # FIXME
+    return None
 
 
 @litestar.delete(
@@ -103,7 +109,7 @@ async def v4__threads__id__favorite__delete(
     token: Annotated[str, Parameter(header="authorization")],
 ) -> None:
     """Returns empty response"""
-    ...  # FIXME
+    return None
 
 
 @litestar.get("/v4/stream_events", summary="/v4/stream_events")
@@ -113,10 +119,11 @@ async def v4__stream_events(
     plan: Annotated[Literal["past", "current", "future"], Parameter(examples=[Example(value="past")])],
     token: Annotated[str, Parameter(header="authorization")],
 ) -> Any:
-    # FIXME: https://api.holoplus.com/v4/stream_events?fav_talent_filter=false&plan=past
-    #   https://api.holoplus.com/v4/stream_events?fav_talent_filter=false&plan=current
-    #   https://api.holoplus.com/v4/stream_events?fav_talent_filter=false&plan=future
-    ...
+    if plan == "past":
+        return StreamEventsResponse.load_json(DATA_PATH / "stream_events__past.json")
+    if plan == "current":
+        return StreamEventsResponse.load_json(DATA_PATH / "stream_events__current.json")
+    return StreamEventsResponse.load_json(DATA_PATH / "stream_events__future.json")
 
 
 @litestar.get(
@@ -126,8 +133,11 @@ async def v4__stream_events__id(
     *,
     event_id: Annotated[str, Parameter(examples=[Example(value="7tyO2iBAdAA")])],
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/stream_events/7tyO2iBAdAA
-    ...
+) -> StreamEvent:
+    json_path = DATA_PATH / "stream_events" / f"{event_id}.json"
+    if json_path.exists():
+        return StreamEventsResponse.load_json(json_path)
+    raise NotFoundException()
 
 
 @litestar.get("/v4/talent-channel/channels", summary="/v4/talent-channel/channels")
@@ -232,13 +242,13 @@ async def v4__channels__id__updated_thread(
     status_code=204,
 )
 async def v4__reactions__contents__id(
-    data: Annotated[Any, Body()],  # FIXME
+    data: Annotated[ReactionsContentsPostRequest, Body()],
     *,
     record_id: Annotated[str, Parameter(examples=[Example(value=uuid.UUID("b2ee47b9-2225-4c25-990a-3c6430531c8e"))])],
     token: Annotated[str, Parameter(header="authorization")],
 ) -> None:
     """Returns empty response"""
-    ...  # FIXME
+    return None
 
 
 @litestar.post(
@@ -251,7 +261,7 @@ async def v4__pins__id(
     token: Annotated[str, Parameter(header="authorization")],
 ) -> None:
     """Returns empty response"""
-    ...  # FIXME
+    return None
 
 
 ROUTES: list[ControllerRouterHandler] = [

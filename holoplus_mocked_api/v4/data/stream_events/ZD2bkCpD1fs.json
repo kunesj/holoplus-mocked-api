@@ -1,0 +1,31 @@
+{
+  "id": "ZD2bkCpD1fs",
+  "date_time": 1757071797,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=ZD2bkCpD1fs",
+  "thumbnail": "https://img.youtube.com/vi/ZD2bkCpD1fs/mqdefault.jpg",
+  "title": "【星のカービィ ディスカバリー】DLCのスターリーワールドやるぞ!!【花咲みやび/ホロスターズ】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Hanasaki Miyabi",
+    "image_url": "https://yt3.ggpht.com/i0PRMJxOR1NaZQp_YuPNp9q6FsyBq3Mlj3RIbtFtPAYUYAx9HcDZn18xFXRHFiXosJBmGl2mGA=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "4f3375f6-41f4-4b3a-b594-6ca15463ab7b",
+      "name": "Hanasaki Miyabi",
+      "key_name": "hanasaki_miyabi",
+      "img_url": "https://asset.holoplus.com/talents/holostars/hanasaki_miyabi/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

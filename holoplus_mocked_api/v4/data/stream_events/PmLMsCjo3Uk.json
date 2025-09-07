@@ -1,0 +1,31 @@
+{
+  "id": "PmLMsCjo3Uk",
+  "date_time": 1757116494,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=PmLMsCjo3Uk",
+  "thumbnail": "https://img.youtube.com/vi/PmLMsCjo3Uk/mqdefault.jpg",
+  "title": "Screw it, unrune's your scape | Old School RuneScape",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Nerissa Ravencroft",
+    "image_url": "https://yt3.ggpht.com/V1Ow-KEzUUTOpE6dp3oQzxRAH1t-zwkfnlG8lGG6TbJ5SLPyfNXCSH3xAGVmaDEZfNA4xe4kJQ=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "ab7885ba-b968-4e61-b568-5d5fd681e336",
+      "name": "Nerissa Ravencroft",
+      "key_name": "nerissa_ravencroft",
+      "img_url": "https://asset.holoplus.com/talents/hololive/nerissa_ravencroft/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

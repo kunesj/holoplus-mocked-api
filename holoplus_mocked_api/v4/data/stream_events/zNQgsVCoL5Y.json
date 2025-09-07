@@ -1,0 +1,31 @@
+{
+  "id": "zNQgsVCoL5Y",
+  "date_time": 1757149295,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=zNQgsVCoL5Y",
+  "thumbnail": "https://img.youtube.com/vi/zNQgsVCoL5Y/mqdefault.jpg",
+  "title": "5文字でよりバズった方が勝ちのゲーム #ポルカの伝説 #尾丸ポルカ",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Omaru Polka",
+    "image_url": "https://yt3.ggpht.com/42QEdu1EEbblI1N1nLIghEHb38jSbUCLBbSKBcjRf9_uPwN77Md5_iTXsCDkFU480_QEfTHJnQ=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "bf84f0f0-9076-4bfc-bd33-df3c309017ca",
+      "name": "Omaru Polka",
+      "key_name": "omaru_polka",
+      "img_url": "https://asset.holoplus.com/talents/hololive/omaru_polka/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

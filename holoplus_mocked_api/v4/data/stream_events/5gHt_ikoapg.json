@@ -1,0 +1,31 @@
+{
+  "id": "5gHt_ikoapg",
+  "date_time": 1757152904,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=5gHt_ikoapg",
+  "thumbnail": "https://img.youtube.com/vi/5gHt_ikoapg/mqdefault.jpg",
+  "title": "じゃあプランBで行こう 後編：part2－Gears of War: Reloaded【獅白ぼたん/ホロライブ】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Shishiro Botan",
+    "image_url": "https://yt3.ggpht.com/WSOgf5zOOFKQN8pQB8VL8R6OSO0j81oGQSSzN22m8mts4VWZSPHDou7II8Lk4JA3OlQL-Iuu=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "87561c2f-bcb7-49bb-8c2a-f9e9805cc7af",
+      "name": "Shishiro Botan",
+      "key_name": "shishiro_botan",
+      "img_url": "https://asset.holoplus.com/talents/hololive/shishiro_botan/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

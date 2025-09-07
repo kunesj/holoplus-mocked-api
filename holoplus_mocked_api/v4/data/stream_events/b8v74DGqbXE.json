@@ -1,0 +1,31 @@
+{
+  "id": "b8v74DGqbXE",
+  "date_time": 1757156359,
+  "is_live": true,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=b8v74DGqbXE",
+  "thumbnail": "https://img.youtube.com/vi/b8v74DGqbXE/mqdefault.jpg",
+  "title": "【グランツーリスモ7】ずっとやりたかったGT7！走りまくる～～！【#輪堂千速 / #hololivedev_is  #FLOWGLOW 】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Rindo Chihaya",
+    "image_url": "https://yt3.ggpht.com/X8_7VuMTyii7hNs6kpFf14BYGm3SA3m2Iox3EH1721IfbCkknlNEqzxCynMlxr8CyquWcmHq=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "B4445442-9784-B0D6-AFA0-ADF01359D1DB",
+      "name": "Rindo Chihaya",
+      "key_name": "rindo_chihaya",
+      "img_url": "https://asset.holoplus.com/talents/hololive/rindo_chihaya/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

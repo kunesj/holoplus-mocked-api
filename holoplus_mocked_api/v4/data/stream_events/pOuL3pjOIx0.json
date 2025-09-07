@@ -1,0 +1,31 @@
+{
+  "id": "pOuL3pjOIx0",
+  "date_time": 1757250000,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=pOuL3pjOIx0",
+  "thumbnail": "https://img.youtube.com/vi/pOuL3pjOIx0/mqdefault.jpg",
+  "title": "【ゴブリン・ノーム・ホーン】お仕事する！！ついでに魔王倒す！！【水宮枢／ホロライブDEV_IS】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Mizumiya Su",
+    "image_url": "https://yt3.ggpht.com/UWB7QEU9HqeEPrnRo73vuzFwN7nIeWhWgOp6B-zgY4TsuNdnffLqBGYtRTP2OSYIOjNriOCubw=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "E74A61B5-CADC-81E3-BB87-37ACE595DD8A",
+      "name": "Mizumiya Su",
+      "key_name": "mizumiya_su",
+      "img_url": "https://asset.holoplus.com/talents/hololive/mizumiya_su/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

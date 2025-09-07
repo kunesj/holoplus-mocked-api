@@ -1,0 +1,31 @@
+{
+  "id": "hxH13yjxi48",
+  "date_time": 1757242800,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=hxH13yjxi48",
+  "thumbnail": "https://img.youtube.com/vi/hxH13yjxi48/mqdefault.jpg",
+  "title": "【メン限同時視聴】『すずめの戸締まり』を皆で観る【夕刻ロベル/ホロスターズ】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Yukoku Roberu",
+    "image_url": "https://yt3.ggpht.com/087yj2idU-aFOILEg1aycYQopvTOEQw4oILbI4p0u5jjSwauZRzfQkNvIhcKeUdLK-4owPQa4w=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "e224f989-c69b-42cd-bbaa-6351cae13648",
+      "name": "Yukoku Roberu",
+      "key_name": "yukoku_roberu",
+      "img_url": "https://asset.holoplus.com/talents/holostars/yukoku_roberu/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

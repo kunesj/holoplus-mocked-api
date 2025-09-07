@@ -1,0 +1,31 @@
+{
+  "id": "56DqgcR1wNU",
+  "date_time": 1757032334,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=56DqgcR1wNU",
+  "thumbnail": "https://img.youtube.com/vi/56DqgcR1wNU/mqdefault.jpg",
+  "title": "【UMAMUSUME PRETTY DERBY】Training with Daiwa Scarlet for the Gemini Cup!!!",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Axel Syrios",
+    "image_url": "https://yt3.ggpht.com/uAvVek-I4lHF06RJdq5uPL-KHP3BvwtFgfBi7c9Yma8xUdAx_s8p0jc5GNooXJMSGizeoHXLiAk=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "e0757512-2e8a-4950-8460-f1515e1b60bc",
+      "name": "Axel Syrios",
+      "key_name": "axel_syrios",
+      "img_url": "https://asset.holoplus.com/talents/holostars/axel_syrios/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

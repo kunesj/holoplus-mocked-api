@@ -1,0 +1,61 @@
+{
+  "id": "FdCKzM5bucM",
+  "date_time": 1757242800,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=FdCKzM5bucM",
+  "thumbnail": "https://img.youtube.com/vi/FdCKzM5bucM/mqdefault.jpg",
+  "title": "【#hololivefesEXPO25】帰ってきた6th fes.【新情報てんこ盛り】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "hololive",
+    "image_url": "https://yt3.ggpht.com/aDD5WjpOtpuZO8QLEVnDI5pX-fjUNcKo5XM0gTpMvWlCxwG5dowWHAUhaooKl7nCstEM_-87=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "063d07d8-ac40-4e31-bfaa-5c47cb8a8cae",
+      "name": "Natsuiro Matsuri",
+      "key_name": "natsuiro_matsuri",
+      "img_url": "https://asset.holoplus.com/talents/hololive/natsuiro_matsuri/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    },
+    {
+      "id": "f8ae44b1-0eee-48d2-8c91-15fb3c22308b",
+      "name": "Ichijou Ririka",
+      "key_name": "ichijou_ririka",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ichijou_ririka/icon_20241218.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    },
+    {
+      "id": "bf8671de-cf64-4df9-a77b-ccf2ede89380",
+      "name": "Fuwawa Abyssgard",
+      "key_name": "fuwawa_abyssgard",
+      "img_url": "https://asset.holoplus.com/talents/hololive/fuwawa_abyssgard/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    },
+    {
+      "id": "15206e73-ae09-4fa6-95e7-e56587d575d2",
+      "name": "Mococo Abyssgard",
+      "key_name": "mococo_abyssgard",
+      "img_url": "https://asset.holoplus.com/talents/hololive/mococo_abyssgard/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

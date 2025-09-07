@@ -1,0 +1,31 @@
+{
+  "id": "doORSrl5UKw",
+  "date_time": 1757052025,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=doORSrl5UKw",
+  "thumbnail": "https://img.youtube.com/vi/doORSrl5UKw/mqdefault.jpg",
+  "title": "【ニコニコさん | Niconico-san】SAY CHEESE! Oh, Wait...【hololive ID 2nd Generation | Anya Melfissa】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Anya Melfissa",
+    "image_url": "https://yt3.ggpht.com/I1hkzp7Vty4M-KkSccRORE32t4cFq2HI2uAB1t4BPlwej6_XJ4eRlpy7NNZ9x4JBnqlkOnGz=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "e2966419-e7f5-4a4e-8e8e-55e971fd8aa4",
+      "name": "Anya Melfissa",
+      "key_name": "anya_melfissa",
+      "img_url": "https://asset.holoplus.com/talents/hololive/anya_melfissa/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

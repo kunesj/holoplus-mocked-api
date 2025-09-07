@@ -1,0 +1,31 @@
+{
+  "id": "mCrw1xg3Jhc",
+  "date_time": 1757034067,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=mCrw1xg3Jhc",
+  "thumbnail": "https://img.youtube.com/vi/mCrw1xg3Jhc/mqdefault.jpg",
+  "title": "【Guerilla】I'm back! (~ish)",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Josuiji Shinri",
+    "image_url": "https://yt3.ggpht.com/GkDmDWOfKfFkcVmG3-ECCRMeFR4bXlWBvuGO3xu3Ud68kVTWssXpn5q266BmtXvcHuzc5Ib2iFQ=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "4719bf30-5aef-4abc-b923-75dadfaab400",
+      "name": "Josuiji Shinri",
+      "key_name": "josuiji_shinri",
+      "img_url": "https://asset.holoplus.com/talents/holostars/josuiji_shinri/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

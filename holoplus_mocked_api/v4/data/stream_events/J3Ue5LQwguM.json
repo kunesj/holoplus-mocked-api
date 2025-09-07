@@ -1,0 +1,31 @@
+{
+  "id": "J3Ue5LQwguM",
+  "date_time": 1757235600,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=J3Ue5LQwguM",
+  "thumbnail": "https://img.youtube.com/vi/J3Ue5LQwguM/mqdefault.jpg",
+  "title": "【帰ってきた魔界村】STAGE３：『魔窟』孤高の騎士でクリアできるまで耐久配信【ホロライブ DEV_IS 響咲リオナ】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Isaki Riona",
+    "image_url": "https://yt3.ggpht.com/Qh8_dW2m6HrXHZowAKN7HrgvLjg3SS6cRKSbCuiKUYRW985S2WIzyp4VV9hktp97djTC7abgCQ=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "09A796F4-A892-DA18-3D1F-7848024E2300",
+      "name": "Isaki Riona",
+      "key_name": "isaki_riona",
+      "img_url": "https://asset.holoplus.com/talents/hololive/isaki_riona/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

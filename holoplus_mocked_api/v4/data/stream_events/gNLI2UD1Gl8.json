@@ -1,0 +1,31 @@
+{
+  "id": "gNLI2UD1Gl8",
+  "date_time": 1757069985,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=gNLI2UD1Gl8",
+  "thumbnail": "https://img.youtube.com/vi/gNLI2UD1Gl8/mqdefault.jpg",
+  "title": "【#ホロ花火 前日‼】みんなで心理テスト‼0期生の本心がわかる……!?【ホロライブ0期生】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Hoshimachi Suisei",
+    "image_url": "https://yt3.ggpht.com/ytc/AIdro_kLDBK5ksSvk5-XJ6S8e0kWfjy7mVl3jyUkgDeMQ7rlCpU=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "ff2e6a92-89ce-40f0-8771-773a7dbefcfb",
+      "name": "Hoshimachi Suisei",
+      "key_name": "hoshimachi_suisei",
+      "img_url": "https://asset.holoplus.com/talents/hololive/hoshimachi_suisei/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

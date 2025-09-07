@@ -1,0 +1,61 @@
+{
+  "id": "mIOJJBuSB2I",
+  "date_time": 1757203200,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=mIOJJBuSB2I",
+  "thumbnail": "https://img.youtube.com/vi/mIOJJBuSB2I/mqdefault.jpg",
+  "title": "MY FIRST GUNPLA!!!  BUILDING THE GMS-A RED GUNDAM BECAUSE IT'S RED LIKE ME 【HANDCAM】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Crimzon Ruze",
+    "image_url": "https://yt3.ggpht.com/oOudWIrMa-vuBgBZmxfD-ckb9F8indUDW_aoRF5Ikm2wOFitakpZITg4a7QsO5vwam_bH2xd=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "6a5a84d3-2857-41b8-a792-d341e5b7afae",
+      "name": "Crimzon Ruze",
+      "key_name": "crimzon_ruze",
+      "img_url": "https://asset.holoplus.com/talents/holostars/crimzon_ruze/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    },
+    {
+      "id": "09f988e1-57b9-4aa0-b2c4-eec9d5f5bec9",
+      "name": "Jurard T Rexford",
+      "key_name": "jurard_t_rexford",
+      "img_url": "https://asset.holoplus.com/talents/holostars/jurard_t_rexford/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    },
+    {
+      "id": "f735c547-20b4-46a4-bda2-02f1fe9262a8",
+      "name": "Goldbullet",
+      "key_name": "goldbullet",
+      "img_url": "https://asset.holoplus.com/talents/holostars/goldbullet/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    },
+    {
+      "id": "2305fac1-7c26-477a-aece-5c092d24949e",
+      "name": "Octavio",
+      "key_name": "octavio",
+      "img_url": "https://asset.holoplus.com/talents/holostars/octavio/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

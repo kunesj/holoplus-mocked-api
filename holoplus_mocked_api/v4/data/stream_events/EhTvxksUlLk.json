@@ -1,0 +1,31 @@
+{
+  "id": "EhTvxksUlLk",
+  "date_time": 1757163670,
+  "is_live": true,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=EhTvxksUlLk",
+  "thumbnail": "https://img.youtube.com/vi/EhTvxksUlLk/mqdefault.jpg",
+  "title": "#2【Ace Attorney Investigations】I STILL REMEMBER THE BASICS I SWEAR (SPOILERS!)【Pavolia Reine/holoID】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Pavolia Reine",
+    "image_url": "https://yt3.ggpht.com/gV1Zr_UQCBsmfyqaJhgj46qud_7HkvdqDNobqz-GSY7cQ4GNSltNxAyc1Y1-9HXXvSoORbzc=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "aefea85b-4ca6-435b-a6fc-a94e64fb4080",
+      "name": "Pavolia Reine",
+      "key_name": "pavolia_reine",
+      "img_url": "https://asset.holoplus.com/talents/hololive/pavolia_reine/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

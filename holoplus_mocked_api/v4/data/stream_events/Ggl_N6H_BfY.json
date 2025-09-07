@@ -1,0 +1,31 @@
+{
+  "id": "Ggl_N6H_BfY",
+  "date_time": 1757235600,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=Ggl_N6H_BfY",
+  "thumbnail": "https://img.youtube.com/vi/Ggl_N6H_BfY/mqdefault.jpg",
+  "title": "【 日本事故物件監視協会 】霊感ゼロのんなたんが異常現象を発見できるのらか？！Japan Stigmatized Property【姫森ルーナ/ホロライブ】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Himemori Luna",
+    "image_url": "https://yt3.ggpht.com/05zupy7ai3DW0mEmY3tSgkb4CGjHadAXG0bs_PSzg09l0_5MInPrG4Bh-ZRlAWcPncOe9cnQkQ=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "d496d2e4-9e8d-4f80-99dd-a6d441da7be1",
+      "name": "Himemori Luna",
+      "key_name": "himemori_luna",
+      "img_url": "https://asset.holoplus.com/talents/hololive/himemori_luna/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

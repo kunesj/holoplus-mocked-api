@@ -1,0 +1,61 @@
+{
+  "id": "QTEbI5it5Dc",
+  "date_time": 1757246400,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=QTEbI5it5Dc",
+  "thumbnail": "https://img.youtube.com/vi/QTEbI5it5Dc/mqdefault.jpg",
+  "title": "【 DEATH NOTE Killer Within | コラボ 】デスノ世界で人狼ゲーム！【 水無世燐央 l UPROAR!! 】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Minase Rio",
+    "image_url": "https://yt3.ggpht.com/mkJzn1xrjlH3thWERXxrh-7nnjCyij8mXUTwnreWPJz34vz_QB9obnffAvVNgryyu3uMRO9AhA=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "b1fe71db-4156-498c-a744-ec2da43ca67e",
+      "name": "Minase Rio",
+      "key_name": "minase_rio",
+      "img_url": "https://asset.holoplus.com/talents/holostars/minase_rio/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    },
+    {
+      "id": "382ad87c-e1b7-4f73-9a8e-a246b9f1317d",
+      "name": "Utsugi Uyu",
+      "key_name": "utsugi_uyu",
+      "img_url": "https://asset.holoplus.com/talents/holostars/utsugi_uyu/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    },
+    {
+      "id": "a7604343-7956-4839-87ea-ac23f4a62dc9",
+      "name": "Kageyama Shien",
+      "key_name": "kageyama_shien",
+      "img_url": "https://asset.holoplus.com/talents/holostars/kageyama_shien/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    },
+    {
+      "id": "06bdf533-4b87-48e8-b3f7-692af46a3902",
+      "name": "Rikka",
+      "key_name": "rikka",
+      "img_url": "https://asset.holoplus.com/talents/holostars/rikka/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

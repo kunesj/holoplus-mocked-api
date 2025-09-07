@@ -1,0 +1,31 @@
+{
+  "id": "ST3VifAnN7Y",
+  "date_time": 1757136585,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=ST3VifAnN7Y",
+  "thumbnail": "https://img.youtube.com/vi/ST3VifAnN7Y/mqdefault.jpg",
+  "title": "【Umamusume: Pretty Derby】last GeminiCup parent's run before i dahlah.【Kaela Kovalskia / hololiveID】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Kaela Kovalskia",
+    "image_url": "https://yt3.ggpht.com/2jGAglj5aTcUWO7WRNfq54KV3ipKblUzxI6fAKSjAfMw6J9Qqb6NbzbJA2i0t4cKgUR7SPdWC_w=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "1421fe96-5a17-4e08-a8c6-4e25846a3708",
+      "name": "Kaela Kovalskia",
+      "key_name": "kaela_kovalskia",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kaela_kovalskia/icon_20241218.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

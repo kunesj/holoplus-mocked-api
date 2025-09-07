@@ -1,0 +1,31 @@
+{
+  "id": "AonWavzCvOM",
+  "date_time": 1757019766,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=AonWavzCvOM",
+  "thumbnail": "https://img.youtube.com/vi/AonWavzCvOM/mqdefault.jpg",
+  "title": "【PEAK】  Mecha Pilot \u0026 Jester Twins Go To Torture Dungeon Biome?",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Machina X Flayon",
+    "image_url": "https://yt3.ggpht.com/Iqey4d65X8ZWvYVCSY_xkdzdDMcw1wSESqTenq3Lk6a0nUhwPe7csjYFT5rbAhIxnUFkpQl2=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "09acaa73-8a68-470e-81fb-26359eb40876",
+      "name": "Machina X Flayon",
+      "key_name": "machina_x_flayon",
+      "img_url": "https://asset.holoplus.com/talents/holostars/machina_x_flayon/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

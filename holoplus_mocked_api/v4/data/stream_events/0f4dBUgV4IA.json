@@ -1,0 +1,31 @@
+{
+  "id": "0f4dBUgV4IA",
+  "date_time": 1757145321,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=0f4dBUgV4IA",
+  "thumbnail": "https://img.youtube.com/vi/0f4dBUgV4IA/mqdefault.jpg",
+  "title": "DeltaForce｜DTTO. UNITY FES / 秋雪こはく軍 - 夜十神封魔 × むかい × けっつん × 甘音あむ",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Yatogami Fuma",
+    "image_url": "https://yt3.ggpht.com/mtWfNstoxFmQrInOC7ZcIkOvzoMzDHUchDNpKTRR5ujOtI6bJD0YNFgKHqJpHPOmw2UDqjCu=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "45d999e6-ec7b-4b38-9dcc-d41e7c73b7b6",
+      "name": "Yatogami Fuma",
+      "key_name": "yatogami_fuma",
+      "img_url": "https://asset.holoplus.com/talents/holostars/yatogami_fuma/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

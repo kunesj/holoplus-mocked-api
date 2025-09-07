@@ -1,0 +1,31 @@
+{
+  "id": "wdMfPqYuEYc",
+  "date_time": 1757156389,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=wdMfPqYuEYc",
+  "thumbnail": "https://img.youtube.com/vi/wdMfPqYuEYc/mqdefault.jpg",
+  "title": "【 ホロカ  】 １０BOX 開封するぞ！！ 【vtuber / ホロスターズ 】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Utsugi Uyu",
+    "image_url": "https://yt3.ggpht.com/F8QDMCx8IrRiERV_Aat8HYnDDq8TmIEnquF6Sp8H6T-EuSF29q9Rf0YN57g1Yb6VJETuqkdM=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "382ad87c-e1b7-4f73-9a8e-a246b9f1317d",
+      "name": "Utsugi Uyu",
+      "key_name": "utsugi_uyu",
+      "img_url": "https://asset.holoplus.com/talents/holostars/utsugi_uyu/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

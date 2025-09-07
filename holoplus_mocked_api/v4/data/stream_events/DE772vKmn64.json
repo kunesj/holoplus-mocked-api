@@ -1,0 +1,31 @@
+{
+  "id": "DE772vKmn64",
+  "date_time": 1757166711,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=DE772vKmn64",
+  "thumbnail": "https://img.youtube.com/vi/DE772vKmn64/mqdefault.jpg",
+  "title": "早口マヨラー博衣こよりにわからされる桃鈴ねね【 桃鈴ねね / hololive 】#shorts",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Momosuzu Nene",
+    "image_url": "https://yt3.ggpht.com/yQDRxiMIkbHsn7e4s6BCIBCNb3WmiV1myrpo6Lq2-dfCmAn1N47y12mhZg0NOfQMWQMYW4Qm=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "4c4a8925-97fd-4fd6-b5a7-2b0491ec9c40",
+      "name": "Momosuzu Nene",
+      "key_name": "momosuzu_nene",
+      "img_url": "https://asset.holoplus.com/talents/hololive/momosuzu_nene/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

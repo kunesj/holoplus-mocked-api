@@ -1,0 +1,51 @@
+{
+  "id": "uqmCStbJ4nY",
+  "date_time": 1757127676,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=uqmCStbJ4nY",
+  "thumbnail": "https://img.youtube.com/vi/uqmCStbJ4nY/mqdefault.jpg",
+  "title": "≪PROMISE OFF COLLAB≫ WE PARTYIN'!! #holopromise",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Hakos Baelz",
+    "image_url": "https://yt3.ggpht.com/sFBVGkudEnu_MCH23nJdS2oTnOzd9M7e6Mgki5JBhbj4PnjWGgG2hNmW2Vozw5rr8-K0s-DpaPs=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "3722fd96-4ec2-4ae3-b31e-c76ab24b0c31",
+      "name": "Hakos Baelz",
+      "key_name": "hakos_baelz",
+      "img_url": "https://asset.holoplus.com/talents/hololive/hakos_baelz/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    },
+    {
+      "id": "8e711c45-d259-4b4e-9013-0b6f596ddaa3",
+      "name": "IRyS",
+      "key_name": "irys",
+      "img_url": "https://asset.holoplus.com/talents/hololive/irys/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    },
+    {
+      "id": "6b247a19-fe4a-488f-8681-f1be1fb01c22",
+      "name": "Ouro Kronii",
+      "key_name": "ouro_kronii",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ouro_kronii/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

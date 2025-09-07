@@ -1,0 +1,31 @@
+{
+  "id": "Q19tfg1WxZs",
+  "date_time": 1757239200,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=Q19tfg1WxZs",
+  "thumbnail": "https://img.youtube.com/vi/Q19tfg1WxZs/mqdefault.jpg",
+  "title": "【#ときのそら8周年】みんなでお祝いパーティ～無限大の年にしよう～【ホロライブ/ときのそら】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Tokino Sora",
+    "image_url": "https://yt3.ggpht.com/ytc/AIdro_kT9PiLS8BWANuBdGG_-GHsNZxFqmF0YjMnzK55jISdca4=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "c9d67e5d-2ef2-407c-ab6c-97f7c3e5c662",
+      "name": "Tokino Sora",
+      "key_name": "tokino_sora",
+      "img_url": "https://asset.holoplus.com/talents/hololive/tokino_sora/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

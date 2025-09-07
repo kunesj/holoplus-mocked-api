@@ -1,0 +1,31 @@
+{
+  "id": "Psgt0RfNtQw",
+  "date_time": 1757031306,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=Psgt0RfNtQw",
+  "thumbnail": "https://img.youtube.com/vi/Psgt0RfNtQw/mqdefault.jpg",
+  "title": "【COOKING SIMULATOR】SUBLIMINAL MESSAGE BECAUSE I AM HUNGRY... FOR HAKKITO.. COOK U LATER 🔪✨",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Banzoin Hakka",
+    "image_url": "https://yt3.ggpht.com/nC2GAWdVE3d-zpIcTLf0Tj4kve2VQ-12GqKB237p9aqT69TGKcRldFTnKT4MR8B4OjZFIYU_=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "8c006435-5aa4-41c5-8267-f9de9a4d50b4",
+      "name": "Banzoin Hakka",
+      "key_name": "banzoin_hakka",
+      "img_url": "https://asset.holoplus.com/talents/holostars/banzoin_hakka/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

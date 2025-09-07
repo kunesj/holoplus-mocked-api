@@ -1,0 +1,31 @@
+{
+  "id": "dx8eaTIMUdQ",
+  "date_time": 1757113185,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=dx8eaTIMUdQ",
+  "thumbnail": "https://img.youtube.com/vi/dx8eaTIMUdQ/mqdefault.jpg",
+  "title": "[WARHAMMR MINI PAINTING] PAINT FOR THE PAINT GOD w/ Bettel 2",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Gavis Bettel",
+    "image_url": "https://yt3.ggpht.com/kv71-xuB9kzbU7Bi4qsmkRXHc3wAgEU4rhllRnmGH4H23T825BKdGqEAcagTSE9r8BdsnG4lqQ=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "7b5bd506-fbd7-46e7-a0fb-9779c825b7be",
+      "name": "Gavis Bettel",
+      "key_name": "gavis_bettel",
+      "img_url": "https://asset.holoplus.com/talents/holostars/gavis_bettel/icon_20240918.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

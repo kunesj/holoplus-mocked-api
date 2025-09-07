@@ -1,0 +1,31 @@
+{
+  "id": "PUHD4KGvL1M",
+  "date_time": 1757157991,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=PUHD4KGvL1M",
+  "thumbnail": "https://img.youtube.com/vi/PUHD4KGvL1M/mqdefault.jpg",
+  "title": "㊗️25万再生🎉明日の私に幸あれ/#ナナヲアカリ #綺々羅々ヴィヴィ #歌ってみた #shorts",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Kikirara Vivi",
+    "image_url": "https://yt3.ggpht.com/oyKoQxb9TXlAkWrQJglRHFYH4jESym1bVUzrgBsF7sxUhFYsz26jBdjZbjUPJDpV-n7zu-BnaQ=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "80D80D4A-528E-7045-DF16-E99257309C38",
+      "name": "Kikirara Vivi",
+      "key_name": "kikirara_vivi",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kikirara_vivi/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

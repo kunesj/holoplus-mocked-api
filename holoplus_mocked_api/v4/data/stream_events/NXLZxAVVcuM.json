@@ -1,0 +1,31 @@
+{
+  "id": "NXLZxAVVcuM",
+  "date_time": 1757066394,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=NXLZxAVVcuM",
+  "thumbnail": "https://img.youtube.com/vi/NXLZxAVVcuM/mqdefault.jpg",
+  "title": "【恐怖耐性診断テスト】ホロメンオススメホラゲその2、恐怖耐性ありませんけどできるゲームですか？👻【風真いろは/ホロライブ】",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Kazama Iroha",
+    "image_url": "https://yt3.ggpht.com/tLcCy2CKNEUbfQ9NblN_wlYY-TzYeWcMyGkVeMSvJvIoDtPVcCpezh87MjdwaB8TcBMcKkNG=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "5ef4d51e-d9d6-4582-900c-81d36b5d0576",
+      "name": "Kazama Iroha",
+      "key_name": "kazama_iroha",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kazama_iroha/icon.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

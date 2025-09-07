@@ -1,0 +1,31 @@
+{
+  "id": "nl3SgP2FZKM",
+  "date_time": 1757127627,
+  "is_live": false,
+  "platform_type": "youtube",
+  "url": "https://www.youtube.com/watch?utm_campaign=hp_holodule\u0026utm_medium=social\u0026utm_source=holoplus\u0026v=nl3SgP2FZKM",
+  "thumbnail": "https://img.youtube.com/vi/nl3SgP2FZKM/mqdefault.jpg",
+  "title": "【FF5】ファイナルファンタジー5を初見で始める！！！！！ぺこ！【ホロライブ/兎田ぺこら】※ネタバレ注意",
+  "reaction_total": 0,
+  "streamer": {
+    "id": "",
+    "name": "Usada Pekora",
+    "image_url": "https://yt3.ggpht.com/ytc/AIdro_mWueVn-u1oljZJNe-uO2ePQl0aO_OWU0B0zyYbSOExsCY=s88-c-k-c0x00ffffff-no-rj",
+    "created_at": null,
+    "updated_at": null
+  },
+  "talents": [
+    {
+      "id": "d53bfba9-1168-4d8c-aa2c-0ca3d981616f",
+      "name": "Usada Pekora",
+      "key_name": "usada_pekora",
+      "img_url": "https://asset.holoplus.com/talents/hololive/usada_pekora/icon_20241218.png",
+      "created_at": -62135596800,
+      "updated_at": -62135596800,
+      "deleted_at": null,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}
