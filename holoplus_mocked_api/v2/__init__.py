@@ -143,7 +143,7 @@ async def v2__modules(
     )
 
 
-@litestar.get("/v2/groups/{group_id:str}", summary="/v2/groups/{group_id:uuid}", raises=[NotFoundException])
+@litestar.get("/v2/groups/{group_id:uuid}", summary="/v2/groups/{group_id:uuid}", raises=[NotFoundException])
 async def v2__group(
     *,
     group_id: Annotated[
@@ -157,7 +157,7 @@ async def v2__group(
     raise NotFoundException()
 
 
-@litestar.get("/v2/units/{unit_id:str}", summary="/v2/units/{unit_id:uuid}", raises=[NotFoundException])
+@litestar.get("/v2/units/{unit_id:uuid}", summary="/v2/units/{unit_id:uuid}", raises=[NotFoundException])
 async def v2__unit(
     *,
     unit_id: Annotated[
