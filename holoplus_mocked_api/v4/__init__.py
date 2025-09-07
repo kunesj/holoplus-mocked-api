@@ -10,7 +10,12 @@ from litestar.params import Body, Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
 
-from .models import ReactionsContentsPostRequest, StreamEventsResponse, StreamEvent
+from .models import (
+    ReactionsContentsPostRequest,
+    StreamEventsResponse,
+    StreamEvent,
+    TalentChannelChannelsResponse,
+)
 
 ROOT_PATH = pathlib.Path(__file__).parent
 DATA_PATH = ROOT_PATH / "data"
@@ -118,7 +123,7 @@ async def v4__stream_events(
     fav_talent_filter: Annotated[bool, Parameter(examples=[Example(value=False)])],
     plan: Annotated[Literal["past", "current", "future"], Parameter(examples=[Example(value="past")])],
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:
+) -> StreamEventsResponse:
     if plan == "past":
         return StreamEventsResponse.load_json(DATA_PATH / "stream_events__past.json")
     if plan == "current":
@@ -144,8 +149,8 @@ async def v4__stream_events__id(
 async def v4__talent_channel__channels(
     *,
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/talent-channel/channels
-    ...
+) -> TalentChannelChannelsResponse:
+    return TalentChannelChannelsResponse.load_json(DATA_PATH / "talent-channel__channels.json")
 
 
 @litestar.get("/v4/talent-channel/threads/newest", summary="/v4/talent-channel/threads/newest")

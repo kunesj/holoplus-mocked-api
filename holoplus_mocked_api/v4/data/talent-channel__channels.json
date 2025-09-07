@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+      "name": "Kureiji Ollie",
+      "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+      "latest_thread": {
+        "id": "969c000a-22c2-4c8b-a4d0-c6a61cd2e8c0",
+        "original_language": "en",
+        "title": "",
+        "translations": {
+          "ja": {
+            "title": "オーリーは誰とシップ（カップリング）する？🔹️"
+          },
+          "en": {
+            "title": "🔹️ Who do you ship Ollie with?"
+          },
+          "id": {
+            "title": "🔹️ Ollie kamu jodohkan dengan siapa?"
+          }
+        },
+        "created_at": 1757126658
+      },
+      "is_my_oshi": true,
+      "talent": {
+        "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+        "name": "Kureiji Ollie",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "community": {
+        "id": "f30a0c54-73c0-46c1-b413-9e3af0f672ff",
+        "name": "hololive"
+      }
+    }
+  ]
+}
