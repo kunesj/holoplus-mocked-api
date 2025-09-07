@@ -1,0 +1,202 @@
+{
+  "id": "c69ba000-ef52-4381-9ec5-4c4a5e9e2be4",
+  "title": "Last call📢Did you add them to your cart??🛒✨[Merch Info Reminder]",
+  "body": "The order period for the following products is ending on September 8th at 6 PM (JST)!\nBe sure to check if you haven't missed anything!!👀✨\n\n===============\n\n🎉hololive 3rd Generation Anniversary Parade🎉\n\n・Premium Acrylic Message Board\n・hololive OFFICIAL CARD GAME Official holocard Sleeve\n・Acrylic Stand\n・Commemorative Medal\n\n🛒\nhttps://shop.hololivepro.com/en/products/hololivegen3_anniversary_2025?utm_source=holoplus\u0026utm_medium=refferal\u0026utm_campaign=240920_goodsinfo_global\n\n----------\n\n🪄【Made-to-order】hololive English 3rd Concert -All for One- Concert Merch🪄\n\n・Tapestry\n・Acrylic Panel\n・Mug\n・Random Button Badge\n・Happi\n・Acrylic Stand Coaster\n\n🛒\nhttps://shop.hololivepro.com/en/products/hololiveen_3rdconcert_allforone_madetoorder?utm_source=holoplus\u0026utm_medium=refferal\u0026utm_campaign=240920_goodsinfo_global\n\n----------\n\n⚗️hololive English \"Mythmash cheMythtry\"🧪\n\n・A2 Poster\n・Glitter Button Badge Mori Calliope/ Tokoyami Towa\n・Glitter Button Badge Takanashi Kiara/ La+ Darknesss\n・Glitter Button Badge Ninomae Ina'nis/ Nekomata Okayu\n・T-Shirt \"Queen of the Night\"\n・T-Shirt \"Glow in the Dark\"\n・T-Shirt \"Kurukuru Cruise\"\n・Rubber Wristband\n\n🛒\nhttps://shop.hololivepro.com/en/products/hololiveen_mythmashchemythtry?utm_source=holoplus\u0026utm_medium=refferal\u0026utm_campaign=240920_goodsinfo_global\n\n----------\n\n👾Tokoyami Towa Birthday Celebration 2025👾\n\n・B2 Tapestry\n・Big Towel\n・Going Out with Master Towa Plushie Keychain\n・KENZOKU's Metal Keychain\n\n🛒\nhttps://shop.hololivepro.com/en/products/tokoyamitowa_birthday_2025?utm_source=holoplus\u0026utm_medium=refferal\u0026utm_campaign=240920_goodsinfo_global\n\n\n===============\n\nDon't miss this opportunity!! 🏃💨\n\n*Certain items may be unavailable or sold out.",
+  "category": {
+    "id": "805c061d-a33a-47be-a10a-cfd5d12c631c",
+    "name": "Merch",
+    "is_official": false,
+    "sort": 8
+  },
+  "channel": {
+    "id": "7f445cec-0431-11ee-b451-f2115885f868",
+    "name": "hololive Plus",
+    "guideline": "Take a look into holoplus' exclusive content and weekly original posts!✨\nTake part in holoplus exclusive content, special events and experience hololive even more! ",
+    "sort": 4,
+    "created_at": 1672499100,
+    "updated_at": 1672499100,
+    "deleted_at": null,
+    "community": {
+      "id": "f30a0c54-73c0-46c1-b413-9e3af0f672ff",
+      "icon_url": "https://asset.holoplus.com/communities/hololive/icon_hololive.png"
+    },
+    "channel_type": "official",
+    "icon_url": ""
+  },
+  "images": [
+    {
+      "url": "https://asset.holoplus.com/threads/c69ba000-ef52-4381-9ec5-4c4a5e9e2be4/original_1756872266_1.jpg"
+    },
+    {
+      "url": "https://asset.holoplus.com/threads/c69ba000-ef52-4381-9ec5-4c4a5e9e2be4/original_1756872266_2.jpeg"
+    },
+    {
+      "url": "https://asset.holoplus.com/threads/c69ba000-ef52-4381-9ec5-4c4a5e9e2be4/original_1756872266_3.jpg"
+    },
+    {
+      "url": "https://asset.holoplus.com/threads/c69ba000-ef52-4381-9ec5-4c4a5e9e2be4/original_1756872266_4.png"
+    },
+    {
+      "url": "https://asset.holoplus.com/threads/c69ba000-ef52-4381-9ec5-4c4a5e9e2be4/original_1756872266_5.jpg"
+    },
+    {
+      "url": "https://asset.holoplus.com/threads/c69ba000-ef52-4381-9ec5-4c4a5e9e2be4/original_1756872266_6.jpg"
+    },
+    {
+      "url": "https://asset.holoplus.com/threads/c69ba000-ef52-4381-9ec5-4c4a5e9e2be4/original_1756872266_7.jpeg"
+    },
+    {
+      "url": "https://asset.holoplus.com/threads/c69ba000-ef52-4381-9ec5-4c4a5e9e2be4/original_1756872266_8.png"
+    }
+  ],
+  "talents": [
+    {
+      "id": "cc9eb596-fd8f-4344-bb42-b7282dbc1e7a",
+      "name": "Nekomata Okayu",
+      "img_url": "https://asset.holoplus.com/talents/hololive/nekomata_okayu/icon_20240918.png",
+      "key_name": "nekomata_okayu"
+    },
+    {
+      "id": "d53bfba9-1168-4d8c-aa2c-0ca3d981616f",
+      "name": "Usada Pekora",
+      "img_url": "https://asset.holoplus.com/talents/hololive/usada_pekora/icon_20241218.png",
+      "key_name": "usada_pekora"
+    },
+    {
+      "id": "79482e2b-585e-41a5-af0a-8daf33ca5264",
+      "name": "Shiranui Flare",
+      "img_url": "https://asset.holoplus.com/talents/hololive/shiranui_flare/icon.png",
+      "key_name": "shiranui_flare"
+    },
+    {
+      "id": "21640e19-7c9e-4819-a203-4511f0148972",
+      "name": "Shirogane Noel",
+      "img_url": "https://asset.holoplus.com/talents/hololive/shirogane_noel/icon.png",
+      "key_name": "shirogane_noel"
+    },
+    {
+      "id": "47c88d2d-a1ec-4b75-bf4a-351f5780f7b0",
+      "name": "Houshou Marine",
+      "img_url": "https://asset.holoplus.com/talents/hololive/houshou_marine/icon.png",
+      "key_name": "houshou_marine"
+    },
+    {
+      "id": "1d9bd178-6425-4deb-9aa5-04fb3fc826ab",
+      "name": "Tokoyami Towa",
+      "img_url": "https://asset.holoplus.com/talents/hololive/tokoyami_towa/icon_20240918.png",
+      "key_name": "tokoyami_towa"
+    },
+    {
+      "id": "08a03c6e-3b1a-4948-aa97-4e5ea7988907",
+      "name": "La+ Darknesss",
+      "img_url": "https://asset.holoplus.com/talents/hololive/la%2B_darknesss/icon_20240918.png",
+      "key_name": "la+_darknesss"
+    },
+    {
+      "id": "ebb39a49-871c-4a9c-b585-5837bdbcafda",
+      "name": "Mori Calliope",
+      "img_url": "https://asset.holoplus.com/talents/hololive/mori_calliope/icon_20241218.png",
+      "key_name": "mori_calliope"
+    },
+    {
+      "id": "dddf28dc-0166-48c5-a845-88e608121cc0",
+      "name": "Takanashi Kiara",
+      "img_url": "https://asset.holoplus.com/talents/hololive/takanashi_kiara/icon.png",
+      "key_name": "takanashi_kiara"
+    },
+    {
+      "id": "38a1da05-9a78-486a-8244-b30b4ca537ee",
+      "name": "Ninomae Ina'nis",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ninomae_ina%27nis/icon_20240918.png",
+      "key_name": "ninomae_ina'nis"
+    },
+    {
+      "id": "8e711c45-d259-4b4e-9013-0b6f596ddaa3",
+      "name": "IRyS",
+      "img_url": "https://asset.holoplus.com/talents/hololive/irys/icon_20240918.png",
+      "key_name": "irys"
+    },
+    {
+      "id": "6b247a19-fe4a-488f-8681-f1be1fb01c22",
+      "name": "Ouro Kronii",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ouro_kronii/icon_20240918.png",
+      "key_name": "ouro_kronii"
+    },
+    {
+      "id": "3722fd96-4ec2-4ae3-b31e-c76ab24b0c31",
+      "name": "Hakos Baelz",
+      "img_url": "https://asset.holoplus.com/talents/hololive/hakos_baelz/icon_20240918.png",
+      "key_name": "hakos_baelz"
+    },
+    {
+      "id": "19523a52-2a66-11ee-b89c-f2115885f868",
+      "name": "Shiori Novella",
+      "img_url": "https://asset.holoplus.com/talents/hololive/shiori_novella/icon_20240918.png",
+      "key_name": "shiori_novella"
+    },
+    {
+      "id": "f132c3c4-afba-46bd-9c5b-330333d745da",
+      "name": "Koseki Bijou",
+      "img_url": "https://asset.holoplus.com/talents/hololive/koseki_bijou/icon_20240918.png",
+      "key_name": "koseki_bijou"
+    },
+    {
+      "id": "ab7885ba-b968-4e61-b568-5d5fd681e336",
+      "name": "Nerissa Ravencroft",
+      "img_url": "https://asset.holoplus.com/talents/hololive/nerissa_ravencroft/icon_20240918.png",
+      "key_name": "nerissa_ravencroft"
+    },
+    {
+      "id": "bf8671de-cf64-4df9-a77b-ccf2ede89380",
+      "name": "Fuwawa Abyssgard",
+      "img_url": "https://asset.holoplus.com/talents/hololive/fuwawa_abyssgard/icon_20240918.png",
+      "key_name": "fuwawa_abyssgard"
+    },
+    {
+      "id": "15206e73-ae09-4fa6-95e7-e56587d575d2",
+      "name": "Mococo Abyssgard",
+      "img_url": "https://asset.holoplus.com/talents/hololive/mococo_abyssgard/icon_20240918.png",
+      "key_name": "mococo_abyssgard"
+    },
+    {
+      "id": "B1F2D4B4-D5C5-4013-A41C-A640E1B214B4",
+      "name": "Elizabeth Rose Bloodflame",
+      "img_url": "https://asset.holoplus.com/talents/hololive/elizabeth_rose_bloodflame/icon.png",
+      "key_name": "elizabeth_rose_bloodflame"
+    },
+    {
+      "id": "2F2C615D-58D8-6E8C-BB46-BCB7D6ADC37D",
+      "name": "Gigi Murin",
+      "img_url": "https://asset.holoplus.com/talents/hololive/gigi_murin/icon.png",
+      "key_name": "gigi_murin"
+    },
+    {
+      "id": "03E99074-7985-4C7F-A90D-1ADCD89762A5",
+      "name": "Cecilia Immergreen",
+      "img_url": "https://asset.holoplus.com/talents/hololive/cecilia_immergreen/icon.png",
+      "key_name": "cecilia_immergreen"
+    },
+    {
+      "id": "CC9192C9-67AF-DCAA-7F8E-22131C14EFAC",
+      "name": "Raora Panthera",
+      "img_url": "https://asset.holoplus.com/talents/hololive/raora_panthera/icon.png",
+      "key_name": "raora_panthera"
+    }
+  ],
+  "user": {
+    "id": "643269dd-13ec-42cb-92c7-e44464e4fb1c",
+    "name": "hololive Official",
+    "icon": {
+      "id": "4a24554d-36be-4ed6-b537-7cec8248fe33",
+      "icon_url": "https://asset.holoplus.com/communities/hololive/icon_hololive.png"
+    },
+    "role": {
+      "id": "fad105da-4f7f-4894-b4b6-410cf2682b02",
+      "name": "admin"
+    }
+  },
+  "created_at": 1757116800,
+  "updated_at": 1757166139,
+  "original_language": "en",
+  "is_translated": false
+}

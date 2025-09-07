@@ -1,0 +1,51 @@
+{
+  "id": "0ed9318b-50d9-4646-a8b0-0158738da4fa",
+  "title": "😈Today is Nakiri Ayame's Debut Anniversary🎉",
+  "body": "🎉Happy 7th Anniversary Nakiri Ayame!🎉\n\nhololive 2nd Generation's beloved oni princess!\nA radiant soul who's charmed the world with elegance, energy, and an unmistakable laugh that warms hearts💖\n\nOjou's captivating voice and mischievous smile are a true blessing✨\nWhether she's an island destroyer or not🏝️\nevery one of her appearances feels like a gift🎁\n\nCongratulate Ayame on her milestone below✨\n\n🔽Be sure to check out her Anniversary Stream for today's Nakirium fix!\nhttps://www.youtube.com/live/uRa-uLMea7w",
+  "category": {
+    "id": "08c2b0cb-4fc7-4d54-85bb-5c388a4f39db",
+    "name": "Celebration",
+    "is_official": true,
+    "sort": 1
+  },
+  "channel": {
+    "id": "18eec09c-ce17-4f50-bfc6-8b47457882ed",
+    "name": "hololive News",
+    "guideline": "Get updated on the latest news and information about hololive✨\nEngage by leave likes and comments on posts and freely start conversations!🗣️",
+    "sort": 1,
+    "created_at": 1672498800,
+    "updated_at": 1672498800,
+    "deleted_at": null,
+    "community": {
+      "id": "f30a0c54-73c0-46c1-b413-9e3af0f672ff",
+      "icon_url": "https://asset.holoplus.com/communities/hololive/icon_hololive.png"
+    },
+    "channel_type": "official",
+    "icon_url": ""
+  },
+  "images": [],
+  "talents": [
+    {
+      "id": "9330d8b1-d599-4c90-81c9-ec42cda9dbd0",
+      "name": "Nakiri Ayame",
+      "img_url": "https://asset.holoplus.com/talents/hololive/nakiri_ayame/icon.png",
+      "key_name": "nakiri_ayame"
+    }
+  ],
+  "user": {
+    "id": "643269dd-13ec-42cb-92c7-e44464e4fb1c",
+    "name": "hololive Official",
+    "icon": {
+      "id": "4a24554d-36be-4ed6-b537-7cec8248fe33",
+      "icon_url": "https://asset.holoplus.com/communities/hololive/icon_hololive.png"
+    },
+    "role": {
+      "id": "fad105da-4f7f-4894-b4b6-410cf2682b02",
+      "name": "admin"
+    }
+  },
+  "created_at": 1756882800,
+  "updated_at": 1757165280,
+  "original_language": "en",
+  "is_translated": false
+}

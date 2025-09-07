@@ -1,0 +1,59 @@
+{
+  "id": "c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2",
+  "title": "🔹️ What do you see Ollie as?",
+  "body": "We're testing the survey feature on stream! Let me know your answers!✨️\n\n[[holoplus_survey_start]]\nA. Little Sister\nB. Older Sister\nC. Friend\nD. Girlfriend\nE. Wife\nF. Rival\nG. Queen\nH. Princess\nI. Goddess\nJ. Enemy\n[[holoplus_survey_end]]",
+  "channel": {
+    "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+    "name": "Kureiji Ollie",
+    "guideline": "",
+    "sort": 0,
+    "created_at": 1755751916,
+    "updated_at": 1755751916,
+    "deleted_at": null,
+    "community": {
+      "id": "f30a0c54-73c0-46c1-b413-9e3af0f672ff",
+      "icon_url": "https://asset.holoplus.com/communities/hololive/icon_hololive.png"
+    },
+    "channel_type": "talent",
+    "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+  },
+  "images": [],
+  "talents": [
+    {
+      "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+      "name": "Kureiji Ollie",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+      "key_name": "kureiji_ollie"
+    }
+  ],
+  "user": {
+    "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+    "name": "Kureiji Ollie",
+    "icon": {
+      "id": "84b591ba-dbe4-4560-9b3e-bd3e2be880d3",
+      "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+    },
+    "role": {
+      "id": "55ed8131-61fd-4eef-8d9f-4afe7ebb128d",
+      "name": "talent"
+    }
+  },
+  "created_at": 1757125645,
+  "updated_at": 1757169569,
+  "original_language": "en",
+  "is_translated": true,
+  "translations": {
+    "ja": {
+      "title": "🔹️ あなたはオリーを何だと見ていますか？",
+      "body": "配信でアンケート機能のテストをしています！皆さんの回答を教えてくださいね！✨️\n\n[[holoplus_survey_start]]\nA. 妹\nB. 姉\nC. 友達\nD. ガールフレンド\nE. 奥さん\nF. ライバル\nG. 女王様\nH. お姫様\nI. 女神\nJ. 敵\n[[holoplus_survey_end]]"
+    },
+    "en": {
+      "title": "🔹️ What do you see Ollie as?",
+      "body": "We're testing the survey feature on stream! Let me know your answers!✨️\n\n[[holoplus_survey_start]]\nA. Little Sister\nB. Older Sister\nC. Friend\nD. Girlfriend\nE. Wife\nF. Rival\nG. Queen\nH. Princess\nI. Goddess\nJ. Enemy\n[[holoplus_survey_end]]"
+    },
+    "id": {
+      "title": "🔹️ Kamu melihat Ollie sebagai apa?",
+      "body": "Kami sedang menguji fitur survei di stream! Beri tahu aku jawaban kalian!✨️\n\n[[holoplus_survey_start]]\nA. Adik Perempuan\nB. Kakak Perempuan\nC. Teman\nD. Pacar\nE. Istri\nF. Rival\nG. Ratu\nH. Putri\nI. Dewi\nJ. Musuh\n[[holoplus_survey_end]]"
+    }
+  }
+}

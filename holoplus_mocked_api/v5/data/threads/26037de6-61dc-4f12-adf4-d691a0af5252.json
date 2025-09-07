@@ -1,0 +1,49 @@
+{
+  "id": "26037de6-61dc-4f12-adf4-d691a0af5252",
+  "title": "ambassador yg on point",
+  "body": "baru ollie ini yang \"promosi\".. entah seberapa meledak kalau holo advent ikutan juga.. 😭🤌 holostone + holobaubau.. tapi kalau indo yg mulai, emang beda.. gerecep.. 👍",
+  "channel": {
+    "id": "2f495a98-f005-4ef4-b164-be922b823b42",
+    "name": "hololive Chat",
+    "guideline": "Post anything about hololive! \nFeel free to talk about streams, live events, merch info, and much more💬\n\n■ Consider the following and create a positive community for everyone❗\n💖Share exciting news and favorite moments✨\n💖Support live concerts and events together 🎉\n💖Report or block harmful posts from (...) on posts!🔕",
+    "sort": 5,
+    "created_at": 1672499200,
+    "updated_at": 1672499200,
+    "deleted_at": null,
+    "community": {
+      "id": "f30a0c54-73c0-46c1-b413-9e3af0f672ff",
+      "icon_url": "https://asset.holoplus.com/communities/hololive/icon_hololive.png"
+    },
+    "channel_type": "open",
+    "icon_url": ""
+  },
+  "images": [
+    {
+      "url": "https://asset.holoplus.com/threads/26037de6-61dc-4f12-adf4-d691a0af5252/original.jpeg"
+    }
+  ],
+  "talents": [
+    {
+      "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+      "name": "Kureiji Ollie",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+      "key_name": "kureiji_ollie"
+    }
+  ],
+  "user": {
+    "id": "1cab3d13-365e-49ce-8a67-63c60893d56e",
+    "name": "Neiphtuvya",
+    "icon": {
+      "id": "44a53481-b05b-4db9-b052-92658cb410b5",
+      "icon_url": "https://asset.holoplus.com/talents/holostars/josuiji_shinri/motif.png"
+    },
+    "role": {
+      "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+      "name": "none"
+    }
+  },
+  "created_at": 1757167491,
+  "updated_at": 1757169029,
+  "original_language": "en",
+  "is_translated": false
+}

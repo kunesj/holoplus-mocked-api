@@ -1,0 +1,55 @@
+{
+  "id": "baee4cd4-1bb7-45dd-812c-9d6b7cfa63d7",
+  "title": "🙌Nakiri Ayame’s New Single is Available for Streaming!🎧",
+  "body": "Nakiri Ayame’s New Single “Hanafubuki” is out now😈  \n\nImmerse yourself in a neo-Japanesque world where fragility and passion swirl together🎶  \n\n🔽Stream it here🔽  \nhttps://cover.lnk.to/GE9hw3",
+  "category": {
+    "id": "3989b5b8-171c-4fec-9659-de8d64971994",
+    "name": "Music",
+    "is_official": false,
+    "sort": 7
+  },
+  "channel": {
+    "id": "18eec09c-ce17-4f50-bfc6-8b47457882ed",
+    "name": "hololive News",
+    "guideline": "Get updated on the latest news and information about hololive✨\nEngage by leave likes and comments on posts and freely start conversations!🗣️",
+    "sort": 1,
+    "created_at": 1672498800,
+    "updated_at": 1672498800,
+    "deleted_at": null,
+    "community": {
+      "id": "f30a0c54-73c0-46c1-b413-9e3af0f672ff",
+      "icon_url": "https://asset.holoplus.com/communities/hololive/icon_hololive.png"
+    },
+    "channel_type": "official",
+    "icon_url": ""
+  },
+  "images": [
+    {
+      "url": "https://asset.holoplus.com/threads/baee4cd4-1bb7-45dd-812c-9d6b7cfa63d7/original_1756959654_1.jpg"
+    }
+  ],
+  "talents": [
+    {
+      "id": "9330d8b1-d599-4c90-81c9-ec42cda9dbd0",
+      "name": "Nakiri Ayame",
+      "img_url": "https://asset.holoplus.com/talents/hololive/nakiri_ayame/icon.png",
+      "key_name": "nakiri_ayame"
+    }
+  ],
+  "user": {
+    "id": "643269dd-13ec-42cb-92c7-e44464e4fb1c",
+    "name": "hololive Official",
+    "icon": {
+      "id": "4a24554d-36be-4ed6-b537-7cec8248fe33",
+      "icon_url": "https://asset.holoplus.com/communities/hololive/icon_hololive.png"
+    },
+    "role": {
+      "id": "fad105da-4f7f-4894-b4b6-410cf2682b02",
+      "name": "admin"
+    }
+  },
+  "created_at": 1757040300,
+  "updated_at": 1757162899,
+  "original_language": "en",
+  "is_translated": false
+}

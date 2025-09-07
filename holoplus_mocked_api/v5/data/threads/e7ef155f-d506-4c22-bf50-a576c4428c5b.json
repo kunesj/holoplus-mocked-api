@@ -1,0 +1,48 @@
+{
+  "id": "e7ef155f-d506-4c22-bf50-a576c4428c5b",
+  "title": "📱Dark Mode is right around the corner!!🌃✨",
+  "body": "Do you remember the sneak peek of the Dark Mode that was teased back in September on holoplus Lab?\n\nTo everyone who commented on the previous preview post, thank you for your responses!🙏🏻\n\nWhat if we told you that the Dark Mode release is right around the corner?! 🏃💨\nDue to popular demand, we’ve been working hard to release the Dark Mode!🙌✨\n\nWith that said,\nwhat’s important to us is growing holoplus together by reflecting on your suggestions and feedback🌱\n…and also protecting your retinas at night.📱👀\n\n\n🗣️Here are some things we want to let you know in advance! 🗣️\n\nSince the Ver. 2.3.5 has major renovations besides Dark Mode, \nwe will utilize the staged rollout feature provided by Google Play again.📨\n\nThis means some users will have access a few days before everyone else, but don't worry!\nWe will notify everyone on the holoplus Update channel once the latest version is available, so stay tuned!\n\nPlease let us know if you encounter any bugs or issues you may encounter!👂\nBeing able to see your reaction helps us understand what everyone is experiencing!🤔\n\n\nWe’ll be looking forward to hearing back from you!",
+  "category": {
+    "id": "fccdd269-67e6-469f-8fc6-829ea169fef8",
+    "name": "Notice",
+    "is_official": true,
+    "sort": 16
+  },
+  "channel": {
+    "id": "c84f4dd9-0965-4e1e-967e-a7cd50d0f3be",
+    "name": "holoplus Lab",
+    "guideline": "Through holoplus Lab, we want you to be updated on future projects and features that are planned for holoplus!😮\n\nStay tuned and share your ideas or opinions with us in the comments for each post!💭",
+    "sort": 0,
+    "created_at": 1672500600,
+    "updated_at": 1672500600,
+    "deleted_at": null,
+    "community": {
+      "id": "3f255c77-3b3e-4585-8e4f-7e5a4adcef58",
+      "icon_url": "https://asset.holoplus.com/communities/holoplus/icon_holoplus.png"
+    },
+    "channel_type": "official",
+    "icon_url": ""
+  },
+  "images": [
+    {
+      "url": "https://asset.holoplus.com/threads/e7ef155f-d506-4c22-bf50-a576c4428c5b/original_1738545007_1.png"
+    }
+  ],
+  "talents": [],
+  "user": {
+    "id": "249403f0-fc91-4d6b-8eaf-176304856bcc",
+    "name": "holoplus Official",
+    "icon": {
+      "id": "6c491cb6-603f-4a92-8e58-2242f5781583",
+      "icon_url": "https://asset.holoplus.com/communities/holoplus/icon_holoplus.png"
+    },
+    "role": {
+      "id": "fad105da-4f7f-4894-b4b6-410cf2682b02",
+      "name": "admin"
+    }
+  },
+  "created_at": 1738548000,
+  "updated_at": 1757168069,
+  "original_language": "en",
+  "is_translated": false
+}
