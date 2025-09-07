@@ -40,6 +40,7 @@ jobs:
       uses: actions/configure-pages@v5
     - name: Build redoc
       run: |
+        mkdir -p ./_site
         python -m holoplus_mocked_api.build_redoc > ./_site/index.html
     - name: Upload artifact
       # Automatically uploads an artifact from the './_site' directory by default
