@@ -1,0 +1,46 @@
+{
+  "id": "414b3979-fc2f-4256-a64d-d71543ce3480",
+  "name": "HOLOSTARS English -ARMIS-",
+  "talents": [
+    {
+      "id": "09f988e1-57b9-4aa0-b2c4-eec9d5f5bec9",
+      "name": "Jurard T Rexford",
+      "key_name": "jurard_t_rexford",
+      "img_url": "https://asset.holoplus.com/talents/holostars/jurard_t_rexford/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "f735c547-20b4-46a4-bda2-02f1fe9262a8",
+      "name": "Goldbullet",
+      "key_name": "goldbullet",
+      "img_url": "https://asset.holoplus.com/talents/holostars/goldbullet/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "2305fac1-7c26-477a-aece-5c092d24949e",
+      "name": "Octavio",
+      "key_name": "octavio",
+      "img_url": "https://asset.holoplus.com/talents/holostars/octavio/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "6a5a84d3-2857-41b8-a792-d341e5b7afae",
+      "name": "Crimzon Ruze",
+      "key_name": "crimzon_ruze",
+      "img_url": "https://asset.holoplus.com/talents/holostars/crimzon_ruze/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

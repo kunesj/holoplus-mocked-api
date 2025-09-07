@@ -1,0 +1,46 @@
+{
+  "id": "66595544-bbdd-4a8f-b2ac-b6a2af79fc73",
+  "name": "hololive 5th Generation",
+  "talents": [
+    {
+      "id": "7597ae32-5657-4ac3-82fd-2edff2dcf29f",
+      "name": "Yukihana Lamy",
+      "key_name": "yukihana_lamy",
+      "img_url": "https://asset.holoplus.com/talents/hololive/yukihana_lamy/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "4c4a8925-97fd-4fd6-b5a7-2b0491ec9c40",
+      "name": "Momosuzu Nene",
+      "key_name": "momosuzu_nene",
+      "img_url": "https://asset.holoplus.com/talents/hololive/momosuzu_nene/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "87561c2f-bcb7-49bb-8c2a-f9e9805cc7af",
+      "name": "Shishiro Botan",
+      "key_name": "shishiro_botan",
+      "img_url": "https://asset.holoplus.com/talents/hololive/shishiro_botan/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "bf84f0f0-9076-4bfc-bd33-df3c309017ca",
+      "name": "Omaru Polka",
+      "key_name": "omaru_polka",
+      "img_url": "https://asset.holoplus.com/talents/hololive/omaru_polka/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

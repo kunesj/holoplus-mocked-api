@@ -1,0 +1,36 @@
+{
+  "id": "8f24d6e1-aa4b-4f1e-a282-3c91098207ea",
+  "name": "UPROAR!!",
+  "talents": [
+    {
+      "id": "45d999e6-ec7b-4b38-9dcc-d41e7c73b7b6",
+      "name": "Yatogami Fuma",
+      "key_name": "yatogami_fuma",
+      "img_url": "https://asset.holoplus.com/talents/holostars/yatogami_fuma/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "382ad87c-e1b7-4f73-9a8e-a246b9f1317d",
+      "name": "Utsugi Uyu",
+      "key_name": "utsugi_uyu",
+      "img_url": "https://asset.holoplus.com/talents/holostars/utsugi_uyu/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "b1fe71db-4156-498c-a744-ec2da43ca67e",
+      "name": "Minase Rio",
+      "key_name": "minase_rio",
+      "img_url": "https://asset.holoplus.com/talents/holostars/minase_rio/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

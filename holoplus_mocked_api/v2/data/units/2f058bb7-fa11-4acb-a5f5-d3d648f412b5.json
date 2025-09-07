@@ -1,0 +1,46 @@
+{
+  "id": "2f058bb7-fa11-4acb-a5f5-d3d648f412b5",
+  "name": "hololive 3rd Generation",
+  "talents": [
+    {
+      "id": "d53bfba9-1168-4d8c-aa2c-0ca3d981616f",
+      "name": "Usada Pekora",
+      "key_name": "usada_pekora",
+      "img_url": "https://asset.holoplus.com/talents/hololive/usada_pekora/icon_20241218.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "79482e2b-585e-41a5-af0a-8daf33ca5264",
+      "name": "Shiranui Flare",
+      "key_name": "shiranui_flare",
+      "img_url": "https://asset.holoplus.com/talents/hololive/shiranui_flare/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "21640e19-7c9e-4819-a203-4511f0148972",
+      "name": "Shirogane Noel",
+      "key_name": "shirogane_noel",
+      "img_url": "https://asset.holoplus.com/talents/hololive/shirogane_noel/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "47c88d2d-a1ec-4b75-bf4a-351f5780f7b0",
+      "name": "Houshou Marine",
+      "key_name": "houshou_marine",
+      "img_url": "https://asset.holoplus.com/talents/hololive/houshou_marine/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

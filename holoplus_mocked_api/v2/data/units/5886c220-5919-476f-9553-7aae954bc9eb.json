@@ -1,0 +1,46 @@
+{
+  "id": "5886c220-5919-476f-9553-7aae954bc9eb",
+  "name": "hololive GAMERS",
+  "talents": [
+    {
+      "id": "9981f04f-da6c-4d51-b920-89cd53e79b59",
+      "name": "Shirakami Fubuki",
+      "key_name": "shirakami_fubuki",
+      "img_url": "https://asset.holoplus.com/talents/hololive/shirakami_fubuki/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "b3521645-5b78-439b-920f-b685edf69588",
+      "name": "Ookami Mio",
+      "key_name": "ookami_mio",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ookami_mio/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "cc9eb596-fd8f-4344-bb42-b7282dbc1e7a",
+      "name": "Nekomata Okayu",
+      "key_name": "nekomata_okayu",
+      "img_url": "https://asset.holoplus.com/talents/hololive/nekomata_okayu/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "12e0b067-4190-4bf7-bad6-8ee953c2e3b3",
+      "name": "Inugami Korone",
+      "key_name": "inugami_korone",
+      "img_url": "https://asset.holoplus.com/talents/hololive/inugami_korone/icon_20230908.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

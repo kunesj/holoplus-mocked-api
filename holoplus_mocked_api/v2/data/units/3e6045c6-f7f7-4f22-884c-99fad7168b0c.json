@@ -1,0 +1,56 @@
+{
+  "id": "3e6045c6-f7f7-4f22-884c-99fad7168b0c",
+  "name": "Secret Society holoX",
+  "talents": [
+    {
+      "id": "08a03c6e-3b1a-4948-aa97-4e5ea7988907",
+      "name": "La+ Darknesss",
+      "key_name": "la+_darknesss",
+      "img_url": "https://asset.holoplus.com/talents/hololive/la%2B_darknesss/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "e68478c3-cb8a-4f69-914b-54a98aa83bda",
+      "name": "Takane Lui",
+      "key_name": "takane_lui",
+      "img_url": "https://asset.holoplus.com/talents/hololive/takane_lui/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "e5fe9858-b28b-4ab1-abeb-060e4b937bff",
+      "name": "Hakui Koyori",
+      "key_name": "hakui_koyori",
+      "img_url": "https://asset.holoplus.com/talents/hololive/hakui_koyori/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "91693134-a662-4960-ac26-51fb62850d12",
+      "name": "[Affiliate] Sakamata Chloe",
+      "key_name": "sakamata_chloe",
+      "img_url": "https://asset.holoplus.com/talents/hololive/sakamata_chloe/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "5ef4d51e-d9d6-4582-900c-81d36b5d0576",
+      "name": "Kazama Iroha",
+      "key_name": "kazama_iroha",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kazama_iroha/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

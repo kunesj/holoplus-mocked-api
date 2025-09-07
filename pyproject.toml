@@ -171,6 +171,9 @@ select = [
     "TRY",
 ]
 ignore = [
+    # Allow ambiguous (fullwidth) characters in strings
+    "RUF001",
+
     # no not forbid typing.Any - Any type is needed for at least *args and **kwargs
     "ANN401",
 

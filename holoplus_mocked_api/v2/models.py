@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import pathlib
 import uuid
-from typing import Annotated
+from typing import Annotated, Self
 
+import litestar.serialization
 import msgspec
 from litestar.openapi.spec import Example
 from litestar.params import Parameter
@@ -47,11 +49,20 @@ class AuthTokenResponse(msgspec.Struct, kw_only=True):
 
 
 class V2Community(Community, kw_only=True):
+    deleted_at: Annotated[int | None, Parameter(examples=[Example(value=None)])] = msgspec.field()
     channels: Annotated[list[Channel], Parameter()] = msgspec.field()
 
 
-class V2CommunityList(msgspec.Struct, kw_only=True):
-    items: Annotated[list[V2Community], Parameter()] = msgspec.field()
+class V2CommunityItem(msgspec.Struct, kw_only=True):
+    community: Annotated[V2Community, Parameter()] = msgspec.field()
+
+
+class V2CommunitiesResponse(msgspec.Struct, kw_only=True):
+    items: Annotated[list[V2CommunityItem], Parameter()] = msgspec.field()
+
+    @classmethod
+    def load_json(cls, path: pathlib.Path) -> Self:
+        return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
 
 
 class Channel(msgspec.Struct, kw_only=True):
@@ -113,6 +124,10 @@ class BannersResponse(msgspec.Struct, kw_only=True):
     top: Annotated[list[Banner], Parameter()] = msgspec.field()
     middle: Annotated[list[Banner], Parameter()] = msgspec.field()
 
+    @classmethod
+    def load_json(cls, path: pathlib.Path) -> Self:
+        return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
+
 
 class Module(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("b91175fc-8190-4dde-8e92-01d58ed48f46"))])] = (
@@ -132,8 +147,12 @@ class Module(msgspec.Struct, kw_only=True):
     updated_at: Annotated[int, Parameter(examples=[Example(value=1672531200)])] = msgspec.field()
 
 
-class ModulesList(msgspec.Struct, kw_only=True):
+class ModulesResponse(msgspec.Struct, kw_only=True):
     items: Annotated[list[Module], Parameter()] = msgspec.field()
+
+    @classmethod
+    def load_json(cls, path: pathlib.Path) -> Self:
+        return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
 
 
 class GroupUnit(msgspec.Struct, kw_only=True):
@@ -151,6 +170,10 @@ class Group(msgspec.Struct, kw_only=True):
     units: Annotated[list[GroupUnit], Parameter()] = msgspec.field()
     created_at: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field()
     updated_at: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field()
+
+    @classmethod
+    def load_json(cls, path: pathlib.Path) -> Self:
+        return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
 
 
 class UnitTalent(msgspec.Struct, kw_only=True):
@@ -175,3 +198,7 @@ class Unit(msgspec.Struct, kw_only=True):
     )
     name: Annotated[str, Parameter(examples=[Example(value="hololive Generation 0")])] = msgspec.field()
     talents: Annotated[list[UnitTalent], Parameter()] = msgspec.field()
+
+    @classmethod
+    def load_json(cls, path: pathlib.Path) -> Self:
+        return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)

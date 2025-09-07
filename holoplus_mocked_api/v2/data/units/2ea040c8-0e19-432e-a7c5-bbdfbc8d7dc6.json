@@ -1,0 +1,96 @@
+{
+  "id": "2ea040c8-0e19-432e-a7c5-bbdfbc8d7dc6",
+  "name": "hololive Indonesia",
+  "talents": [
+    {
+      "id": "4e124b33-cad3-4d03-b3b9-97011986ef21",
+      "name": "Ayunda Risu",
+      "key_name": "ayunda_risu",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ayunda_risu/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "228bf208-18f4-498b-8b74-ab7398a94ab2",
+      "name": "Moona Hoshinova",
+      "key_name": "moona_hoshinova",
+      "img_url": "https://asset.holoplus.com/talents/hololive/moona_hoshinova/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "ad45e403-1566-49da-b590-fa95fca334ad",
+      "name": "Airani Iofifteen",
+      "key_name": "airani_iofifteen",
+      "img_url": "https://asset.holoplus.com/talents/hololive/airani_iofifteen/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+      "name": "Kureiji Ollie",
+      "key_name": "kureiji_ollie",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "e2966419-e7f5-4a4e-8e8e-55e971fd8aa4",
+      "name": "Anya Melfissa",
+      "key_name": "anya_melfissa",
+      "img_url": "https://asset.holoplus.com/talents/hololive/anya_melfissa/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "aefea85b-4ca6-435b-a6fc-a94e64fb4080",
+      "name": "Pavolia Reine",
+      "key_name": "pavolia_reine",
+      "img_url": "https://asset.holoplus.com/talents/hololive/pavolia_reine/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "4aef28fc-b18f-4fd8-b08e-5be9be79449a",
+      "name": "Vestia Zeta",
+      "key_name": "vestia_zeta",
+      "img_url": "https://asset.holoplus.com/talents/hololive/vestia_zeta/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "1421fe96-5a17-4e08-a8c6-4e25846a3708",
+      "name": "Kaela Kovalskia",
+      "key_name": "kaela_kovalskia",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kaela_kovalskia/icon_20241218.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "44bce260-3b93-41b4-ad3e-3bb5220cd7da",
+      "name": "Kobo Kanaeru",
+      "key_name": "kobo_kanaeru",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kobo_kanaeru/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "6D1FFBB3-20C6-48AB-941A-F55407456DBF",
+  "name": "hololive English -Justice-",
+  "talents": [
+    {
+      "id": "B1F2D4B4-D5C5-4013-A41C-A640E1B214B4",
+      "name": "Elizabeth Rose Bloodflame",
+      "key_name": "elizabeth_rose_bloodflame",
+      "img_url": "https://asset.holoplus.com/talents/hololive/elizabeth_rose_bloodflame/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "2F2C615D-58D8-6E8C-BB46-BCB7D6ADC37D",
+      "name": "Gigi Murin",
+      "key_name": "gigi_murin",
+      "img_url": "https://asset.holoplus.com/talents/hololive/gigi_murin/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "03E99074-7985-4C7F-A90D-1ADCD89762A5",
+      "name": "Cecilia Immergreen",
+      "key_name": "cecilia_immergreen",
+      "img_url": "https://asset.holoplus.com/talents/hololive/cecilia_immergreen/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "CC9192C9-67AF-DCAA-7F8E-22131C14EFAC",
+      "name": "Raora Panthera",
+      "key_name": "raora_panthera",
+      "img_url": "https://asset.holoplus.com/talents/hololive/raora_panthera/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

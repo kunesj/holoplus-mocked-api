@@ -1,0 +1,92 @@
+{
+  "top": [
+    {
+      "id": "fc7f7724-f78f-40be-8594-aa0e107dd303",
+      "img_url": "https://asset.holoplus.com/features/20250901princessvoice5en.png",
+      "link": "https://shop.hololivepro.com/products/hololive_princessvoice_indonesianandenglish?utm_source=holoplus\u0026utm_medium=social\u0026utm_campaign=hp_topbanner_global",
+      "language": "en",
+      "sort": 2,
+      "started_at": 1756717200,
+      "expired_at": 1757213940,
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "6b1791c7-a0bf-4020-82ec-2dc7e8b5d004",
+      "img_url": "https://asset.holoplus.com/features/DepartureKVfullHD.png",
+      "link": "https://departure.hololivepro.com?utm_source=holoplus\u0026utm_medium=social\u0026utm_campaign=hp_topbanner_global",
+      "language": "en",
+      "sort": 3,
+      "started_at": 1756472400,
+      "expired_at": 1763564340,
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "22f6a0b0-5781-4747-997d-3d204b906c71",
+      "img_url": "https://asset.holoplus.com/features/EC_official_banner_2025_02.png",
+      "link": "https://shop.hololivepro.com/en?utm_source=holoplus\u0026utm_medium=social\u0026utm_campaign=hp_topbanner_global",
+      "language": "en",
+      "sort": 8,
+      "started_at": 1756134060,
+      "expired_at": 1806505140,
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "198d15b6-4c76-496a-97bb-32bf0969e4e8",
+      "img_url": "https://asset.holoplus.com/features/mik1stLive_KV_FullHD_RGB_fix.png",
+      "link": "https://our-sparkle.hololivepro.com?utm_source=holoplus\u0026utm_medium=social\u0026utm_campaign=hp_topbanner_global",
+      "language": "en",
+      "sort": 9,
+      "started_at": 1756134060,
+      "expired_at": 1757516340,
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "be074072-5f83-41d4-bd99-5431e1c5b588",
+      "img_url": "https://asset.holoplus.com/features/SHINier-KV_01-FullHD_RGB_fix_01__.png",
+      "link": "https://shinier.hololivepro.com?utm_source=holoplus\u0026utm_medium=social\u0026utm_campaign=hp_topbanner_global",
+      "language": "en",
+      "sort": 10,
+      "started_at": 1756134060,
+      "expired_at": 1761746400,
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "92b93efd-6739-4e3b-a0cc-1cf90088b882",
+      "img_url": "https://asset.holoplus.com/features/Citylist19201080.png",
+      "link": "https://hololive.hololivepro.com/en/events/hololivestage25/?utm_source=holoplus\u0026utm_medium=social\u0026utm_campaign=hp_topbanner_global",
+      "language": "en",
+      "sort": 15,
+      "started_at": 1752202800,
+      "expired_at": 1772269200,
+      "created_at": 0,
+      "updated_at": 0
+    }
+  ],
+  "middle": [
+    {
+      "id": "7D68B380-402E-47D9-83AD-31B382DC3D39",
+      "img_url": "https://asset.holoplus.com/features/EC_official_banner_2025_02.png",
+      "link": "https://shop.hololivepro.com/en?utm_source=holoplus\u0026utm_medium=refferal\u0026utm_campaign=hp_middle_banner_global\u0026utm_content=ec_standard",
+      "language": "",
+      "started_at": 1704034800,
+      "expired_at": 1893423600,
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "1F821127-860D-4D09-909F-7F10339D56CA",
+      "img_url": "https://asset.holoplus.com/features/hololivefriends_logo_only.png",
+      "link": "https://shop.hololivepro.com/en/search?q=hololive%20friends\u0026utm_source=holoplus\u0026utm_medium=refferal\u0026utm_campaign=hp_middle_banner_global\u0026utm_content=lp_holofriends",
+      "language": "",
+      "started_at": 1704034800,
+      "expired_at": 1893423600,
+      "created_at": 0,
+      "updated_at": 0
+    }
+  ]
+}

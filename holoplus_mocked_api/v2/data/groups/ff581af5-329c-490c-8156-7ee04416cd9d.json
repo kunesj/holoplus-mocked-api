@@ -1,0 +1,36 @@
+{
+  "id": "ff581af5-329c-490c-8156-7ee04416cd9d",
+  "name": "HOLOSTARS",
+  "units": [
+    {
+      "id": "052f7010-7c49-492b-bd16-69d46e59f1b3",
+      "name": "HOLOSTARS 1st Generation"
+    },
+    {
+      "id": "b970d4c3-0280-4fbf-aad4-b1644f9a0e26",
+      "name": "HOLOSTARS 2nd Generation"
+    },
+    {
+      "id": "d47aab2a-64d1-459b-9190-59463c05543e",
+      "name": "HOLOSTARS 3rd Generation"
+    },
+    {
+      "id": "8f24d6e1-aa4b-4f1e-a282-3c91098207ea",
+      "name": "UPROAR!!"
+    },
+    {
+      "id": "89943e25-ef26-4d9e-963e-5009ec569152",
+      "name": "HOLOSTARS English -TEMPUS-"
+    },
+    {
+      "id": "414b3979-fc2f-4256-a64d-d71543ce3480",
+      "name": "HOLOSTARS English -ARMIS-"
+    },
+    {
+      "id": "1b60c7ca-130c-22b1-d1b1-3a2e2119a9ec",
+      "name": "Alum/Retirement"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

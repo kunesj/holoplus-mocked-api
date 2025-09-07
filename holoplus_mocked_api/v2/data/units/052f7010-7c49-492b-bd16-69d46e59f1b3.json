@@ -1,0 +1,56 @@
+{
+  "id": "052f7010-7c49-492b-bd16-69d46e59f1b3",
+  "name": "HOLOSTARS 1st Generation",
+  "talents": [
+    {
+      "id": "4f3375f6-41f4-4b3a-b594-6ca15463ab7b",
+      "name": "Hanasaki Miyabi",
+      "key_name": "hanasaki_miyabi",
+      "img_url": "https://asset.holoplus.com/talents/holostars/hanasaki_miyabi/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "61c9ef05-4765-4d05-b665-75f12e5172d3",
+      "name": "Kanade Izuru",
+      "key_name": "kanade_izuru",
+      "img_url": "https://asset.holoplus.com/talents/holostars/kanade_izuru/icon_20241218.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "37dfcc84-ddc0-4f3e-b256-a786426eb450",
+      "name": "Arurandeisu",
+      "key_name": "arurandeisu",
+      "img_url": "https://asset.holoplus.com/talents/holostars/arurandeisu/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "06bdf533-4b87-48e8-b3f7-692af46a3902",
+      "name": "Rikka",
+      "key_name": "rikka",
+      "img_url": "https://asset.holoplus.com/talents/holostars/rikka/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "196b08c6-0306-75d6-4afc-920941c98e32",
+      "name": "[Alum] Kagami Kira",
+      "key_name": "kagami_kira",
+      "img_url": "https://asset.holoplus.com/talents/holostars/kagami_kira/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

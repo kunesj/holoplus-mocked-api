@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import pathlib
 import uuid
-from typing import Annotated
+from typing import Annotated, Self
 
+import litestar.serialization
 import msgspec
 from litestar.openapi.spec import Example
 from litestar.params import Parameter
@@ -20,8 +22,12 @@ class Agreement(msgspec.Struct, kw_only=True):
     )
 
 
-class AgreementList(msgspec.Struct, kw_only=True):
+class AgreementsResponse(msgspec.Struct, kw_only=True):
     items: Annotated[list[Agreement], Parameter()] = msgspec.field()
+
+    @classmethod
+    def load_json(cls, path: pathlib.Path) -> Self:
+        return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
 
 
 class Talent(msgspec.Struct, kw_only=True):
@@ -86,8 +92,12 @@ class PushNotificationGroup(msgspec.Struct, kw_only=True):
     push_notification_settings: Annotated[list[PushNotificationSetting], Parameter()] = msgspec.field()
 
 
-class PushNotificationGroupList(msgspec.Struct, kw_only=True):
+class PushNotificationGroupsResponse(msgspec.Struct, kw_only=True):
     items: Annotated[list[PushNotificationGroup], Parameter()] = msgspec.field()
+
+    @classmethod
+    def load_json(cls, path: pathlib.Path) -> Self:
+        return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
 
 
 class Me(msgspec.Struct, kw_only=True):
@@ -104,12 +114,16 @@ class Me(msgspec.Struct, kw_only=True):
     communities: Annotated[list[Community], Parameter()] = msgspec.field()
     push_notification_settings: Annotated[list[MePushNotificationSetting], Parameter()] = msgspec.field()
 
+    @classmethod
+    def load_json(cls, path: pathlib.Path) -> Self:
+        return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
+
 
 class MeAgreement(msgspec.Struct, kw_only=True):
     agreement: Annotated[Agreement, Parameter()] = msgspec.field()
 
 
-class MeAgreementList(msgspec.Struct, kw_only=True):
+class MeAgreementsResponse(msgspec.Struct, kw_only=True):
     items: Annotated[list[MeAgreement], Parameter()] = msgspec.field()
 
 
@@ -118,3 +132,7 @@ class MeDevice(msgspec.Struct, kw_only=True):
     fcm_token: Annotated[str, Parameter(examples=[Example(value="*****")])] = msgspec.field()
     created_at: Annotated[int, Parameter(examples=[Example(value=1757169645)])] = msgspec.field()
     updated_at: Annotated[int, Parameter(examples=[Example(value=1757169645)])] = msgspec.field()
+
+
+class MePushNotificationSettingsPutRequest(msgspec.Struct, kw_only=True):
+    setting_ids: Annotated[list[uuid.UUID], Parameter()] = msgspec.field()

@@ -1,0 +1,86 @@
+{
+  "id": "ef1deadd-32af-154b-9c50-035b547545c7",
+  "name": "Alum/Retirement",
+  "talents": [
+    {
+      "id": "356ee3c6-148d-45d1-870e-59daee64fa45",
+      "name": "[Alum] Minato Aqua",
+      "key_name": "minato_aqua",
+      "img_url": "https://asset.holoplus.com/talents/hololive/minato_aqua/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "467e8e5b-0678-49b0-8900-37d184ce6761",
+      "name": "[Alum] Murasaki Shion",
+      "key_name": "murasaki_shion",
+      "img_url": "https://asset.holoplus.com/talents/hololive/murasaki_shion/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "ae934b89-89d2-82bd-8d2a-1f4096c7c2b6",
+      "name": "[Alum] Kiryu Coco",
+      "key_name": "kiryu_coco",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kiryu_coco/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "46699dc7-ae2d-465e-b218-8ec6de589bb2",
+      "name": "[Alum] Gawr Gura",
+      "key_name": "gawr_gura",
+      "img_url": "https://asset.holoplus.com/talents/hololive/gawr_gura/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "fa5bbc86-f6e8-f9a3-7362-d28d117cd2a7",
+      "name": "[Alum] Tsukumo Sana",
+      "key_name": "tsukumo_sana",
+      "img_url": "https://asset.holoplus.com/talents/hololive/tsukumo_sana/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "44ab9d9d-03ee-42d6-a218-b4e22e3729f4",
+      "name": "[Alum] Ceres Fauna",
+      "key_name": "ceres_fauna",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ceres_fauna/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "f8e75b2e-1cad-4e17-b439-4f361ce8c0a1",
+      "name": "[Alum] Nanashi Mumei",
+      "key_name": "nanashi_mumei",
+      "img_url": "https://asset.holoplus.com/talents/hololive/nanashi_mumei/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "e1b42e14-5dde-49af-9da9-0179d2dda732",
+      "name": "[Retirement] A-chan",
+      "key_name": "friend_a",
+      "img_url": "https://asset.holoplus.com/talents/hololive/friend_a/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

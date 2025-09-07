@@ -1,0 +1,220 @@
+{
+  "items": [
+    {
+      "community": {
+        "id": "f30a0c54-73c0-46c1-b413-9e3af0f672ff",
+        "name": "hololive",
+        "icon_url": "https://asset.holoplus.com/communities/hololive/icon_hololive.png",
+        "img_url": "https://asset.holoplus.com/communities/hololive/myoshi_hololive_act_0519.png",
+        "is_official": true,
+        "created_at": 0,
+        "deleted_at": null,
+        "updated_at": 0,
+        "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b",
+        "channels": [
+          {
+            "id": "18eec09c-ce17-4f50-bfc6-8b47457882ed",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "hololive News",
+            "guideline": "Get updated on the latest news and information about hololive✨\nEngage by leave likes and comments on posts and freely start conversations!🗣️",
+            "is_official": true
+          },
+          {
+            "id": "28cccf21-f8d2-428b-b324-0ee1bd518f30",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "holo Guide Tokyo",
+            "guideline": "[Official Channel]\n\nGet all the information you need for the 'holo Guide Tokyo' on this channel!🗼\nBe on the lookout for exclusive content you can only find on holoplus!📸\n\n*Post submissions are restricted to official accounts on this channel",
+            "is_official": true
+          },
+          {
+            "id": "7f445cec-0431-11ee-b451-f2115885f868",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "hololive Plus",
+            "guideline": "Take a look into holoplus' exclusive content and weekly original posts!✨\nTake part in holoplus exclusive content, special events and experience hololive even more! ",
+            "is_official": true
+          },
+          {
+            "id": "2f495a98-f005-4ef4-b164-be922b823b42",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "hololive Chat",
+            "guideline": "Post anything about hololive! \nFeel free to talk about streams, live events, merch info, and much more💬\n\n■ Consider the following and create a positive community for everyone❗\n💖Share exciting news and favorite moments✨\n💖Support live concerts and events together 🎉\n💖Report or block harmful posts from (...) on posts!🔕",
+            "is_official": false
+          },
+          {
+            "id": "3b069a4a-a8cb-459e-85fa-50fd68ce8f0b",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "holoKatsu Diary",
+            "guideline": "Share your daily activities related to hololive💭\nA day filled with hololive is always a day to remember! 🫶\n\nholoKatsu, derived from the Japanese term 'Oshikatsu'\nmeans to actively support your Oshi in hololive production!\n\n■ Consider the following and create a positive community for everyone❗\n💖Share your projects and items you have made with everyone✨ \n💖Remember to respect one another 🤝 \n💖Report or block harmful posts from (...) on post!🔕",
+            "is_official": false
+          },
+          {
+            "id": "f4cd25f9-1af4-4a81-a9fc-9b895e71d13b",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "Clips \u0026 Highlights",
+            "guideline": "What's your favorite clip and stream highlight??🤔\nShare them with everyone and discover new favorites on this channel!!📺\n\n■ Consider the following and create a positive community for everyone❗\n💖Don't forget to post with the clip or highlight's URL attached 👀\n💖Report or block harmful posts from (...) on post!🔕",
+            "is_official": false
+          },
+          {
+            "id": "1a668e3d-081e-49e1-b2ed-ff5becf23648",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "Draw your Oshi",
+            "guideline": "Post your original fan art and fan creation on this channel!🖼\nShare, comment and like fan art created by users from all around the world!🗺\n\n■ Consider the following and create a positive community for everyone❗\n💖Please do not post third party works without consent ❌\n💖AI-Generated Art is strictly prohibited ❌\n*Please refer to the Community Guidelines on 'Start here!' for further information.\n💖Report or block harmful posts from (...) on post!🔕",
+            "is_official": false
+          },
+          {
+            "id": "69efbc03-aec9-4e33-a6bd-280c36925c00",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "hololy",
+            "guideline": "Use the AR App 'hololy' and captures special moments with your Oshi🫶\n\n■ Consider the following and create a positive community for everyone❗\n💖Do not post offensive or inappropriate photos ❌\n💖Be aware of your surroundings while using 'hololy'✨\n💖Report or block harmful posts from (...) on post!🔕",
+            "is_official": false
+          },
+          {
+            "id": "0e906fd3-aab1-d2d2-1cbe-cfe03b61a602",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "My hololive friends",
+            "guideline": "Share your favorite moments and pictures of your daily activities with your \"hololive friends with u\" merch!🧸📸\n\n■ Consider the following and create a positive community for everyone❗\n💖Remember to respect other people's posts🤝\n💖Please refrain from posting unrelated threads or images😣",
+            "is_official": false
+          },
+          {
+            "id": "7b03aaf1-fe91-4b9a-a435-492d5faa8b71",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "holoPLAYs",
+            "guideline": "Share your thoughts, strategies and scores on hololive-related game titles and game related collaborative events!💭\n\n■ Consider the following and create a positive community for everyone❗\n💖Freely talk about fangames or collaborative events related to hololive🎮\n💖Refrain from posting Spoilers 🤐 \n💖Please follow each game's User Guidelines and Regulations🙏",
+            "is_official": false
+          },
+          {
+            "id": "5eb7dec8-5769-4fac-924e-81fa9ea4b33d",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "holo no kyujitsu",
+            "guideline": "【Official Channel】\n\"holo no kyujitsu\", a nurturing live-streaming program created together with everyone on holoplus is now on air❗\n\nSend in your ideas and suggestions for the streams on this channel!🤝✨\nThe things that you want to see, know, and try might become reality...?🤔💭\n\n*Posting threads on official channels are only limited to official accounts.",
+            "is_official": true
+          }
+        ]
+      }
+    },
+    {
+      "community": {
+        "id": "b98aa4c3-e351-45f3-bb0b-8aa037d3a750",
+        "name": "HOLOSTARS",
+        "icon_url": "https://asset.holoplus.com/communities/holostars/icon_holostars.png",
+        "img_url": "https://asset.holoplus.com/communities/holostars/myoshi_holostars_act.png",
+        "is_official": true,
+        "created_at": 0,
+        "deleted_at": null,
+        "updated_at": 0,
+        "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d",
+        "channels": [
+          {
+            "id": "40680b9e-c2e0-4406-9d60-817bbdcc27e9",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "HOLOSTARS News",
+            "guideline": "Get updated on the latest news and information about HOLOSTARS✨\nEngage by leave likes and comments on posts and freely start conversations!🗣️",
+            "is_official": true
+          },
+          {
+            "id": "6807626b-2421-4a1c-a725-e4f316f86660",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "HOLOSTARS Chat",
+            "guideline": "Post anything about HOLOSTARS! \nFeel free to talk about streams, live events, merch info, and much more💬\n\n■ Consider the following and create a positive community for everyone❗\n💖Share exciting news and favorite moments✨\n💖Support live concerts and events together 🎉\n💖Report or block harmful posts from (...) on posts!🔕",
+            "is_official": false
+          },
+          {
+            "id": "312e6020-ef38-48c7-8a1f-68c095eac62d",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "holoKatsu Diary",
+            "guideline": "Share your daily activities related to HOLOSTARS💭\nA day filled with HOLOSTARS is always a day to remember! 🫶\n\nholoKatsu, derived from the Japanese term 'Oshikatsu'\nmeans to actively support your Oshi in hololive production!\n\n■ Consider the following and create a positive community for everyone❗\n💖Share your projects and items you have made with everyone✨ \n💖Remember to respect one another 🤝 \n💖Report or block harmful posts from (...) on post!🔕",
+            "is_official": false
+          },
+          {
+            "id": "2b0c4a98-037b-605e-a830-d5878019d9ab",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "Draw your Oshi",
+            "guideline": "Post your original fan art and fan creation on this channel!🖼\nShare, comment and like fan art created by users from all around the world!🗺\n\n■ Consider the following and create a positive community for everyone❗\n💖Please do not post third party works without consent ❌\n💖AI-Generated Art is strictly prohibited ❌\n*Please refer to the Community Guidelines on 'Start here!' for further information.\n💖Report or block harmful posts from (...) on post!🔕",
+            "is_official": false
+          },
+          {
+            "id": "d0cb526a-0eb8-4db0-8e9d-f10c2b85fd74",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "hololy",
+            "guideline": "Use the AR App 'hololy' and captures special moments with your Oshi🫶\n\n■ Consider the following and create a positive community for everyone❗\n💖Do not post offensive or inappropriate photos ❌\n💖Be aware of your surroundings while using 'hololy'✨\n💖Report or block harmful posts from (...) on post!🔕",
+            "is_official": false
+          }
+        ]
+      }
+    },
+    {
+      "community": {
+        "id": "3f255c77-3b3e-4585-8e4f-7e5a4adcef58",
+        "name": "holoplus",
+        "icon_url": "https://asset.holoplus.com/communities/holoplus/icon_holoplus.png",
+        "img_url": "",
+        "is_official": true,
+        "created_at": 0,
+        "deleted_at": null,
+        "updated_at": 0,
+        "group_id": "",
+        "channels": [
+          {
+            "id": "a1e4698d-ac5e-4738-92e5-1049bc0774f3",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "holoplus Updates",
+            "guideline": "Follow all the latest announcements from holoplus📢\n\nBe updated on new channel announcements, maintenance notices and much more on this channel!",
+            "is_official": true
+          },
+          {
+            "id": "45c327cf-213f-44ae-bc16-fb293de258b7",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "Start here!",
+            "guideline": "New to holoplus? \nDon't worry, this channel has got you covered!🤗\n\nTake a look into each post and see how you can use holoplus!👀✨",
+            "is_official": true
+          },
+          {
+            "id": "c84f4dd9-0965-4e1e-967e-a7cd50d0f3be",
+            "created_at": 0,
+            "updated_at": 0,
+            "deleted_at": null,
+            "name": "holoplus Lab",
+            "guideline": "Through holoplus Lab, we want you to be updated on future projects and features that are planned for holoplus!😮\n\nStay tuned and share your ideas or opinions with us in the comments for each post!💭",
+            "is_official": true
+          }
+        ]
+      }
+    }
+  ]
+}

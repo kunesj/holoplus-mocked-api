@@ -1,0 +1,76 @@
+{
+  "id": "e9171551-cb2a-483e-8a77-fdffba8e632b",
+  "name": "hololive",
+  "units": [
+    {
+      "id": "ebe86ce6-0013-46ff-b787-b1e49a6a1bcb",
+      "name": "hololive Generation 0"
+    },
+    {
+      "id": "dcb2b9fe-7e05-412e-8510-f1eac6fabcb4",
+      "name": "hololive 1st Generation"
+    },
+    {
+      "id": "8f4cd864-aee7-4c83-b669-8667f7f19778",
+      "name": "hololive 2nd Generation"
+    },
+    {
+      "id": "5886c220-5919-476f-9553-7aae954bc9eb",
+      "name": "hololive GAMERS"
+    },
+    {
+      "id": "2f058bb7-fa11-4acb-a5f5-d3d648f412b5",
+      "name": "hololive 3rd Generation"
+    },
+    {
+      "id": "cca67d97-69a4-4f5b-a6f0-84f3503887a0",
+      "name": "hololive 4th Generation"
+    },
+    {
+      "id": "66595544-bbdd-4a8f-b2ac-b6a2af79fc73",
+      "name": "hololive 5th Generation"
+    },
+    {
+      "id": "3e6045c6-f7f7-4f22-884c-99fad7168b0c",
+      "name": "Secret Society holoX"
+    },
+    {
+      "id": "2ea040c8-0e19-432e-a7c5-bbdfbc8d7dc6",
+      "name": "hololive Indonesia"
+    },
+    {
+      "id": "06cb531f-8647-477a-a62d-9c5fefde48ef",
+      "name": "hololive English -Myth-"
+    },
+    {
+      "id": "77116598-25a0-4ec9-98e9-c7b084b87f72",
+      "name": "hololive English -Promise-"
+    },
+    {
+      "id": "29ca9de7-3b7e-4029-8e15-d3279b23880f",
+      "name": "hololive English -Advent-"
+    },
+    {
+      "id": "6D1FFBB3-20C6-48AB-941A-F55407456DBF",
+      "name": "hololive English -Justice-"
+    },
+    {
+      "id": "f0331853-4e99-4bf3-95fe-b42276a6882c",
+      "name": "hololive DEV_IS ReGLOSS"
+    },
+    {
+      "id": "4127adb7-1b3f-cb4a-c880-f5f48f64b512",
+      "name": "hololive DEV_IS FLOW GLOW"
+    },
+    {
+      "id": "5c2e9bca-eae0-4131-89b6-2b68a9c6ad9c",
+      "name": "hololive production Office Staff"
+    },
+    {
+      "id": "ef1deadd-32af-154b-9c50-035b547545c7",
+      "name": "Alum/Retirement"
+    }
+  ],
+  "created_at": 0,
+  "updated_at": 0
+}

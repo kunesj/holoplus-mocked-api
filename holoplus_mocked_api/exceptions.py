@@ -39,9 +39,10 @@ class RootErrorResponse(msgspec.Struct, kw_only=True):
     fault: Annotated[bool, Parameter(examples=[Example(value=True)])] = msgspec.field()
 
 
+# TODO: use correct error values
 def root_exception_handler(_: litestar.Request, exc: Exception) -> litestar.Response[RootErrorResponse]:
     return litestar.Response(
-        media_type=litestar.MediaType.MESSAGEPACK,
+        media_type=litestar.MediaType.JSON,
         content=RootErrorResponse(
             name="fault",
             id=uuid.uuid4().hex[:8],
@@ -54,9 +55,10 @@ def root_exception_handler(_: litestar.Request, exc: Exception) -> litestar.Resp
     )
 
 
+# TODO: use correct error values
 def exception_handler(_: litestar.Request, exc: Exception) -> litestar.Response[ErrorResponse]:
     return litestar.Response(
-        media_type=litestar.MediaType.MESSAGEPACK,
+        media_type=litestar.MediaType.JSON,
         content=ErrorResponse(
             code="Exception",
             message=exc.__class__.__name__,

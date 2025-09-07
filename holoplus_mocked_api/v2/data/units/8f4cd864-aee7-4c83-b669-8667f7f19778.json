@@ -1,0 +1,56 @@
+{
+  "id": "8f4cd864-aee7-4c83-b669-8667f7f19778",
+  "name": "hololive 2nd Generation",
+  "talents": [
+    {
+      "id": "9330d8b1-d599-4c90-81c9-ec42cda9dbd0",
+      "name": "Nakiri Ayame",
+      "key_name": "nakiri_ayame",
+      "img_url": "https://asset.holoplus.com/talents/hololive/nakiri_ayame/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "da1b223c-f3d5-4bea-8e4c-63521a6c1dce",
+      "name": "Yuzuki Choco",
+      "key_name": "yuzuki_choco",
+      "img_url": "https://asset.holoplus.com/talents/hololive/yuzuki_choco/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "25299e77-c314-4fcf-a9fe-13debe52ec53",
+      "name": "Oozora Subaru",
+      "key_name": "oozora_subaru",
+      "img_url": "https://asset.holoplus.com/talents/hololive/oozora_subaru/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "356ee3c6-148d-45d1-870e-59daee64fa45",
+      "name": "[Alum] Minato Aqua",
+      "key_name": "minato_aqua",
+      "img_url": "https://asset.holoplus.com/talents/hololive/minato_aqua/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "467e8e5b-0678-49b0-8900-37d184ce6761",
+      "name": "[Alum] Murasaki Shion",
+      "key_name": "murasaki_shion",
+      "img_url": "https://asset.holoplus.com/talents/hololive/murasaki_shion/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "5c2e9bca-eae0-4131-89b6-2b68a9c6ad9c",
+  "name": "hololive production Office Staff",
+  "talents": [
+    {
+      "id": "cd38cf99-320a-44e4-828c-45fafddcc210",
+      "name": "Harusaki Nodoka",
+      "key_name": "harusaki_nodoka",
+      "img_url": "https://asset.holoplus.com/talents/hololive/harusaki_nodoka/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "e1b42e14-5dde-49af-9da9-0179d2dda732",
+      "name": "[Retirement] A-chan",
+      "key_name": "friend_a",
+      "img_url": "https://asset.holoplus.com/talents/hololive/friend_a/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

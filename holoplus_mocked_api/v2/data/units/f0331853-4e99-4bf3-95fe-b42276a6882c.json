@@ -1,0 +1,56 @@
+{
+  "id": "f0331853-4e99-4bf3-95fe-b42276a6882c",
+  "name": "hololive DEV_IS ReGLOSS",
+  "talents": [
+    {
+      "id": "9e9e7d0f-d3d8-4878-8bd7-0cc7225d11e3",
+      "name": "Hiodoshi Ao",
+      "key_name": "hiodoshi_ao",
+      "img_url": "https://asset.holoplus.com/talents/hololive/hiodoshi_ao/icon_20241218.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "c90c0a49-4a54-4f00-a742-0682fe4b6220",
+      "name": "Otonose Kanade",
+      "key_name": "otonose_kanade",
+      "img_url": "https://asset.holoplus.com/talents/hololive/otonose_kanade/icon_20241218.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "f8ae44b1-0eee-48d2-8c91-15fb3c22308b",
+      "name": "Ichijou Ririka",
+      "key_name": "ichijou_ririka",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ichijou_ririka/icon_20241218.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "57d9bc26-485d-443e-9a5d-dc3b186f67e3",
+      "name": "Juufuutei Raden",
+      "key_name": "juufuutei_raden",
+      "img_url": "https://asset.holoplus.com/talents/hololive/juufuutei_raden/icon_20241218.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "756557b8-d1ec-4a3c-bb66-06646e03f07f",
+      "name": "Todoroki Hajime",
+      "key_name": "todoroki_hajime",
+      "img_url": "https://asset.holoplus.com/talents/hololive/todoroki_hajime/icon_20241218.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

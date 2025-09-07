@@ -1,0 +1,66 @@
+{
+  "id": "77116598-25a0-4ec9-98e9-c7b084b87f72",
+  "name": "hololive English -Promise-",
+  "talents": [
+    {
+      "id": "8e711c45-d259-4b4e-9013-0b6f596ddaa3",
+      "name": "IRyS",
+      "key_name": "irys",
+      "img_url": "https://asset.holoplus.com/talents/hololive/irys/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "6b247a19-fe4a-488f-8681-f1be1fb01c22",
+      "name": "Ouro Kronii",
+      "key_name": "ouro_kronii",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ouro_kronii/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "3722fd96-4ec2-4ae3-b31e-c76ab24b0c31",
+      "name": "Hakos Baelz",
+      "key_name": "hakos_baelz",
+      "img_url": "https://asset.holoplus.com/talents/hololive/hakos_baelz/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "fa5bbc86-f6e8-f9a3-7362-d28d117cd2a7",
+      "name": "[Alum] Tsukumo Sana",
+      "key_name": "tsukumo_sana",
+      "img_url": "https://asset.holoplus.com/talents/hololive/tsukumo_sana/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "44ab9d9d-03ee-42d6-a218-b4e22e3729f4",
+      "name": "[Alum] Ceres Fauna",
+      "key_name": "ceres_fauna",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ceres_fauna/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "f8e75b2e-1cad-4e17-b439-4f361ce8c0a1",
+      "name": "[Alum] Nanashi Mumei",
+      "key_name": "nanashi_mumei",
+      "img_url": "https://asset.holoplus.com/talents/hololive/nanashi_mumei/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

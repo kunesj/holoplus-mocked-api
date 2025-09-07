@@ -1,0 +1,56 @@
+{
+  "id": "29ca9de7-3b7e-4029-8e15-d3279b23880f",
+  "name": "hololive English -Advent-",
+  "talents": [
+    {
+      "id": "19523a52-2a66-11ee-b89c-f2115885f868",
+      "name": "Shiori Novella",
+      "key_name": "shiori_novella",
+      "img_url": "https://asset.holoplus.com/talents/hololive/shiori_novella/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "f132c3c4-afba-46bd-9c5b-330333d745da",
+      "name": "Koseki Bijou",
+      "key_name": "koseki_bijou",
+      "img_url": "https://asset.holoplus.com/talents/hololive/koseki_bijou/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "ab7885ba-b968-4e61-b568-5d5fd681e336",
+      "name": "Nerissa Ravencroft",
+      "key_name": "nerissa_ravencroft",
+      "img_url": "https://asset.holoplus.com/talents/hololive/nerissa_ravencroft/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "bf8671de-cf64-4df9-a77b-ccf2ede89380",
+      "name": "Fuwawa Abyssgard",
+      "key_name": "fuwawa_abyssgard",
+      "img_url": "https://asset.holoplus.com/talents/hololive/fuwawa_abyssgard/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "15206e73-ae09-4fa6-95e7-e56587d575d2",
+      "name": "Mococo Abyssgard",
+      "key_name": "mococo_abyssgard",
+      "img_url": "https://asset.holoplus.com/talents/hololive/mococo_abyssgard/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

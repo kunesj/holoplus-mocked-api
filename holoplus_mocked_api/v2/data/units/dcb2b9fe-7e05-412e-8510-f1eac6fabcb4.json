@@ -1,0 +1,46 @@
+{
+  "id": "dcb2b9fe-7e05-412e-8510-f1eac6fabcb4",
+  "name": "hololive 1st Generation",
+  "talents": [
+    {
+      "id": "0be6bfec-9583-4975-a5bd-46f97fe1e96e",
+      "name": "Aki Rosenthal",
+      "key_name": "aki_rosenthal",
+      "img_url": "https://asset.holoplus.com/talents/hololive/aki_rosenthal/icon_20230705.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "bafb3fee-616a-4244-8e6b-7c9c2596031c",
+      "name": "Akai Haato",
+      "key_name": "akai_haato",
+      "img_url": "https://asset.holoplus.com/talents/hololive/akai_haato/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "9981f04f-da6c-4d51-b920-89cd53e79b59",
+      "name": "Shirakami Fubuki",
+      "key_name": "shirakami_fubuki",
+      "img_url": "https://asset.holoplus.com/talents/hololive/shirakami_fubuki/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "063d07d8-ac40-4e31-bfaa-5c47cb8a8cae",
+      "name": "Natsuiro Matsuri",
+      "key_name": "natsuiro_matsuri",
+      "img_url": "https://asset.holoplus.com/talents/hololive/natsuiro_matsuri/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "00000000-bcd7-4efe-ad3a-a21d4b15049e",
+  "name": "John Doe",
+  "onboarding": true,
+  "holoplus_point": 7620,
+  "level": 12,
+  "role": "none",
+  "opt_in": true,
+  "language": "en",
+  "talents": [
+    {
+      "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+      "name": "Kureiji Ollie",
+      "key_name": "kureiji_ollie",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+    },
+    {
+      "id": "dddf28dc-0166-48c5-a845-88e608121cc0",
+      "name": "Takanashi Kiara",
+      "key_name": "takanashi_kiara",
+      "img_url": "https://asset.holoplus.com/talents/hololive/takanashi_kiara/icon.png"
+    }
+  ],
+  "icon": {
+    "id": "3e4026bd-50f4-451c-8c61-795a4ec815d7",
+    "icon_url": "https://asset.holoplus.com/talents/hololive/takanashi_kiara/motif.png"
+  },
+  "communities": [
+    {
+      "id": "3f255c77-3b3e-4585-8e4f-7e5a4adcef58",
+      "name": "holoplus",
+      "icon_url": "https://asset.holoplus.com/communities/holoplus/icon_holoplus.png",
+      "img_url": "",
+      "is_official": true,
+      "group_id": "",
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "b98aa4c3-e351-45f3-bb0b-8aa037d3a750",
+      "name": "HOLOSTARS",
+      "icon_url": "https://asset.holoplus.com/communities/holostars/icon_holostars.png",
+      "img_url": "https://asset.holoplus.com/communities/holostars/myoshi_holostars_act.png",
+      "is_official": true,
+      "group_id": "ff581af5-329c-490c-8156-7ee04416cd9d",
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "f30a0c54-73c0-46c1-b413-9e3af0f672ff",
+      "name": "hololive",
+      "icon_url": "https://asset.holoplus.com/communities/hololive/icon_hololive.png",
+      "img_url": "https://asset.holoplus.com/communities/hololive/myoshi_hololive_act_0519.png",
+      "is_official": true,
+      "group_id": "e9171551-cb2a-483e-8a77-fdffba8e632b",
+      "created_at": 0,
+      "updated_at": 0
+    }
+  ],
+  "push_notification_settings": [
+    {
+      "id": "651c6bc3-2027-4ebe-b89a-fde71dd22905",
+      "sname": "Official posts featuring My Oshi",
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "6688cb21-ed92-41da-bf2a-8bc375afe21e",
+      "sname": "English",
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "9cb1752e-91e2-4fd0-a9d1-abaf2400e1f8",
+      "sname": "New reactions on your post",
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "a1558bf6-dcf8-de03-baf3-1e9c6f2236aa",
+      "sname": "New posts from official fan club accounts",
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "f7e82c45-9a3d-4b8e-87f1-3c6d5e4a2b8f",
+      "sname": "Posts from My Oshi",
+      "created_at": 0,
+      "updated_at": 0
+    },
+    {
+      "id": "f99e590e-c0b5-4d46-b0f3-8fdd2570fa07",
+      "sname": "New replies on your comments",
+      "created_at": 0,
+      "updated_at": 0
+    }
+  ]
+}

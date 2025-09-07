@@ -1,0 +1,56 @@
+{
+  "id": "4127adb7-1b3f-cb4a-c880-f5f48f64b512",
+  "name": "hololive DEV_IS FLOW GLOW",
+  "talents": [
+    {
+      "id": "09A796F4-A892-DA18-3D1F-7848024E2300",
+      "name": "Isaki Riona",
+      "key_name": "isaki_riona",
+      "img_url": "https://asset.holoplus.com/talents/hololive/isaki_riona/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "155A65D5-809A-EF7F-D5AC-67AEC0BCB752",
+      "name": "Koganei Niko",
+      "key_name": "koganei_niko",
+      "img_url": "https://asset.holoplus.com/talents/hololive/koganei_niko/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "E74A61B5-CADC-81E3-BB87-37ACE595DD8A",
+      "name": "Mizumiya Su",
+      "key_name": "mizumiya_su",
+      "img_url": "https://asset.holoplus.com/talents/hololive/mizumiya_su/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "B4445442-9784-B0D6-AFA0-ADF01359D1DB",
+      "name": "Rindo Chihaya",
+      "key_name": "rindo_chihaya",
+      "img_url": "https://asset.holoplus.com/talents/hololive/rindo_chihaya/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "80D80D4A-528E-7045-DF16-E99257309C38",
+      "name": "Kikirara Vivi",
+      "key_name": "kikirara_vivi",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kikirara_vivi/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

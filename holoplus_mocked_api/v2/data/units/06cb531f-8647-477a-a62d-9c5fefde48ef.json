@@ -1,0 +1,56 @@
+{
+  "id": "06cb531f-8647-477a-a62d-9c5fefde48ef",
+  "name": "hololive English -Myth-",
+  "talents": [
+    {
+      "id": "ebb39a49-871c-4a9c-b585-5837bdbcafda",
+      "name": "Mori Calliope",
+      "key_name": "mori_calliope",
+      "img_url": "https://asset.holoplus.com/talents/hololive/mori_calliope/icon_20241218.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "dddf28dc-0166-48c5-a845-88e608121cc0",
+      "name": "Takanashi Kiara",
+      "key_name": "takanashi_kiara",
+      "img_url": "https://asset.holoplus.com/talents/hololive/takanashi_kiara/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "38a1da05-9a78-486a-8244-b30b4ca537ee",
+      "name": "Ninomae Ina'nis",
+      "key_name": "ninomae_ina'nis",
+      "img_url": "https://asset.holoplus.com/talents/hololive/ninomae_ina%27nis/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "f12fe635-f67f-4415-8b5b-4c30360b55b0",
+      "name": "[Affiliate] Watson Amelia",
+      "key_name": "watson_amelia",
+      "img_url": "https://asset.holoplus.com/talents/hololive/watson_amelia/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "46699dc7-ae2d-465e-b218-8ec6de589bb2",
+      "name": "[Alum] Gawr Gura",
+      "key_name": "gawr_gura",
+      "img_url": "https://asset.holoplus.com/talents/hololive/gawr_gura/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

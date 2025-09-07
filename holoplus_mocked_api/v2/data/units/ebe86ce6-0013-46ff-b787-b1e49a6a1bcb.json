@@ -1,0 +1,56 @@
+{
+  "id": "ebe86ce6-0013-46ff-b787-b1e49a6a1bcb",
+  "name": "hololive Generation 0",
+  "talents": [
+    {
+      "id": "c9d67e5d-2ef2-407c-ab6c-97f7c3e5c662",
+      "name": "Tokino Sora",
+      "key_name": "tokino_sora",
+      "img_url": "https://asset.holoplus.com/talents/hololive/tokino_sora/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "f4574895-c0fe-4b0f-825d-c4199bc6d66f",
+      "name": "Robocosan",
+      "key_name": "robocosan",
+      "img_url": "https://asset.holoplus.com/talents/hololive/robocosan/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "400b93ad-2dd0-4303-acbc-d0207c202118",
+      "name": "AZKi",
+      "key_name": "azki",
+      "img_url": "https://asset.holoplus.com/talents/hololive/azki/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "de54958d-3ba2-4539-9cb1-39fd392cf82a",
+      "name": "Sakura Miko",
+      "key_name": "sakura_miko",
+      "img_url": "https://asset.holoplus.com/talents/hololive/sakura_miko/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "ff2e6a92-89ce-40f0-8771-773a7dbefcfb",
+      "name": "Hoshimachi Suisei",
+      "key_name": "hoshimachi_suisei",
+      "img_url": "https://asset.holoplus.com/talents/hololive/hoshimachi_suisei/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

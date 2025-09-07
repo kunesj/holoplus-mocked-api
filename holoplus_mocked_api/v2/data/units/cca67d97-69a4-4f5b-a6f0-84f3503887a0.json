@@ -1,0 +1,56 @@
+{
+  "id": "cca67d97-69a4-4f5b-a6f0-84f3503887a0",
+  "name": "hololive 4th Generation",
+  "talents": [
+    {
+      "id": "7a060ea1-fbe3-4a55-97fd-486034459cc0",
+      "name": "Amane Kanata",
+      "key_name": "amane_kanata",
+      "img_url": "https://asset.holoplus.com/talents/hololive/amane_kanata/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "c5a07d80-0d02-4167-89e2-06faeed5bcab",
+      "name": "Tsunomaki Watame",
+      "key_name": "tsunomaki_watame",
+      "img_url": "https://asset.holoplus.com/talents/hololive/tsunomaki_watame/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "1d9bd178-6425-4deb-9aa5-04fb3fc826ab",
+      "name": "Tokoyami Towa",
+      "key_name": "tokoyami_towa",
+      "img_url": "https://asset.holoplus.com/talents/hololive/tokoyami_towa/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "d496d2e4-9e8d-4f80-99dd-a6d441da7be1",
+      "name": "Himemori Luna",
+      "key_name": "himemori_luna",
+      "img_url": "https://asset.holoplus.com/talents/hololive/himemori_luna/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "ae934b89-89d2-82bd-8d2a-1f4096c7c2b6",
+      "name": "[Alum] Kiryu Coco",
+      "key_name": "kiryu_coco",
+      "img_url": "https://asset.holoplus.com/talents/hololive/kiryu_coco/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

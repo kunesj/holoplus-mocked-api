@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "id": "b91175fc-8190-4dde-8e92-01d58ed48f46",
+      "name": "Latest News📰",
+      "tooltip": "The latest posts from all official channels you joined are displayed here.",
+      "enable": true,
+      "priority": 1000,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "01bd333b-d391-4ee6-9d82-01b05cdcb445",
+      "name": "Featured👀",
+      "tooltip": "The latest official posts categorized as 'Celebration', 'Exclusive', and 'Giveaway' are displayed here.",
+      "enable": true,
+      "priority": 1100,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "928633f8-124a-4243-b3c4-e5897399815f",
+      "name": "Send in your requests!📣",
+      "tooltip": "The latest official posts categorized as 'Now looking' are displayed here.",
+      "enable": true,
+      "priority": 1200,
+      "display_type": "offcial content",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "a6318273-c147-2a63-d7e5-5f0e01ab433b",
+      "name": "My hololive friends with u",
+      "tooltip": "The latest official posts from the 'My hololive friends with u' channel are displayed here.",
+      "enable": true,
+      "priority": 1300,
+      "display_type": "post",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "7f4c63df-8929-443a-914f-4b2d07e3d21a",
+      "name": "Merch 🧸",
+      "tooltip": "The latest official posts categorized as 'Merch' are displayed here.",
+      "enable": true,
+      "priority": 1400,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "a5ac4bf0-237d-464b-9907-adae3bc5b019",
+      "name": "hololive Plus✨",
+      "tooltip": "The latest official posts from the 'hololive Plus’ channel are displayed here.",
+      "enable": true,
+      "priority": 1500,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "59f67c37-66bc-4235-8036-115262c08da5",
+      "name": "holoplus Lab 🔬",
+      "tooltip": "The latest official posts from the 'holoplus Lab' channel are displayed here.",
+      "enable": true,
+      "priority": 1600,
+      "display_type": "offcial content",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "6cb7b74b-b112-40b6-9722-e06047c5e049",
+      "name": "Celebration🎤",
+      "tooltip": "The latest official posts categorized as 'Celebration' are displayed here.",
+      "enable": true,
+      "priority": 1700,
+      "display_type": "stream",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "fa7f1c33-e007-4562-b855-1bcaa1b3b819",
+      "name": "Music🎧",
+      "tooltip": "The latest official posts categorized as 'Music' are displayed here.",
+      "enable": true,
+      "priority": 1800,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "a96b53bf-5045-4a83-b279-024b0215d574",
+      "name": "Media📺",
+      "tooltip": "The latest official posts categorized as 'Media' are displayed here.",
+      "enable": true,
+      "priority": 1900,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "723d3431-4be7-4361-9cf3-9a753fc65215",
+      "name": "イベント🎫",
+      "tooltip": "",
+      "enable": false,
+      "priority": 2000,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "ac05ae70-9a4f-11ee-8a54-f2115885f867",
+      "name": "Updates \u0026 Releases📢",
+      "tooltip": "The latest official posts from the 'Updates \u0026 Releases' channel are displayed here.",
+      "enable": true,
+      "priority": 2100,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "17ca5776-f868-4b2d-b394-bdf1799203b1",
+      "name": "Start here!✅",
+      "tooltip": "The latest official posts from the 'Start here!' channel are displayed here.",
+      "enable": true,
+      "priority": 2200,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "7322442b-cb31-4c1c-962b-d1b59c01898c",
+      "name": "人気のユーザー投稿 ✨",
+      "tooltip": "",
+      "enable": false,
+      "priority": 2300,
+      "display_type": "post",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "18da6526-7edb-4066-ad63-4b5e84b01d0e",
+      "name": "コラボ🎉",
+      "tooltip": "",
+      "enable": false,
+      "priority": 2400,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "29478ced-12dc-4980-8291-f719084a6ab7",
+      "name": "EXPO / 4th fes.ニュース🏟",
+      "tooltip": "",
+      "enable": false,
+      "priority": 2500,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "caeafa55-adf4-4784-8691-b3cfb93082ff",
+      "name": "EXPO x ホロプラス！➕",
+      "tooltip": "",
+      "enable": false,
+      "priority": 2600,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    },
+    {
+      "id": "f85251e5-2fff-4447-8120-575786170e20",
+      "name": "マイ推しトピック⭐️",
+      "tooltip": "",
+      "enable": false,
+      "priority": 2700,
+      "display_type": "regular",
+      "created_at": 1672531200,
+      "updated_at": 1672531200
+    }
+  ]
+}

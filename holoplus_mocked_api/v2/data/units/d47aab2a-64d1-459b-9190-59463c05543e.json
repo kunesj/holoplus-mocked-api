@@ -1,0 +1,26 @@
+{
+  "id": "d47aab2a-64d1-459b-9190-59463c05543e",
+  "name": "HOLOSTARS 3rd Generation",
+  "talents": [
+    {
+      "id": "a7604343-7956-4839-87ea-ac23f4a62dc9",
+      "name": "Kageyama Shien",
+      "key_name": "kageyama_shien",
+      "img_url": "https://asset.holoplus.com/talents/holostars/kageyama_shien/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "d464459c-758c-4c12-92cf-cb7e648a0fb8",
+      "name": "Aragami Oga",
+      "key_name": "aragami_oga",
+      "img_url": "https://asset.holoplus.com/talents/holostars/aragami_oga/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

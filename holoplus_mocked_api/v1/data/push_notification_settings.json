@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "condition": "",
+      "id": "1027f4e8-f52b-4975-98ce-2fa38687067a",
+      "notification_group": "Push notifications for reactions",
+      "created_at": 1756796362,
+      "updated_at": 1756796362,
+      "push_notification_settings": [
+        {
+          "id": "f7e82c45-9a3d-4b8e-87f1-3c6d5e4a2b8f",
+          "sname": "Posts from My Oshi",
+          "created_at": 0,
+          "updated_at": 0,
+          "is_user_enabled": true
+        },
+        {
+          "id": "06bfdbb1-ec5e-4101-a1c9-cb71caeaf809",
+          "sname": "Posts from official accounts",
+          "created_at": 0,
+          "updated_at": 0,
+          "is_user_enabled": false
+        },
+        {
+          "id": "651c6bc3-2027-4ebe-b89a-fde71dd22905",
+          "sname": "Official posts featuring My Oshi",
+          "created_at": 0,
+          "updated_at": 0,
+          "is_user_enabled": true
+        }
+      ]
+    },
+    {
+      "condition": "",
+      "id": "026d75ce-046c-4b0c-9bfc-2c72560b7b1d",
+      "notification_group": "Push notifications for posts",
+      "created_at": 1756796362,
+      "updated_at": 1756796362,
+      "push_notification_settings": [
+        {
+          "id": "9cb1752e-91e2-4fd0-a9d1-abaf2400e1f8",
+          "sname": "New reactions on your post",
+          "created_at": 0,
+          "updated_at": 0,
+          "is_user_enabled": true
+        },
+        {
+          "id": "f99e590e-c0b5-4d46-b0f3-8fdd2570fa07",
+          "sname": "New replies on your comments",
+          "created_at": 0,
+          "updated_at": 0,
+          "is_user_enabled": true
+        }
+      ]
+    },
+    {
+      "condition": "",
+      "id": "1d649530-003b-4a07-9f11-be2a44a156bc",
+      "notification_group": "Notification language for official accounts",
+      "created_at": 1756796362,
+      "updated_at": 1756796362,
+      "push_notification_settings": [
+        {
+          "id": "e267b929-9b05-4eb1-a276-c1153e72d5df",
+          "sname": "日本語",
+          "created_at": 0,
+          "updated_at": 0,
+          "is_user_enabled": false
+        },
+        {
+          "id": "6688cb21-ed92-41da-bf2a-8bc375afe21e",
+          "sname": "English",
+          "created_at": 0,
+          "updated_at": 0,
+          "is_user_enabled": true
+        }
+      ]
+    }
+  ]
+}

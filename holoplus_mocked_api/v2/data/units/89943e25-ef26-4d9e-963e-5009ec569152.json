@@ -1,0 +1,86 @@
+{
+  "id": "89943e25-ef26-4d9e-963e-5009ec569152",
+  "name": "HOLOSTARS English -TEMPUS-",
+  "talents": [
+    {
+      "id": "b8a906a5-f2bb-4eea-8785-2909fbbc5411",
+      "name": "Regis Altare",
+      "key_name": "regis_altare",
+      "img_url": "https://asset.holoplus.com/talents/holostars/regis_altare/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "e0757512-2e8a-4950-8460-f1515e1b60bc",
+      "name": "Axel Syrios",
+      "key_name": "axel_syrios",
+      "img_url": "https://asset.holoplus.com/talents/holostars/axel_syrios/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "7b5bd506-fbd7-46e7-a0fb-9779c825b7be",
+      "name": "Gavis Bettel",
+      "key_name": "gavis_bettel",
+      "img_url": "https://asset.holoplus.com/talents/holostars/gavis_bettel/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "09acaa73-8a68-470e-81fb-26359eb40876",
+      "name": "Machina X Flayon",
+      "key_name": "machina_x_flayon",
+      "img_url": "https://asset.holoplus.com/talents/holostars/machina_x_flayon/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "8c006435-5aa4-41c5-8267-f9de9a4d50b4",
+      "name": "Banzoin Hakka",
+      "key_name": "banzoin_hakka",
+      "img_url": "https://asset.holoplus.com/talents/holostars/banzoin_hakka/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "4719bf30-5aef-4abc-b923-75dadfaab400",
+      "name": "Josuiji Shinri",
+      "key_name": "josuiji_shinri",
+      "img_url": "https://asset.holoplus.com/talents/holostars/josuiji_shinri/icon_20240918.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "0195272f-a6bf-221a-41a3-c7960a0f7cdf",
+      "name": "[Alum] Magni Dezmond",
+      "key_name": "magni_dezmond",
+      "img_url": "https://asset.holoplus.com/talents/holostars/magni_dezmond/icon_20230705.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "1abaf217-71ec-eb13-3eda-d3fddd582268",
+      "name": "[Alum] Noir Vesper",
+      "key_name": "noir_vesper",
+      "img_url": "https://asset.holoplus.com/talents/holostars/noir_vesper/icon_20241209.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}

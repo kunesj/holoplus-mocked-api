@@ -1,0 +1,36 @@
+{
+  "id": "b970d4c3-0280-4fbf-aad4-b1644f9a0e26",
+  "name": "HOLOSTARS 2nd Generation",
+  "talents": [
+    {
+      "id": "c54e840c-9071-44c8-a02f-69b7bb8f5158",
+      "name": "Astel Leda",
+      "key_name": "astel_leda",
+      "img_url": "https://asset.holoplus.com/talents/holostars/astel_leda/icon_20230908.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "87d460b0-b4d2-4311-971f-d8b6f4914eed",
+      "name": "Kishido Temma",
+      "key_name": "kishido_temma",
+      "img_url": "https://asset.holoplus.com/talents/holostars/kishido_temma/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    },
+    {
+      "id": "e224f989-c69b-42cd-bbaa-6351cae13648",
+      "name": "Yukoku Roberu",
+      "key_name": "yukoku_roberu",
+      "img_url": "https://asset.holoplus.com/talents/holostars/yukoku_roberu/icon.png",
+      "created_at": null,
+      "updated_at": null,
+      "deleted_at": null,
+      "group_id": null
+    }
+  ]
+}
