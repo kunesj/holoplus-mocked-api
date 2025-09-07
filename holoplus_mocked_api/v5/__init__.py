@@ -7,6 +7,7 @@ import litestar
 from litestar.exceptions import NotFoundException
 from litestar.params import Parameter
 from litestar.openapi.spec import Example
+from litestar.types import ControllerRouterHandler
 
 from .models import Thread
 from .data import THREADS_MAP
@@ -26,4 +27,4 @@ async def v5__thread(
     raise NotFoundException()
 
 
-ROUTES: list[litestar.handlers.HTTPRouteHandler] = [v5__thread]
+ROUTES: list[ControllerRouterHandler] = [litestar.Router("", tags=["/v5"], route_handlers=[v5__thread])]

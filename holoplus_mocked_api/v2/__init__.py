@@ -5,6 +5,7 @@ from typing import Annotated
 
 import urllib.parse
 import litestar
+from litestar.types import ControllerRouterHandler
 from litestar.exceptions import NotFoundException
 from litestar.response import Redirect
 from litestar.params import Body, Parameter
@@ -171,13 +172,19 @@ async def v2__unit(
     raise NotFoundException()
 
 
-ROUTES: list[litestar.handlers.HTTPRouteHandler] = [
-    v2__auth,
-    v2__auth__callback,
-    v2__auth__token,
-    v2__me__communities,
-    v2__banners,
-    v2__modules,
-    v2__group,
-    v2__unit,
+ROUTES: list[ControllerRouterHandler] = [
+    litestar.Router(
+        "",
+        tags=["/v2"],
+        route_handlers=[
+            v2__auth,
+            v2__auth__callback,
+            v2__auth__token,
+            v2__me__communities,
+            v2__banners,
+            v2__modules,
+            v2__group,
+            v2__unit,
+        ],
+    ),
 ]

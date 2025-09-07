@@ -7,6 +7,7 @@ import litestar
 from litestar.exceptions import NotFoundException
 from litestar.params import Body, Parameter
 from litestar.openapi.spec import Example
+from litestar.types import ControllerRouterHandler
 
 
 @litestar.get("/v4/threads/favorite", summary="/v4/threads/favorite")
@@ -253,24 +254,30 @@ async def v4__pins__id(
     ...  # FIXME
 
 
-ROUTES: list[litestar.handlers.HTTPRouteHandler] = [
-    v4__threads__favorite,
-    v4__threads__me,
-    v4__threads__modules,
-    v4__threads__updated,
-    v4__threads__id__contents,
-    v4__threads__id__favorite__post,
-    v4__threads__id__favorite__delete,
-    v4__stream_events,
-    v4__stream_events__id,
-    v4__talent_channel__channels,
-    v4__talent_channel__threads__newest,
-    v4__talent_channel__comments__popular,
-    v4__talent_channel__comments__newest,
-    v4__comments__me,
-    v4__comments__popular,
-    v4__comments__id__contents,
-    v4__channels__id__updated_thread,
-    v4__reactions__contents__id,
-    v4__pins__id,
+ROUTES: list[ControllerRouterHandler] = [
+    litestar.Router(
+        "",
+        tags=["/v4"],
+        route_handlers=[
+            v4__threads__favorite,
+            v4__threads__me,
+            v4__threads__modules,
+            v4__threads__updated,
+            v4__threads__id__contents,
+            v4__threads__id__favorite__post,
+            v4__threads__id__favorite__delete,
+            v4__stream_events,
+            v4__stream_events__id,
+            v4__talent_channel__channels,
+            v4__talent_channel__threads__newest,
+            v4__talent_channel__comments__popular,
+            v4__talent_channel__comments__newest,
+            v4__comments__me,
+            v4__comments__popular,
+            v4__comments__id__contents,
+            v4__channels__id__updated_thread,
+            v4__reactions__contents__id,
+            v4__pins__id,
+        ],
+    )
 ]

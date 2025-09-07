@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import Annotated
 
 import litestar
+from litestar.types import ControllerRouterHandler
 from litestar.exceptions import NotFoundException
 from litestar.params import Body, Parameter
 from litestar.openapi.spec import Example
@@ -86,12 +87,18 @@ async def v1__me__devices(
     )
 
 
-ROUTES: list[litestar.handlers.HTTPRouteHandler] = [
-    v1__agreements,
-    v1__application,
-    v1__push_notification_settings,
-    v1__me,
-    v1__me__agreements,
-    v1__me__push_notification_settings,
-    v1__me__devices,
+ROUTES: list[ControllerRouterHandler] = [
+    litestar.Router(
+        "",
+        tags=["/v1"],
+        route_handlers=[
+            v1__agreements,
+            v1__application,
+            v1__push_notification_settings,
+            v1__me,
+            v1__me__agreements,
+            v1__me__push_notification_settings,
+            v1__me__devices,
+        ],
+    ),
 ]
