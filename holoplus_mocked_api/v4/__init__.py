@@ -136,7 +136,7 @@ async def v4__stream_events__id(
 ) -> StreamEvent:
     json_path = DATA_PATH / "stream_events" / f"{event_id}.json"
     if json_path.exists():
-        return StreamEventsResponse.load_json(json_path)
+        return StreamEvent.load_json(json_path)
     raise NotFoundException()
 
 
