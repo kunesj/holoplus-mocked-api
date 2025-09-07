@@ -19,6 +19,8 @@ Run:
 litestar --app holoplus_mocked_api.app:create_app run --port 8080
 ```
 
+Generated documentation can be found at http://127.0.0.1:8080/schema.
+
 
 ## Headers
 

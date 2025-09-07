@@ -1,13 +1,24 @@
 from __future__ import annotations
 
+import uuid
 from typing import Annotated
 
 import urllib.parse
 import litestar
 from litestar.response import Redirect
 from litestar.params import Body, Parameter
+from litestar.openapi.spec import Example
 
-from .models import AuthResponse, AuthTokenRequest, AuthTokenResponse
+from .models import (
+    AuthResponse,
+    AuthTokenRequest,
+    AuthTokenResponse,
+    V2CommunityList,
+    BannersResponse,
+    ModulesList,
+    Group,
+    Unit,
+)
 
 
 @litestar.get("/v2/auth", summary="/v2/auth")
@@ -33,7 +44,7 @@ async def v2__auth() -> AuthResponse:
         }
     )
     return AuthResponse(
-        session_id="0000-000-0000000000000000000000000000000-00=",
+        session_id="****-***-*******************************-**=",
         url=f"https://account.hololive.net/v1/ep/auth?{query}",
     )
 
@@ -55,15 +66,52 @@ async def v2__auth__token(
     return AuthTokenResponse(token="JWT-TOKEN-PLACEHOLDER")
 
 
-# FIXME: https://api.holoplus.com/v2/me/communities?limit=30
-# FIXME: https://api.holoplus.com/v2/banners?filter_language=en
-# FIXME: https://api.holoplus.com/v2/modules
-# FIXME: https://api.holoplus.com/v2/groups/e9171551-cb2a-483e-8a77-fdffba8e632b
-# FIXME: https://api.holoplus.com/v2/units/ebe86ce6-0013-46ff-b787-b1e49a6a1bcb
+@litestar.get("/v2/me/communities", summary="/v2/me/communities")
+async def v2__me__communities(
+    *,
+    limit: Annotated[int | None, Parameter(examples=[Example(value=30)])] = None,  # TODO: valid range
+) -> V2CommunityList:  # FIXME: https://api.holoplus.com/v2/me/communities?limit=30
+    ...
+
+
+@litestar.get("/v2/banners", summary="/v2/banners")
+async def v2__banners(
+    *,
+    filter_language: Annotated[str | None, Parameter(examples=[Example(value="en")])] = None,
+) -> BannersResponse:  # FIXME: https://api.holoplus.com/v2/banners?filter_language=en
+    ...
+
+
+@litestar.get("/v2/modules", summary="/v2/modules")
+async def v2__modules() -> ModulesList:  # FIXME: https://api.holoplus.com/v2/modules
+    ...
+
+
+@litestar.get("/v2/groups/{group_id:str}", summary="/v2/groups/{group_id:uuid}")
+async def v2__group(
+    group_id: Annotated[
+        uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("e9171551-cb2a-483e-8a77-fdffba8e632b"))])
+    ],
+) -> Group:  # FIXME: https://api.holoplus.com/v2/groups/e9171551-cb2a-483e-8a77-fdffba8e632b
+    ...
+
+
+@litestar.get("/v2/units/{unit_id:str}", summary="/v2/units/{unit_id:uuid}")
+async def v2__unit(
+    unit_id: Annotated[
+        uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("ebe86ce6-0013-46ff-b787-b1e49a6a1bcb"))])
+    ],
+) -> Unit:  # FIXME: https://api.holoplus.com/v2/units/ebe86ce6-0013-46ff-b787-b1e49a6a1bcb
+    ...
 
 
 ROUTES: list[litestar.handlers.HTTPRouteHandler] = [
     v2__auth,
     v2__auth__callback,
     v2__auth__token,
+    v2__me__communities,
+    v2__banners,
+    v2__modules,
+    v2__group,
+    v2__unit,
 ]
