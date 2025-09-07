@@ -1,9 +1,11 @@
 # Holoplus Mocked API
 
-Mock version of the api.holoplus.com API. Currently incomplete, and might become outdated in the future.
+Mock version of the `api.holoplus.com` API. Currently incomplete, and might become outdated in the future.
 
 The main purpose of this project is to document the API, to make it easier to develop apps that need to access it.
 It should also be useful for tests.
+
+Built docs can be found here: https://kunesj.github.io/holoplus-mocked-api
 
 
 ## Quick Setup
