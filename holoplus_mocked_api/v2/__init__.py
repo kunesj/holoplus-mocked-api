@@ -14,8 +14,8 @@ from .models import (
     AuthResponse,
     AuthTokenRequest,
     AuthTokenResponse,
-    V2CommunityItem,
-    V2CommunitiesResponse,
+    CommunitiesResponseItem,
+    CommunitiesResponse,
     BannersResponse,
     ModulesResponse,
     Group,
@@ -82,12 +82,12 @@ async def v2__me__communities(
     *,
     limit: Annotated[int | None, Parameter(examples=[Example(value=30)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
-) -> V2CommunitiesResponse:
-    return V2CommunitiesResponse(
+) -> CommunitiesResponse:
+    return CommunitiesResponse(
         items=[
-            V2CommunityItem(community=COMMUNITIES_MAP["hololive"]),
-            V2CommunityItem(community=COMMUNITIES_MAP["HOLOSTARS"]),
-            V2CommunityItem(community=COMMUNITIES_MAP["holoplus"]),
+            CommunitiesResponseItem(community=COMMUNITIES_MAP["hololive"]),
+            CommunitiesResponseItem(community=COMMUNITIES_MAP["HOLOSTARS"]),
+            CommunitiesResponseItem(community=COMMUNITIES_MAP["holoplus"]),
         ]
     )
 

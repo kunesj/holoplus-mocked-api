@@ -10,17 +10,17 @@ from holoplus_mocked_api.v2.models import (
     Group,
     Module,
     Unit,
-    V2Community,
-    V2CommunitiesResponse,
+    Community,
+    CommunitiesResponse,
     BannersResponse,
     ModulesResponse,
 )
 
 ROOT_PATH = pathlib.Path(__file__).parent
 
-_communities_response = V2CommunitiesResponse.load_json(ROOT_PATH / "me__communities.json")
-COMMUNITIES: list[V2Community] = [x.community for x in _communities_response.items]
-COMMUNITIES_MAP: dict[str, V2Community] = {x.name: x for x in COMMUNITIES}
+_communities_response = CommunitiesResponse.load_json(ROOT_PATH / "me__communities.json")
+COMMUNITIES: list[Community] = [x.community for x in _communities_response.items]
+COMMUNITIES_MAP: dict[str, Community] = {x.name: x for x in COMMUNITIES}
 
 CHANNELS: list[Channel] = [*itertools.chain(*[community.channels for community in COMMUNITIES])]
 CHANNELS_MAP: dict[uuid.UUID, Channel] = {x.id: x for x in CHANNELS}

@@ -9,8 +9,6 @@ import msgspec
 from litestar.openapi.spec import Example
 from litestar.params import Parameter
 
-from holoplus_mocked_api.v1.models import Community
-
 
 class AuthResponse(msgspec.Struct, kw_only=True):
     session_id: Annotated[str, Parameter(examples=[Example(value="****-***-*******************************-**=")])] = (
@@ -48,17 +46,29 @@ class AuthTokenResponse(msgspec.Struct, kw_only=True):
     token: Annotated[str, Parameter()] = msgspec.field()
 
 
-class V2Community(Community, kw_only=True):
+class Community(msgspec.Struct, kw_only=True):
+    id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("3f255c77-3b3e-4585-8e4f-7e5a4adcef58"))])] = (
+        msgspec.field()
+    )
+    name: Annotated[str, Parameter(examples=[Example(value="holoplus")])] = msgspec.field()
+    icon_url: Annotated[
+        str, Parameter(examples=[Example(value="https://asset.holoplus.com/communities/holoplus/icon_holoplus.png")])
+    ] = msgspec.field()
+    img_url: Annotated[str, Parameter(examples=[Example(value="")])] = msgspec.field()
+    is_official: Annotated[bool, Parameter(examples=[Example(value=True)])] = msgspec.field()
+    group_id: Annotated[str, Parameter(examples=[Example(value="")])] = msgspec.field()
+    created_at: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field()
+    updated_at: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field()
     deleted_at: Annotated[int | None, Parameter(examples=[Example(value=None)])] = msgspec.field()
     channels: Annotated[list[Channel], Parameter()] = msgspec.field()
 
 
-class V2CommunityItem(msgspec.Struct, kw_only=True):
-    community: Annotated[V2Community, Parameter()] = msgspec.field()
+class CommunitiesResponseItem(msgspec.Struct, kw_only=True):
+    community: Annotated[Community, Parameter()] = msgspec.field()
 
 
-class V2CommunitiesResponse(msgspec.Struct, kw_only=True):
-    items: Annotated[list[V2CommunityItem], Parameter()] = msgspec.field()
+class CommunitiesResponse(msgspec.Struct, kw_only=True):
+    items: Annotated[list[CommunitiesResponseItem], Parameter()] = msgspec.field()
 
     @classmethod
     def load_json(cls, path: pathlib.Path) -> Self:
