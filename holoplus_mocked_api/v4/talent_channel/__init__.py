@@ -36,7 +36,7 @@ async def v4__talent_channel__threads__newest(
     channel_id: Annotated[
         uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("7f237193-e0f7-4127-af78-9f5c255069ac"))])
     ],
-    limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
+    limit: Annotated[int | None, Parameter(examples=[Example(value=20)], ge=1, le=30)] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> TalentChannelThreadsResponse:
     if channel_id == uuid.UUID("7f237193-e0f7-4127-af78-9f5c255069ac"):
@@ -53,7 +53,7 @@ async def v4__talent_channel__comments__popular(
     thread_id: Annotated[
         uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2"))])
     ],
-    limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
+    limit: Annotated[int | None, Parameter(examples=[Example(value=20)], ge=1, le=30)] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> TalentChannelCommentsResponse:
     if thread_id == uuid.UUID("969c000a-22c2-4c8b-a4d0-c6a61cd2e8c0"):
@@ -74,7 +74,7 @@ async def v4__talent_channel__comments__newest(
     thread_id: Annotated[
         uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2"))])
     ],
-    limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
+    limit: Annotated[int | None, Parameter(examples=[Example(value=20)], ge=1, le=30)] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> TalentChannelCommentsResponse:
     if thread_id == uuid.UUID("c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2"):

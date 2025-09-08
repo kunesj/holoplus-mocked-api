@@ -29,13 +29,16 @@ from .data import COMMUNITIES_MAP, BANNERS_MAP, MODULES_MAP, GROUPS_MAP, UNITS_M
 async def v2__auth() -> AuthResponse:
     """
     Auth algorithm:
-    - App calls this endpoint, gets "https://account.hololive.net/v1/ep/auth?****" url and opens it in browser
-        that redirects to "https://account.hololive.net/v1/signin" for sign-in
-    - Browser opens "https://api.holoplus.com/v2/auth/callback?code=***&state=***"
-        that redirects back to app with "holoplus:///signup?state=***&code=***"
-    - Finally app calls "https://api.holoplus.com/v2/auth/token" to get token
-
-    Doesn't need Authorization header.
+    - App calls this endpoint, gets `https://account.hololive.net/v1/ep/auth?****` url, and opens it in browser
+        that redirects to `https://account.hololive.net/v1/signin` for sign-in
+    - Browser opens `https://api.holoplus.com/v2/auth/callback?code=***&state=***`,
+        that redirects back to app with `holoplus:///signup?state=***&code=***`
+    - App calls `https://api.holoplus.com/v2/auth/token` to get **Firebase** token
+        - Don't decode values in the `holoplus://` url (don't convert `+` to ` `)
+    - App calls `https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyCustomToken?key=AIzaSyBIBy1CboBwrCShfY1CixfRRynJRF06vx0`
+        to convert **Firebase** token to **Holoplus** token.
+        - `POST DATA: {"token": "FIREBASE-TOKEN", "returnSecureToken": true}`
+        - `key` is `x-goog-api-key`
     """
     query = urllib.parse.urlencode(
         {
@@ -73,7 +76,8 @@ async def v2__auth__token(
     data: Annotated[AuthTokenRequest, Body()],
 ) -> AuthTokenResponse:
     """
-    Doesn't need Authorization header.
+    IMPORTANT: This returns **Firebase** token, you will need to convert it to Holoplus one.
+    See `/v2/auth` for more info.
     """
     return AuthTokenResponse(token="JWT-TOKEN-PLACEHOLDER")
 
@@ -81,7 +85,7 @@ async def v2__auth__token(
 @litestar.get("/v2/me/communities", summary="/v2/me/communities")
 async def v2__me__communities(
     *,
-    limit: Annotated[int | None, Parameter(examples=[Example(value=30)])] = None,  # TODO: valid range
+    limit: Annotated[int | None, Parameter(examples=[Example(value=30)], ge=1, le=30)] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> CommunitiesResponse:
     return CommunitiesResponse(

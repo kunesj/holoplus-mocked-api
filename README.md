@@ -26,7 +26,7 @@ Generated documentation can be found at http://127.0.0.1:8080/schema.
 
 ## Headers
 
-Most requests are sent with following headers
+Most requests are sent with following headers, but not using them doesn't seem to break anything.
 
 ```
 accept-encoding: gzip

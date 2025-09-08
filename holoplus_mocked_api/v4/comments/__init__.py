@@ -19,7 +19,7 @@ DATA_PATH = ROOT_PATH / "data"
 @litestar.get("/v4/comments/me", summary="/v4/comments/me")
 async def v4__comments__me(
     *,
-    limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
+    limit: Annotated[int | None, Parameter(examples=[Example(value=20)], ge=1, le=30)] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> CommentsMeResponse:
     return CommentsMeResponse.load_json(DATA_PATH / "comments__me.json")
@@ -31,7 +31,7 @@ async def v4__comments__popular(
     thread_id: Annotated[
         uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("a4d526d1-2c97-476f-ae12-849fdef41eb8"))])
     ],
-    limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
+    limit: Annotated[int | None, Parameter(examples=[Example(value=20)], ge=1, le=30)] = None,
     filter_language: Annotated[str, Parameter(examples=[Example(value="en")])],
     token: Annotated[str, Parameter(header="authorization")],
 ) -> CommentsResponse:

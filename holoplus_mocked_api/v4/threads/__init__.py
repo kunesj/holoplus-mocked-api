@@ -25,7 +25,7 @@ DATA_PATH = ROOT_PATH / "data"
 @litestar.get("/v4/threads/favorite", summary="/v4/threads/favorite")
 async def v4__threads__favorite(
     *,
-    limit: Annotated[int | None, Parameter(examples=[Example(value=30)])] = None,  # TODO: valid range
+    limit: Annotated[int | None, Parameter(examples=[Example(value=30)], ge=1, le=30)] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> ThreadsFavoriteResponse:
     return ThreadsFavoriteResponse(items=[], next_cursor=None)
@@ -34,7 +34,7 @@ async def v4__threads__favorite(
 @litestar.get("/v4/threads/me", summary="/v4/threads/me")
 async def v4__threads__me(
     *,
-    limit: Annotated[int | None, Parameter(examples=[Example(value=30)])] = None,  # TODO: valid range
+    limit: Annotated[int | None, Parameter(examples=[Example(value=30)], ge=1, le=30)] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> ThreadsMeResponse:
     return ThreadsMeResponse(items=[])
@@ -49,7 +49,7 @@ async def v4__threads__modules(
     ],
     fav_talent_filter: Annotated[bool, Parameter(examples=[Example(value=False)])],
     filter_language: Annotated[str, Parameter(examples=[Example(value="en")])],
-    limit: Annotated[int | None, Parameter(examples=[Example(value=5)])] = None,  # TODO: valid range
+    limit: Annotated[int | None, Parameter(examples=[Example(value=5)], ge=1, le=30)] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> ThreadsModulesResponse:
     json_path = DATA_PATH / "threads__modules" / f"{module_id}.json"
@@ -67,8 +67,8 @@ async def v4__threads__updated(
     ],
     fav_talent_filter: Annotated[bool, Parameter(examples=[Example(value=False)])],
     filter_language: Annotated[str, Parameter(examples=[Example(value="en")])],
-    limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
-    offset: Annotated[int | None, Parameter(examples=[Example(value=0)])] = None,  # TODO: valid range
+    limit: Annotated[int | None, Parameter(examples=[Example(value=20)], ge=1, le=30)] = None,
+    offset: Annotated[int | None, Parameter(examples=[Example(value=0)], ge=0)] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> ThreadsUpdatedResponse:
     json_path = DATA_PATH / "threads__updated" / f"{channel_id}.json"
