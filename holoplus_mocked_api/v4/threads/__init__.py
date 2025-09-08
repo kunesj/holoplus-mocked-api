@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import uuid
 import pathlib
-from typing import Any, Annotated
+from typing import Annotated
 
 import litestar
 from litestar.exceptions import NotFoundException
@@ -14,6 +14,8 @@ from .models import (
     ThreadsFavoriteResponse,
     ThreadsMeResponse,
     ThreadContent,
+    ThreadsModulesResponse,
+    ThreadsUpdatedResponse,
 )
 
 ROOT_PATH = pathlib.Path(__file__).parent
@@ -49,9 +51,11 @@ async def v4__threads__modules(
     filter_language: Annotated[str, Parameter(examples=[Example(value="en")])],
     limit: Annotated[int | None, Parameter(examples=[Example(value=5)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/threads/modules?module_id=b91175fc-8190-4dde-8e92-01d58ed48f46&fav_talent_filter=false&filter_language=en&limit=5
-    """NOT IMPLEMENTED"""
-    ...
+) -> ThreadsModulesResponse:
+    json_path = DATA_PATH / "threads__modules" / f"{module_id}.json"
+    if json_path.exists():
+        return ThreadsModulesResponse.load_json(json_path)
+    raise NotFoundException()
 
 
 @litestar.get("/v4/threads/updated", summary="/v4/threads/updated")
@@ -66,9 +70,11 @@ async def v4__threads__updated(
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
     offset: Annotated[int | None, Parameter(examples=[Example(value=0)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/threads/updated?channel_id=69efbc03-aec9-4e33-a6bd-280c36925c00&fav_talent_filter=false&filter_language=en&limit=20&offset=0
-    """NOT IMPLEMENTED"""
-    ...
+) -> ThreadsUpdatedResponse:
+    json_path = DATA_PATH / "threads__updated" / f"{channel_id}.json"
+    if json_path.exists():
+        return ThreadsUpdatedResponse.load_json(json_path)
+    raise NotFoundException()
 
 
 @litestar.get(
