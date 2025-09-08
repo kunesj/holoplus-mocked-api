@@ -75,7 +75,7 @@ async def v1__me__push_notification_settings(
 @litestar.put("/v1/me/devices/{device_id:str}", summary="/v1/me/devices/{device_id:str}", raises=[NotFoundException])
 async def v1__me__devices(
     *,
-    device_id: Annotated[str, Parameter(examples=[Example(value="94131b988c2b9c52")])],
+    device_id: Annotated[str, Parameter(examples=[Example(value="00000b988c2b9c52")])],
     fcm_registration_token: Annotated[str, Parameter(header="fcm-registration-token")],
     token: Annotated[str, Parameter(header="authorization")],
 ) -> MeDevice:
