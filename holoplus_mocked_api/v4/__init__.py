@@ -16,6 +16,10 @@ from .models import (
     StreamEvent,
     TalentChannelChannelsResponse,
     TalentChannelThreadsNewestResponse,
+    ThreadsFavoriteResponse,
+    ThreadsMeResponse,
+    ThreadContent,
+    CommentContent,
 )
 
 ROOT_PATH = pathlib.Path(__file__).parent
@@ -27,8 +31,8 @@ async def v4__threads__favorite(
     *,
     limit: Annotated[int | None, Parameter(examples=[Example(value=30)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/threads/favorite?limit=20
-    ...
+) -> ThreadsFavoriteResponse:
+    return ThreadsFavoriteResponse(items=[], next_cursor=None)
 
 
 @litestar.get("/v4/threads/me", summary="/v4/threads/me")
@@ -36,8 +40,8 @@ async def v4__threads__me(
     *,
     limit: Annotated[int | None, Parameter(examples=[Example(value=30)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/threads/me?limit=20
-    ...
+) -> ThreadsMeResponse:
+    return ThreadsMeResponse(items=[])
 
 
 @litestar.get("/v4/threads/modules", summary="/v4/threads/modules")
@@ -52,6 +56,7 @@ async def v4__threads__modules(
     limit: Annotated[int | None, Parameter(examples=[Example(value=5)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
 ) -> Any:  # FIXME: https://api.holoplus.com/v4/threads/modules?module_id=b91175fc-8190-4dde-8e92-01d58ed48f46&fav_talent_filter=false&filter_language=en&limit=5
+    """NOT IMPLEMENTED"""
     ...
 
 
@@ -68,6 +73,7 @@ async def v4__threads__updated(
     offset: Annotated[int | None, Parameter(examples=[Example(value=0)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
 ) -> Any:  # FIXME: https://api.holoplus.com/v4/threads/updated?channel_id=69efbc03-aec9-4e33-a6bd-280c36925c00&fav_talent_filter=false&filter_language=en&limit=20&offset=0
+    """NOT IMPLEMENTED"""
     ...
 
 
@@ -80,8 +86,13 @@ async def v4__threads__id__contents(
         uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("e1272fb1-38bc-4e29-aeb8-f8a9443c3340"))])
     ],
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/threads/e1272fb1-38bc-4e29-aeb8-f8a9443c3340/contents
-    ...
+) -> ThreadContent:
+    return ThreadContent(
+        reply_count=3,
+        reaction_total=3057,
+        user_reacted_count=0,
+        is_favorite=False,
+    )
 
 
 @litestar.post(
@@ -182,6 +193,7 @@ async def v4__talent_channel__comments__popular(
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
 ) -> Any:  # FIXME: https://api.holoplus.com/v4/talent-channel/comments/popular?thread_id=c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2&limit=20
+    """NOT IMPLEMENTED"""
     ...
 
 
@@ -194,6 +206,7 @@ async def v4__talent_channel__comments__newest(
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
 ) -> Any:  # FIXME: https://api.holoplus.com/v4/talent-channel/comments/newest?thread_id=c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2&limit=20
+    """NOT IMPLEMENTED"""
     ...
 
 
@@ -203,6 +216,7 @@ async def v4__comments__me(
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
 ) -> Any:  # FIXME: https://api.holoplus.com/v4/comments/me?limit=20
+    """NOT IMPLEMENTED"""
     ...
 
 
@@ -216,6 +230,7 @@ async def v4__comments__popular(
     filter_language: Annotated[str, Parameter(examples=[Example(value="en")])],
     token: Annotated[str, Parameter(header="authorization")],
 ) -> Any:  # FIXME: https://api.holoplus.com/v4/comments/popular?thread_id=a4d526d1-2c97-476f-ae12-849fdef41eb8&limit=20&filter_language=en
+    """NOT IMPLEMENTED"""
     ...
 
 
@@ -228,8 +243,12 @@ async def v4__comments__id__contents(
     *,
     comment_id: Annotated[str, Parameter(examples=[Example(value=uuid.UUID("cfdd2f8b-ee45-4e3f-b4df-c150f826e224"))])],
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/comments/cfdd2f8b-ee45-4e3f-b4df-c150f826e224/contents
-    ...
+) -> CommentContent:
+    return CommentContent(
+        comment_total=0,
+        reaction_total=6,
+        user_reacted_count=0,
+    )
 
 
 @litestar.get(
@@ -245,6 +264,7 @@ async def v4__channels__id__updated_thread(
 ) -> (
     Any
 ):  # FIXME: https://api.holoplus.com/v4/channels/18eec09c-ce17-4f50-bfc6-8b47457882ed/updated_thread?filter_language=en
+    """NOT IMPLEMENTED"""
     ...
 
 
