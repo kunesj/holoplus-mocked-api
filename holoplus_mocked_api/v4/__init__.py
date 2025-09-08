@@ -15,6 +15,7 @@ from .models import (
     StreamEventsResponse,
     StreamEvent,
     TalentChannelChannelsResponse,
+    TalentChannelThreadsNewestResponse,
 )
 
 ROOT_PATH = pathlib.Path(__file__).parent
@@ -153,7 +154,9 @@ async def v4__talent_channel__channels(
     return TalentChannelChannelsResponse.load_json(DATA_PATH / "talent-channel__channels.json")
 
 
-@litestar.get("/v4/talent-channel/threads/newest", summary="/v4/talent-channel/threads/newest")
+@litestar.get(
+    "/v4/talent-channel/threads/newest", summary="/v4/talent-channel/threads/newest", raises=[NotFoundException]
+)
 async def v4__talent_channel__threads__newest(
     *,
     channel_id: Annotated[
@@ -161,8 +164,13 @@ async def v4__talent_channel__threads__newest(
     ],
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/talent-channel/threads/newest?channel_id=7f237193-e0f7-4127-af78-9f5c255069ac&limit=20
-    ...
+) -> TalentChannelThreadsNewestResponse:
+    if channel_id == uuid.UUID("7f237193-e0f7-4127-af78-9f5c255069ac"):
+        return TalentChannelThreadsNewestResponse.load_json(
+            DATA_PATH / "talent-channel__threads__newest" / "7f237193-e0f7-4127-af78-9f5c255069ac.json"
+        )
+    # TODO: this is a guess
+    raise NotFoundException()
 
 
 @litestar.get("/v4/talent-channel/comments/popular", summary="/v4/talent-channel/comments/popular")

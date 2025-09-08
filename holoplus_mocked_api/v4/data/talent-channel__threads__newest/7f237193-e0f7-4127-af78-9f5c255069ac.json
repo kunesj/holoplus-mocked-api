@@ -1,0 +1,476 @@
+{
+  "items": [
+    {
+      "id": "969c000a-22c2-4c8b-a4d0-c6a61cd2e8c0",
+      "created_at": 1757126658,
+      "updated_at": 1757169579,
+      "reaction_total": 21311,
+      "reply_count": 98,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "🔹️ Who do you ship Ollie with?",
+      "body": "Tell me your favorite ship!\n\n[[holoplus_survey_start]]\nA. Ayunda Risu\nB. Elizabeth Rose Bloodflame\nC. Kaela Kovalskia\nD. Nerissa Ravencroft\nE. Moona Hoshinova\nF. Airani Iofifteen\nG. Takanashi Kiara\nH. Mori Calliope\nI. Jurard T Rexford\nJ. ME!! [The Listener]\n[[holoplus_survey_end]]",
+      "translations": {
+        "ja": {
+          "title": "オーリーは誰とシップ（カップリング）する？🔹️",
+          "body": "お気に入りのシップを教えて！\n\n[[holoplus_survey_start]]\nA. アユンダ・リス\nB. エリザベス・ローズ・ブラッドフレイム\nC. カエラ・コヴァルスキア\nD. ネリッサ・ラヴンクロフト\nE. ムーナ・ホシノヴァ\nF. アイラニ・イオフィフティーン\nG. 高梨 Kiara\nH. 森 カリオペ\nI. ジュラード・T・レックスフォード\nJ. 私！[リスナー]\n[[holoplus_survey_end]]"
+        },
+        "en": {
+          "title": "🔹️ Who do you ship Ollie with?",
+          "body": "Tell me your favorite ship!\n\n[[holoplus_survey_start]]\nA. Ayunda Risu\nB. Elizabeth Rose Bloodflame\nC. Kaela Kovalskia\nD. Nerissa Ravencroft\nE. Moona Hoshinova\nF. Airani Iofifteen\nG. Takanashi Kiara\nH. Mori Calliope\nI. Jurard T Rexford\nJ. ME!! [The Listener]\n[[holoplus_survey_end]]"
+        },
+        "id": {
+          "title": "🔹️ Ollie kamu jodohkan dengan siapa?",
+          "body": "Ceritakan jodoh favoritmu!\n\n[[holoplus_survey_start]]\nA. Ayunda Risu\nB. Elizabeth Rose Bloodflame\nC. Kaela Kovalskia\nD. Nerissa Ravencroft\nE. Moona Hoshinova\nF. Airani Iofifteen\nG. Takanashi Kiara\nH. Mori Calliope\nI. Jurard T Rexford\nJ. AKU!! [Pendengar]\n[[holoplus_survey_end]]"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 0
+    },
+    {
+      "id": "c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2",
+      "created_at": 1757125645,
+      "updated_at": 1757169569,
+      "reaction_total": 21680,
+      "reply_count": 131,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "🔹️ What do you see Ollie as?",
+      "body": "We're testing the survey feature on stream! Let me know your answers!✨️\n\n[[holoplus_survey_start]]\nA. Little Sister\nB. Older Sister\nC. Friend\nD. Girlfriend\nE. Wife\nF. Rival\nG. Queen\nH. Princess\nI. Goddess\nJ. Enemy\n[[holoplus_survey_end]]",
+      "translations": {
+        "ja": {
+          "title": "🔹️ あなたはオリーを何だと見ていますか？",
+          "body": "配信でアンケート機能のテストをしています！皆さんの回答を教えてくださいね！✨️\n\n[[holoplus_survey_start]]\nA. 妹\nB. 姉\nC. 友達\nD. ガールフレンド\nE. 奥さん\nF. ライバル\nG. 女王様\nH. お姫様\nI. 女神\nJ. 敵\n[[holoplus_survey_end]]"
+        },
+        "en": {
+          "title": "🔹️ What do you see Ollie as?",
+          "body": "We're testing the survey feature on stream! Let me know your answers!✨️\n\n[[holoplus_survey_start]]\nA. Little Sister\nB. Older Sister\nC. Friend\nD. Girlfriend\nE. Wife\nF. Rival\nG. Queen\nH. Princess\nI. Goddess\nJ. Enemy\n[[holoplus_survey_end]]"
+        },
+        "id": {
+          "title": "🔹️ Kamu melihat Ollie sebagai apa?",
+          "body": "Kami sedang menguji fitur survei di stream! Beri tahu aku jawaban kalian!✨️\n\n[[holoplus_survey_start]]\nA. Adik Perempuan\nB. Kakak Perempuan\nC. Teman\nD. Pacar\nE. Istri\nF. Rival\nG. Ratu\nH. Putri\nI. Dewi\nJ. Musuh\n[[holoplus_survey_end]]"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 0
+    },
+    {
+      "id": "3463d827-b1d8-45af-babd-79da086fc54e",
+      "created_at": 1757070692,
+      "updated_at": 1757169459,
+      "reaction_total": 37883,
+      "reply_count": 188,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "🔹️ OLLIE IS CONDUCTING A SURVEY!! 👓✨️",
+      "body": "Did you know that holoplus can do surveys like these? 👀\n\n[[holoplus_survey_start]]\nA. Yes! I did know!\nB. I didn't know!\nC. I think Ollie is cute!\n[[holoplus_survey_end]]",
+      "translations": {
+        "ja": {
+          "title": "🔹️ アーヤがアンケートを実施中!! 👓✨️",
+          "body": "ホロプラスでこのようなアンケートができることをご存知でしたか？👀\n\n[[holoplus_survey_start]]\nA. はい！知っていました！\nB. 知りませんでした！\nC. オリーはかわいいと思います！\n[[holoplus_survey_end]]"
+        },
+        "en": {
+          "title": "🔹️ OLLIE IS CONDUCTING A SURVEY!! 👓✨️",
+          "body": "Did you know that holoplus can do surveys like these? 👀\n\n[[holoplus_survey_start]]\nA. Yes! I did know!\nB. I didn't know!\nC. I think Ollie is cute!\n[[holoplus_survey_end]]"
+        },
+        "id": {
+          "title": "🔹️ OLLIE SEDANG MELAKUKAN SURVEI!! 👓✨️",
+          "body": "Tahukah kamu bahwa holoplus bisa melakukan survei seperti ini? 👀\n\n[[holoplus_survey_start]]\nA. Ya! Aku tahu!\nB. Aku tidak tahu!\nC. Menurutku Ollie imut!\n[[holoplus_survey_end]]"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 0
+    },
+    {
+      "id": "60d38f0c-2948-481d-a751-55fdea31ead4",
+      "created_at": 1757069232,
+      "updated_at": 1757169459,
+      "image_urls": [
+        "https://asset.holoplus.com/threads/60d38f0c-2948-481d-a751-55fdea31ead4/original.png"
+      ],
+      "reaction_total": 30729,
+      "reply_count": 79,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "🔴 WE'LL BE STREAMING HOLOPLUS⁉️😳😳",
+      "body": "I want to introduce holoplus to more people and test out a feature that the staff prepared for us! 💐✨️\nThis is my first holoplus stream as an ambassador! I'm so excited! 😍💕\n🕚 6/9 - 09:00 WIB / 11:00 JST\n➡️ https://www.youtube.com/live/xoJ62USLcuY?si=cdPNJVgJuNO153lK",
+      "translations": {
+        "ja": {
+          "title": "🔴 holoplus配信します⁉️😳😳",
+          "body": "もっと多くの人にholoplusを紹介し、スタッフが用意してくれた機能をお試ししたいです！💐✨️\nアンバサダーとしての初めてのholoplus配信です！ とても楽しみです！😍💕\n🕚 6/9 - 11:00 JST / 09:00 WIB\n➡️ https://www.youtube.com/live/xoJ62USLcuY?si=cdPNJVgJuNO153lK"
+        },
+        "en": {
+          "title": "🔴 WE'LL BE STREAMING HOLOPLUS⁉️😳😳",
+          "body": "I want to introduce holoplus to more people and test out a feature that the staff prepared for us! 💐✨️\nThis is my first holoplus stream as an ambassador! I'm so excited! 😍💕\n🕚 6/9 - 09:00 WIB / 11:00 JST\n➡️ https://www.youtube.com/live/xoJ62USLcuY?si=cdPNJVgJuNO153lK"
+        },
+        "id": {
+          "title": "🔴 KITA AKAN STREAMING HOLOPLUS⁉️😳😳",
+          "body": "Saya ingin memperkenalkan holoplus kepada lebih banyak orang dan mencoba fitur yang telah disiapkan oleh staf untuk kita! 💐✨️\nIni adalah streaming holoplus pertama saya sebagai duta! Saya sangat bersemangat! 😍💕\n🕚 6/9 - 09:00 WIB / 11:00 JST\n➡️ https://www.youtube.com/live/xoJ62USLcuY?si=cdPNJVgJuNO153lK"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 6
+    },
+    {
+      "id": "c635901d-9c85-4f76-b513-74bca8684fe5",
+      "created_at": 1757030615,
+      "updated_at": 1757168709,
+      "reaction_total": 43635,
+      "reply_count": 135,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "TYPHOON?? 👁👁🌀🍃",
+      "body": "It was hot a few days ago... Suddenly the temperature outside is the same as my AC!! Do take care of your health everybody!! \u003e\u003c",
+      "translations": {
+        "ja": {
+          "title": "台風？？ 👁👁🌀🍃",
+          "body": "数日前は暑かったのに…急に外の気温が私のエアコンと同じくらいになったよ！！みんなも体調には気をつけてね！！\u003e\u003c"
+        },
+        "en": {
+          "title": "TYPHOON?? 👁👁🌀🍃",
+          "body": "It was hot a few days ago... Suddenly the temperature outside is the same as my AC!! Do take care of your health everybody!! \u003e\u003c"
+        },
+        "id": {
+          "title": "TAIFUN?? 👁👁🌀🍃",
+          "body": "Beberapa hari lalu terasa panas... Tiba-tiba suhu di luar sama seperti AC-ku!! Semuanya jaga kesehatan ya!! \u003e\u003c"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 0
+    },
+    {
+      "id": "1ca05075-b5b9-4327-9555-dafaa6abc6b6",
+      "created_at": 1756937908,
+      "updated_at": 1757166339,
+      "image_urls": [
+        "https://asset.holoplus.com/threads/1ca05075-b5b9-4327-9555-dafaa6abc6b6/original.png"
+      ],
+      "reaction_total": 60581,
+      "reply_count": 140,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "I GOT GIFTS FROM HOLOPLUS STAFF!! 🥰🙏💗🎁✨️",
+      "body": "I was gifted goodies from holoplus staff yesterday!!😍😍 (I was so busy I only managed to post it now hehe)\n\nIsn't this the viral macha in Japan?!?! It's all over my For You page!! AND IT'S CRAZY GOOD IT FELT LIKE MY CHEEKS WERE ABOUT TO MELT FROM HOW GOOD IT WAS 😭😭💞💖💕💓\n\nI also got Pista \u0026 Tokyo, and if you've never tried it before then I suggest you guys to buy it when you have the chance because the pistachio sando cookies were ✨️ETHERAL✨️\n\nOf course, we talked a lot about holoplus and ways to improve it! We brainstormed a lot and I really hope you guys look forward to future updates! We have a LOT of exciting features in the future 👀👀 The staff are working so very hard behind the scenes, so I hope you keep supporting Holoplus 🙇‍♂️💕",
+      "translations": {
+        "ja": {
+          "title": "ホロプラススタッフからプレゼントをもらいました！！🥰🙏💗🎁✨️",
+          "body": "昨日、ホロプラススタッフからグッズをプレゼントしてもらいました！！😍😍（忙しすぎて今になって投稿しちゃった、へへ）\n\nこれって日本で話題の抹茶じゃない！？！？私の「おすすめ」ページでずっと流れてくるんだよね！！しかも、美味しすぎて頬っぺたがとろけそうなくらい最高だったよ😭😭💞💖💕💓\n\nピスタチオと東京のお土産ももらったんだけど、もし試したことがないなら、チャンスがあったらぜひ買ってみてほしいな。ピスタチオサンドクッキーはまさに✨️この世のものとは思えない✨️美味しさだったよ。\n\nもちろん、ホロプラスのことや、改善方法についてもたくさん話しました！たくさんのアイデアを出し合ったので、今後のアップデートを楽しみにしていてくれると嬉しいです！将来的にたくさんのエキサイティングな機能がありますよ👀👀 スタッフは舞台裏で一生懸命頑張っているので、これからもホロプラスを応援してくれると嬉しいです🙇‍♂️💕"
+        },
+        "en": {
+          "title": "I GOT GIFTS FROM HOLOPLUS STAFF!! 🥰🙏💗🎁✨️",
+          "body": "I was gifted goodies from holoplus staff yesterday!!😍😍 (I was so busy I only managed to post it now hehe)\n\nIsn't this the viral macha in Japan?!?! It's all over my For You page!! AND IT'S CRAZY GOOD IT FELT LIKE MY CHEEKS WERE ABOUT TO MELT FROM HOW GOOD IT WAS 😭😭💞💖💕💓\n\nI also got Pista \u0026 Tokyo, and if you've never tried it before then I suggest you guys to buy it when you have the chance because the pistachio sando cookies were ✨️ETHERAL✨️\n\nOf course, we talked a lot about holoplus and ways to improve it! We brainstormed a lot and I really hope you guys look forward to future updates! We have a LOT of exciting features in the future 👀👀 The staff are working so very hard behind the scenes, so I hope you keep supporting Holoplus 🙇‍♂️💕"
+        },
+        "id": {
+          "title": "AKU DAPAT HADIAH DARI STAFF HOLOPLUS!! 🥰🙏💗🎁✨️",
+          "body": "Aku dapat hadiah barang-barang keren dari staff holoplus kemarin!!😍😍 (Aku sibuk banget jadi baru bisa posting sekarang hehe)\n\nIni matcha viral di Jepang bukan sih?!?! Muncul terus di halaman \"Untukmu\" ku!! DAN RASANYA LUAR BIASA ENAK SAMPAI KUPINGKU RASANYA MAU MELELEH KARENA ENAK BANGET 😭😭💞💖💕💓\n\nAku juga dapat Pista \u0026 Tokyo, dan kalau kalian belum pernah coba, aku saranin kalian beli kalau ada kesempatan karena cookies sando pistachio-nya itu ✨️LUAR BIASA✨️\n\nTentu saja, kami banyak bicara tentang holoplus dan cara memperbaikinya! Kami bertukar pikiran banyak dan aku sangat berharap kalian menantikan pembaruan di masa mendatang! Kami punya BANYAK fitur menarik di masa depan 👀👀 Para staff bekerja sangat keras di balik layar, jadi aku harap kalian terus mendukung Holoplus 🙇‍♂️💕"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 0
+    },
+    {
+      "id": "42f195ca-34bf-4f72-9518-012db287faaa",
+      "created_at": 1756880681,
+      "updated_at": 1757166349,
+      "image_urls": [
+        "https://asset.holoplus.com/threads/42f195ca-34bf-4f72-9518-012db287faaa/original.png"
+      ],
+      "reaction_total": 52533,
+      "reply_count": 151,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "WHERE IS OLLIE??? 👀🎤",
+      "body": "This zombie is out of her apartment! The picture is the hint! Hehe~🎵",
+      "translations": {
+        "ja": {
+          "title": "オリーはどこ？？👀🎤",
+          "body": "このゾンビはアパートから出たよ！写真はヒントだよ！へへ〜🎵"
+        },
+        "en": {
+          "title": "WHERE IS OLLIE??? 👀🎤",
+          "body": "This zombie is out of her apartment! The picture is the hint! Hehe~🎵"
+        },
+        "id": {
+          "title": "DI MANA OLLIE??? 👀🎤",
+          "body": "Zombie ini sudah keluar dari apartemennya! Gambarnya adalah petunjuknya! Hehe~🎵"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 0
+    },
+    {
+      "id": "bea08553-37b9-42ae-bafe-492412e4295f",
+      "created_at": 1756811044,
+      "updated_at": 1757163689,
+      "image_urls": [
+        "https://asset.holoplus.com/threads/bea08553-37b9-42ae-bafe-492412e4295f/original.png"
+      ],
+      "reaction_total": 49894,
+      "reply_count": 69,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "🔴 STREAM NOTICE - Holoearth",
+      "body": "I got super hooked on poker lately!! 😍😍\n🕣 2/9 - 20:30 JST/18:30 WIB\n➡️ https://www.youtube.com/live/-xz055KJpj8?si=N2TNe5Hmimgdy9nq",
+      "translations": {
+        "ja": {
+          "title": "🔴 ストリーム告知 - Holoearth",
+          "body": "最近ポーカーにめちゃくちゃハマってるんだよね！！😍😍\n🕣 2/9 - 20:30 JST/18:30 WIB\n➡️ https://www.youtube.com/live/-xz055KJpj8?si=N2TNe5Hmimgdy9nq"
+        },
+        "en": {
+          "title": "🔴 STREAM NOTICE - Holoearth",
+          "body": "I got super hooked on poker lately!! 😍😍\n🕣 2/9 - 20:30 JST/18:30 WIB\n➡️ https://www.youtube.com/live/-xz055KJpj8?si=N2TNe5Hmimgdy9nq"
+        },
+        "id": {
+          "title": "🔴 PEMBERITAHUAN STREAM - Holoearth",
+          "body": "Aku lagi kecanduan banget sama poker akhir-akhir ini!! 😍😍\n🕣 2/9 - 20:30 JST/18:30 WIB\n➡️ https://www.youtube.com/live/-xz055KJpj8?si=N2TNe5Hmimgdy9nq"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 0
+    },
+    {
+      "id": "37c214c8-29e2-41a8-b82e-63edda4bcdbc",
+      "created_at": 1756804558,
+      "updated_at": 1757168900,
+      "reaction_total": 114704,
+      "reply_count": 159,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "THE LIKE BUTTON IS SO ODDLY SATISFYING... 😳😳",
+      "body": "The staff never told me to say this (like seriously this is a non-advertisement post) but like...\n\nDon't you just get satisfaction after hitting 100 likes?? It feels rewarding, validating, I could go all day hitting these likes I swear\n\n❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+      "translations": {
+        "ja": {
+          "title": "いいねボタンって、なんでこんなに満足感があるんだろう…😳😳",
+          "body": "スタッフからは何も言われてないんだけど（マジでこれは宣伝じゃない投稿だよ）、でもさ…\n\nいいねが100件に達した後って、すごく満足感を得られると思わない？やりがいがあるし、認められた感じがするし、このいいねを押し続けるだけで一日中いけちゃう気がするよ。\n\n❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️"
+        },
+        "en": {
+          "title": "THE LIKE BUTTON IS SO ODDLY SATISFYING... 😳😳",
+          "body": "The staff never told me to say this (like seriously this is a non-advertisement post) but like...\n\nDon't you just get satisfaction after hitting 100 likes?? It feels rewarding, validating, I could go all day hitting these likes I swear\n\n❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️"
+        },
+        "id": {
+          "title": "TOMBOL LIKE ITU SANGAT MEMUASKAN SECARA ANEH... 😳😳",
+          "body": "Staf tidak pernah menyuruhku mengatakan ini (serius ini bukan postingan iklan) tapi seperti...\n\nBukankah kamu mendapatkan kepuasan setelah mencapai 100 suka?? Rasanya memuaskan, memvalidasi, aku bisa seharian menekan suka ini, sumpah.\n\n❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 0
+    },
+    {
+      "id": "119d00d0-fc21-4626-964e-1996e57b352a",
+      "created_at": 1756804137,
+      "updated_at": 1757168919,
+      "reaction_total": 68550,
+      "reply_count": 121,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "THIS TALENT TAB IS MINE AND MINE ALONE 🔥",
+      "body": "I will monopolize this section before other talents gets access to it and mark my territory 🔥🔥\n\nI mean, I AM the ambassador here~ hehe~\n\n(also isn't cool that I can title my posts here like seriously wtf that's so cool)",
+      "translations": {
+        "ja": {
+          "title": "このタレントタブは私だけのものよ 🔥",
+          "body": "他のタレントがアクセスする前にこのセクションを独占して、私の縄張りを主張するわ 🔥🔥\n\nだって、私がアンバサダーなんだから〜へへ〜\n\n（それに、ここで自分の投稿にタイトルを付けられるのってマジでクールじゃない？信じられない、最高すぎる）"
+        },
+        "en": {
+          "title": "THIS TALENT TAB IS MINE AND MINE ALONE 🔥",
+          "body": "I will monopolize this section before other talents gets access to it and mark my territory 🔥🔥\n\nI mean, I AM the ambassador here~ hehe~\n\n(also isn't cool that I can title my posts here like seriously wtf that's so cool)"
+        },
+        "id": {
+          "title": "TAB BAKAT INI MILIKKU DAN HANYA MILIKKU SAJA 🔥",
+          "body": "Aku akan memonopoli bagian ini sebelum talenta lain mendapat akses dan menandai wilayahku 🔥🔥\n\nMaksudku, AKULAH dutanya di sini~ hehe~\n\n(Juga, bukankah keren kalau aku bisa memberi judul postinganku di sini, serius deh, keren banget)"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 9
+    },
+    {
+      "id": "0e52ccb2-f9e7-4ac7-b607-c4ecb0c0f489",
+      "created_at": 1756800705,
+      "updated_at": 1757166060,
+      "image_urls": [
+        "https://asset.holoplus.com/threads/0e52ccb2-f9e7-4ac7-b607-c4ecb0c0f489/original.png"
+      ],
+      "reaction_total": 122840,
+      "reply_count": 329,
+      "talents": [
+        {
+          "id": "17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0",
+          "name": "Kureiji Ollie",
+          "img_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png",
+          "key_name": "kureiji_ollie"
+        }
+      ],
+      "user": {
+        "id": "3545fcfd-e768-452b-b3f1-de25dd5e4264",
+        "name": "Kureiji Ollie",
+        "role": "talent",
+        "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "title": "I HAVE MY OWN ACCOUNT NOW 🎉🎉💖💖✨️🦅❣️❣️",
+      "body": "WITH THE MEDDLING I DID WITH THE OFFICIAL ACCOUNT, THEY DECIDED IT BE BEST TO JUST GIVE ME MY OWN ACCOUNT‼️‼️😍💖✨️✨️\n\nYIPPEEEEEEEE",
+      "translations": {
+        "ja": {
+          "title": "ついに自分のアカウントができたよ🎉🎉💖💖✨️🦅❣️❣️",
+          "body": "公式アカウントで色々やらかしちゃったから、もう自分でアカウント管理するのが一番だってことになったの‼️‼️😍💖✨️✨️\n\nやったー！"
+        },
+        "en": {
+          "title": "I HAVE MY OWN ACCOUNT NOW 🎉🎉💖💖✨️🦅❣️❣️",
+          "body": "WITH THE MEDDLING I DID WITH THE OFFICIAL ACCOUNT, THEY DECIDED IT BE BEST TO JUST GIVE ME MY OWN ACCOUNT‼️‼️😍💖✨️✨️\n\nYIPPEEEEEEEE"
+        },
+        "id": {
+          "title": "AKU PUNYA AKUN SENDIRI SEKARANG 🎉🎉💖💖✨️🦅❣️❣️",
+          "body": "DENGAN KEKACAUAN YANG AKU BUAT DI AKUN RESMI, MEREKA MEMUTUSKAN LEBIH BAIK MEMBERIKANKU AKUN SENDIRI‼️‼️😍💖✨️✨️\n\nYIPPEEEEEEEE"
+        }
+      },
+      "is_favorite": false,
+      "user_reacted_count": 0
+    }
+  ],
+  "channel": {
+    "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+    "name": "Kureiji Ollie",
+    "channel_type": "talent",
+    "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png"
+  }
+}
