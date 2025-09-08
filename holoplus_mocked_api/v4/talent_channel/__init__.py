@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import uuid
 import pathlib
-from typing import Any, Annotated
+from typing import Annotated
 
 import litestar
 from litestar.exceptions import NotFoundException
@@ -12,7 +12,8 @@ from litestar.types import ControllerRouterHandler
 
 from .models import (
     TalentChannelChannelsResponse,
-    TalentChannelThreadsNewestResponse,
+    TalentChannelCommentsResponse,
+    TalentChannelThreadsResponse,
 )
 
 ROOT_PATH = pathlib.Path(__file__).parent
@@ -37,9 +38,9 @@ async def v4__talent_channel__threads__newest(
     ],
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
-) -> TalentChannelThreadsNewestResponse:
+) -> TalentChannelThreadsResponse:
     if channel_id == uuid.UUID("7f237193-e0f7-4127-af78-9f5c255069ac"):
-        return TalentChannelThreadsNewestResponse.load_json(
+        return TalentChannelThreadsResponse.load_json(
             DATA_PATH / "talent-channel__threads__newest" / "7f237193-e0f7-4127-af78-9f5c255069ac.json"
         )
     # TODO: this is a guess
@@ -54,9 +55,17 @@ async def v4__talent_channel__comments__popular(
     ],
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/talent-channel/comments/popular?thread_id=c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2&limit=20
-    """NOT IMPLEMENTED"""
-    ...
+) -> TalentChannelCommentsResponse:
+    if thread_id == uuid.UUID("969c000a-22c2-4c8b-a4d0-c6a61cd2e8c0"):
+        return TalentChannelCommentsResponse.load_json(
+            DATA_PATH / "talent-channel__comments__popular" / "969c000a-22c2-4c8b-a4d0-c6a61cd2e8c0.json"
+        )
+    if thread_id == uuid.UUID("c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2"):
+        return TalentChannelCommentsResponse.load_json(
+            DATA_PATH / "talent-channel__comments__popular" / "c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2.json"
+        )
+    # TODO: this is a guess
+    raise NotFoundException()
 
 
 @litestar.get("/v4/talent-channel/comments/newest", summary="/v4/talent-channel/comments/newest")
@@ -67,9 +76,13 @@ async def v4__talent_channel__comments__newest(
     ],
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/talent-channel/comments/newest?thread_id=c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2&limit=20
-    """NOT IMPLEMENTED"""
-    ...
+) -> TalentChannelCommentsResponse:
+    if thread_id == uuid.UUID("c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2"):
+        return TalentChannelCommentsResponse.load_json(
+            DATA_PATH / "talent-channel__comments__newest" / "c7186c9b-6c6d-4269-b4cf-5a2bb97acbd2.json"
+        )
+    # TODO: this is a guess
+    raise NotFoundException()
 
 
 ROUTES: list[ControllerRouterHandler] = [

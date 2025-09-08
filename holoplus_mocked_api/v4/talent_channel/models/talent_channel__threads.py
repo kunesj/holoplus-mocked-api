@@ -10,77 +10,7 @@ from litestar.openapi.spec import Example
 from litestar.params import Parameter
 
 
-class TalentChannelChannelsResponseItemThreadTranslation(msgspec.Struct, kw_only=True):
-    title: Annotated[str, Parameter(examples=[Example(value="🔹️ Who do you ship Ollie with?")])] = msgspec.field()
-
-
-class TalentChannelChannelsResponseItemThread(msgspec.Struct, kw_only=True):
-    id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("969c000a-22c2-4c8b-a4d0-c6a61cd2e8c0"))])] = (
-        msgspec.field()
-    )
-    original_language: Annotated[str, Parameter(examples=[Example(value="en")])] = msgspec.field()
-    title: Annotated[str, Parameter(examples=[Example(value="")])] = msgspec.field()
-    translations: Annotated[
-        dict[str, TalentChannelChannelsResponseItemThreadTranslation],
-        Parameter(
-            examples=[
-                Example(
-                    value={
-                        "en": TalentChannelChannelsResponseItemThreadTranslation(title="🔹️ Who do you ship Ollie with?")
-                    }
-                )
-            ]
-        ),
-    ] = msgspec.field()
-    created_at: Annotated[int, Parameter(examples=[Example(value=1757126658)])] = msgspec.field()
-
-
-class TalentChannelChannelsResponseItemTalent(msgspec.Struct, kw_only=True):
-    id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0"))])] = (
-        msgspec.field()
-    )
-    name: Annotated[str, Parameter(examples=[Example(value="Kureiji Ollie")])] = msgspec.field()
-    icon_url: Annotated[
-        str,
-        Parameter(
-            examples=[Example(value="https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png")]
-        ),
-    ] = msgspec.field()
-
-
-class TalentChannelChannelsResponseItemCommunity(msgspec.Struct, kw_only=True):
-    id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("f30a0c54-73c0-46c1-b413-9e3af0f672ff"))])] = (
-        msgspec.field()
-    )
-    name: Annotated[str, Parameter(examples=[Example(value="hololive")])] = msgspec.field()
-
-
-class TalentChannelChannelsResponseItem(msgspec.Struct, kw_only=True):
-    id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("7f237193-e0f7-4127-af78-9f5c255069ac"))])] = (
-        msgspec.field()
-    )
-    name: Annotated[str, Parameter(examples=[Example(value="Kureiji Ollie")])] = msgspec.field()
-    icon_url: Annotated[
-        str,
-        Parameter(
-            examples=[Example(value="https://asset.holoplus.com/talents/hololive/kureiji_ollie/icon_20240918.png")]
-        ),
-    ] = msgspec.field()
-    latest_thread: Annotated[TalentChannelChannelsResponseItemThread, Parameter()] = msgspec.field()
-    is_my_oshi: Annotated[bool, Parameter(examples=[Example(value=True)])] = msgspec.field()
-    talent: Annotated[TalentChannelChannelsResponseItemTalent, Parameter()] = msgspec.field()
-    community: Annotated[TalentChannelChannelsResponseItemCommunity, Parameter()] = msgspec.field()
-
-
-class TalentChannelChannelsResponse(msgspec.Struct, kw_only=True):
-    items: Annotated[list[TalentChannelChannelsResponseItem], Parameter()] = msgspec.field()
-
-    @classmethod
-    def load_json(cls, path: pathlib.Path) -> Self:
-        return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
-
-
-class TalentChannelThreadsNewestResponseItemTalent(msgspec.Struct, kw_only=True):
+class TalentChannelThreadsResponseItemTalent(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0"))])] = (
         msgspec.field()
     )
@@ -94,7 +24,7 @@ class TalentChannelThreadsNewestResponseItemTalent(msgspec.Struct, kw_only=True)
     key_name: Annotated[str, Parameter(examples=[Example(value="kureiji_ollie")])] = msgspec.field()
 
 
-class TalentChannelThreadsNewestResponseItemUser(msgspec.Struct, kw_only=True):
+class TalentChannelThreadsResponseItemUser(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("3545fcfd-e768-452b-b3f1-de25dd5e4264"))])] = (
         msgspec.field()
     )
@@ -108,7 +38,7 @@ class TalentChannelThreadsNewestResponseItemUser(msgspec.Struct, kw_only=True):
     ] = msgspec.field()
 
 
-class TalentChannelThreadsNewestResponseItemTranslation(msgspec.Struct, kw_only=True):
+class TalentChannelThreadsResponseItemTranslation(msgspec.Struct, kw_only=True):
     title: Annotated[str, Parameter(examples=[Example(value="🔹️ Who do you ship Ollie with?")])] = msgspec.field()
     body: Annotated[
         str,
@@ -137,7 +67,7 @@ class TalentChannelThreadsNewestResponseItemTranslation(msgspec.Struct, kw_only=
     ] = msgspec.field()
 
 
-class TalentChannelThreadsNewestResponseItem(msgspec.Struct, kw_only=True):
+class TalentChannelThreadsResponseItem(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("969c000a-22c2-4c8b-a4d0-c6a61cd2e8c0"))])] = (
         msgspec.field()
     )
@@ -167,19 +97,19 @@ class TalentChannelThreadsNewestResponseItem(msgspec.Struct, kw_only=True):
             ]
         ),
     ] = msgspec.field()
-    talents: Annotated[list[TalentChannelThreadsNewestResponseItemTalent], Parameter()] = msgspec.field()
-    user: Annotated[TalentChannelThreadsNewestResponseItemUser, Parameter()] = msgspec.field()
+    talents: Annotated[list[TalentChannelThreadsResponseItemTalent], Parameter()] = msgspec.field()
+    user: Annotated[TalentChannelThreadsResponseItemUser, Parameter()] = msgspec.field()
     created_at: Annotated[int, Parameter(examples=[Example(value=1757126658)])] = msgspec.field()
     updated_at: Annotated[int, Parameter(examples=[Example(value=1757169579)])] = msgspec.field()
     original_language: Annotated[str, Parameter(examples=[Example(value="en")])] = msgspec.field()
     is_translated: Annotated[bool, Parameter(examples=[Example(value=True)])] = msgspec.field()
     translations: Annotated[
-        dict[str, TalentChannelThreadsNewestResponseItemTranslation],
+        dict[str, TalentChannelThreadsResponseItemTranslation],
         Parameter(
             examples=[
                 Example(
                     value={
-                        "en": TalentChannelThreadsNewestResponseItemTranslation(
+                        "en": TalentChannelThreadsResponseItemTranslation(
                             title="Translated title", body="Translated body"
                         )
                     }
@@ -193,7 +123,7 @@ class TalentChannelThreadsNewestResponseItem(msgspec.Struct, kw_only=True):
     user_reacted_count: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field()
 
 
-class TalentChannelThreadsNewestResponseChannel(msgspec.Struct, kw_only=True):
+class TalentChannelThreadsResponseChannel(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("7f237193-e0f7-4127-af78-9f5c255069ac"))])] = (
         msgspec.field()
     )
@@ -207,9 +137,9 @@ class TalentChannelThreadsNewestResponseChannel(msgspec.Struct, kw_only=True):
     ] = msgspec.field()
 
 
-class TalentChannelThreadsNewestResponse(msgspec.Struct, kw_only=True):
-    items: Annotated[list[TalentChannelThreadsNewestResponseItem], Parameter()] = msgspec.field()
-    channel: Annotated[TalentChannelThreadsNewestResponseChannel, Parameter()] = msgspec.field()
+class TalentChannelThreadsResponse(msgspec.Struct, kw_only=True):
+    items: Annotated[list[TalentChannelThreadsResponseItem], Parameter()] = msgspec.field()
+    channel: Annotated[TalentChannelThreadsResponseChannel, Parameter()] = msgspec.field()
 
     @classmethod
     def load_json(cls, path: pathlib.Path) -> Self:

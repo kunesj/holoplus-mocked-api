@@ -1,0 +1,788 @@
+{
+  "items": [
+    {
+      "id": "b2ee47b9-2225-4c25-990a-3c6430531c8e",
+      "parent_id": "",
+      "user": {
+        "id": "57646442-22de-4edb-862e-d2fe80796959",
+        "name": "ユニット",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "f8a827c7-0bc1-49e5-b6bf-0355cf36412c",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/robocosan/motif.png"
+        }
+      },
+      "created_at": 1757126510,
+      "reaction_total": 320,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "ja",
+      "is_translated": true,
+      "body": "通知に気付くのが遅かったのか…\nアンケートが終わってた😭",
+      "translations": {
+        "ja": {
+          "body": "通知に気付くのが遅かったのか…\nアンケートが終わってた😭"
+        },
+        "en": {
+          "body": "Did I notice the notification too late...\nThe survey is already over 😭"
+        },
+        "id": {
+          "body": "Apakah aku terlalu lambat menyadari notifikasinya...\nSurveinya sudah berakhir 😭"
+        }
+      }
+    },
+    {
+      "id": "8ba2f3a3-2c83-44dc-b2c9-6a6baccd8e8a",
+      "parent_id": "",
+      "user": {
+        "id": "d3e62f54-baa4-4467-8330-2aaaeeab282d",
+        "name": "metalkhaos",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "77be4b08-a0fc-4999-aee6-e35e6e896c32",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/inugami_korone/motif_20230908.png"
+        }
+      },
+      "created_at": 1757126250,
+      "reaction_total": 120,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "Ahh, missed it.",
+      "translations": {
+        "ja": {
+          "body": "あー、見逃した。"
+        },
+        "en": {
+          "body": "Ahh, missed it."
+        },
+        "id": {
+          "body": "Ahh, terlewat."
+        }
+      }
+    },
+    {
+      "id": "25e7286a-1572-4e10-8749-206d8d603baa",
+      "parent_id": "",
+      "user": {
+        "id": "f9fd3690-9e47-42dc-ae62-5d107bc44855",
+        "name": "【WD】RiN×2",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "2e88f768-6666-45d4-831f-d8995c1bc6a1",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/tsunomaki_watame/motif.png"
+        }
+      },
+      "created_at": 1757126382,
+      "reaction_total": 113,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "ja",
+      "is_translated": true,
+      "body": "10分近くでアンケート終わるの早",
+      "translations": {
+        "ja": {
+          "body": "10分近くでアンケート終わるの早"
+        },
+        "en": {
+          "body": "The survey finished in under 10 minutes, that was fast!"
+        },
+        "id": {
+          "body": "Surveinya selesai dalam waktu kurang dari 10 menit, cepat sekali!"
+        }
+      }
+    },
+    {
+      "id": "b601d70f-eae6-4b04-907c-e98a4b482269",
+      "parent_id": "",
+      "user": {
+        "id": "d1c8088e-7873-482d-8051-a8686982be01",
+        "name": "MorningPanda",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "5ec71a8a-fd04-43b4-b11a-cbc707ee288d",
+          "icon_url": "https://asset.holoplus.com/talents/holoplus/default/motif_B4.png"
+        }
+      },
+      "image_urls": [
+        "https://asset.holoplus.com/comments/b601d70f-eae6-4b04-907c-e98a4b482269/original.png"
+      ],
+      "created_at": 1757125673,
+      "reaction_total": 104,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "I finished the poll! Can I have a post-poll reward?  (maybe a donut?)",
+      "translations": {
+        "ja": {
+          "body": "アンケートが終わりました！アンケート後の報酬はもらえますか？（ドーナツとか？）"
+        },
+        "en": {
+          "body": "I finished the poll! Can I have a post-poll reward?  (maybe a donut?)"
+        },
+        "id": {
+          "body": "Aku sudah menyelesaikan pollingnya! Bolehkah aku mendapatkan hadiah setelah polling? (mungkin donat?)"
+        }
+      }
+    },
+    {
+      "id": "73bbd49a-8cfc-458c-8d6e-cb361b837c37",
+      "parent_id": "",
+      "user": {
+        "id": "51113b1c-1fed-4a86-a531-1491c0ded641",
+        "name": "Data",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "8bfb122f-ac01-44b3-9e9d-23657c9913ee",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/watson_amelia/motif.png"
+        }
+      },
+      "created_at": 1757125653,
+      "reaction_total": 50,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "\u003c3",
+      "translations": {
+        "ja": {
+          "body": "\u003c3"
+        },
+        "en": {
+          "body": "\u003c3"
+        },
+        "id": {
+          "body": "\u003c3"
+        }
+      }
+    },
+    {
+      "id": "272ab9b5-a608-45d5-bc64-722fd2e13f0a",
+      "parent_id": "",
+      "user": {
+        "id": "51112252-f19d-44f5-aba5-a4f8dc6a9a1a",
+        "name": "Pilot",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "0b4a2e27-7ff3-491a-a056-8d534d59a87f",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/motif.png"
+        }
+      },
+      "created_at": 1757125827,
+      "reaction_total": 39,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "I feel multiple could've applied. I went with Goddess though. also, there is a special animation for hitting like on a single post/comment 100 times.",
+      "translations": {
+        "ja": {
+          "body": "複数の選択肢が適用された可能性があります。私は「Goddess」を選びました。また、単一の投稿/コメントに100回「いいね」をすると特別なアニメーションが表示されます。"
+        },
+        "en": {
+          "body": "I feel multiple could've applied. I went with Goddess though. also, there is a special animation for hitting like on a single post/comment 100 times."
+        },
+        "id": {
+          "body": "Saya merasa beberapa bisa saja berlaku. Saya memilih Goddess. Selain itu, ada animasi khusus untuk menekan suka pada satu postingan/komentar sebanyak 100 kali."
+        }
+      }
+    },
+    {
+      "id": "babbdd88-0841-448a-8376-c8265e9abcb2",
+      "parent_id": "",
+      "user": {
+        "id": "100bcdd8-986d-4a6c-a0de-45ca02e38b78",
+        "name": "Jalorda",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "0b4a2e27-7ff3-491a-a056-8d534d59a87f",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/motif.png"
+        }
+      },
+      "created_at": 1757125780,
+      "reaction_total": 32,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "I saw wife, i stopped thinking and clicked it",
+      "translations": {
+        "ja": {
+          "body": "妻を見た、考えるのをやめてクリックした"
+        },
+        "en": {
+          "body": "I saw wife, i stopped thinking and clicked it"
+        },
+        "id": {
+          "body": "Aku melihat istriku, aku berhenti berpikir dan mengkliknya"
+        }
+      }
+    },
+    {
+      "id": "7fafd332-d249-40fb-9de6-3dcd7b83b544",
+      "parent_id": "",
+      "user": {
+        "id": "0b428ad6-6380-47d7-a842-695f11015ab4",
+        "name": "Kigusa",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "5ec71a8a-fd04-43b4-b11a-cbc707ee288d",
+          "icon_url": "https://asset.holoplus.com/talents/holoplus/default/motif_B4.png"
+        }
+      },
+      "created_at": 1757125831,
+      "reaction_total": 30,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "id",
+      "is_translated": true,
+      "body": "teman yg bisa diajak debat tentang berbagai macam hal",
+      "translations": {
+        "ja": {
+          "body": "様々なことについて議論できる友達"
+        },
+        "en": {
+          "body": "A friend who can be debated about various things"
+        },
+        "id": {
+          "body": "teman yg bisa diajak debat tentang berbagai macam hal"
+        }
+      }
+    },
+    {
+      "id": "aef8f8ff-19b2-47fa-8147-dedd088253aa",
+      "parent_id": "",
+      "user": {
+        "id": "66ae337b-09a2-45f9-b240-c71046a25e4d",
+        "name": "cao",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "0b4a2e27-7ff3-491a-a056-8d534d59a87f",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/kureiji_ollie/motif.png"
+        }
+      },
+      "created_at": 1757125755,
+      "reaction_total": 25,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "she's my gf, she needs to be spoiled",
+      "translations": {
+        "ja": {
+          "body": "彼女は私のガールフレンドだから、甘やかしてあげないとね"
+        },
+        "en": {
+          "body": "she's my gf, she needs to be spoiled"
+        },
+        "id": {
+          "body": "dia pacarku, dia perlu dimanjakan"
+        }
+      }
+    },
+    {
+      "id": "350e9e10-c9db-48bd-a5e8-bad460403153",
+      "parent_id": "",
+      "user": {
+        "id": "f456c894-c4f7-473c-a249-49ce2a9adb76",
+        "name": "yamada.robino",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "E87FD083-E89B-779C-2846-C2553333B464",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/raora_panthera/motif.png"
+        }
+      },
+      "created_at": 1757126234,
+      "reaction_total": 15,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "Shiiiiiiet I missed the poll 🙃",
+      "translations": {
+        "ja": {
+          "body": "アンケート逃しちゃったあああ🙃"
+        },
+        "en": {
+          "body": "Shiiiiiiet I missed the poll 🙃"
+        },
+        "id": {
+          "body": "Aaaahhh aku kelewatan pollingnya 🙃"
+        }
+      }
+    },
+    {
+      "id": "917ff2d8-1209-48f2-9ba6-9761799870cb",
+      "parent_id": "",
+      "user": {
+        "id": "b146c43f-715f-4ac9-ab1c-b4dc132001a6",
+        "name": "HookedOnRice",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "6c0917ea-d71c-4850-9984-93d7b65fa965",
+          "icon_url": "https://asset.holoplus.com/talents/holoplus/default/motif_B6.png"
+        }
+      },
+      "created_at": 1757126153,
+      "reaction_total": 3,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "THE Hololive superfan",
+      "translations": {
+        "ja": {
+          "body": "ホロライブの熱狂的なファン"
+        },
+        "en": {
+          "body": "THE Hololive superfan"
+        },
+        "id": {
+          "body": "Penggemar berat Hololive"
+        }
+      }
+    },
+    {
+      "id": "b3950bc8-1fcf-4561-a90a-f74bd0d47c68",
+      "parent_id": "",
+      "user": {
+        "id": "b21c54b1-3dc4-4bf3-8175-474d530779e4",
+        "name": "*¨🌲𝕄𝕚𝕠🌲¨*あくあクルー",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "cd4374a0-1063-4e7b-943b-73e39eb253dc",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/ookami_mio/motif.png"
+        }
+      },
+      "created_at": 1757125850,
+      "reaction_total": 3,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "ja",
+      "is_translated": true,
+      "body": "可愛い可愛い妹",
+      "translations": {
+        "ja": {
+          "body": "可愛い可愛い妹"
+        },
+        "en": {
+          "body": "My cute, cute little sister"
+        },
+        "id": {
+          "body": "Adikku yang lucu, lucu"
+        }
+      }
+    },
+    {
+      "id": "24b66a66-cd66-4e2d-951f-5ab4f7cea43e",
+      "parent_id": "",
+      "user": {
+        "id": "a259ddee-6f5d-4e8a-84d6-79434fb657fe",
+        "name": "ひまわり",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "2e88f768-6666-45d4-831f-d8995c1bc6a1",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/tsunomaki_watame/motif.png"
+        }
+      },
+      "created_at": 1757125827,
+      "reaction_total": 3,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "ja",
+      "is_translated": true,
+      "body": "悩む",
+      "translations": {
+        "ja": {
+          "body": "悩む"
+        },
+        "en": {
+          "body": "I'm troubled."
+        },
+        "id": {
+          "body": "Aku bingung."
+        }
+      }
+    },
+    {
+      "id": "9dd1a982-c833-4ef0-840a-5d79fb74a246",
+      "parent_id": "",
+      "user": {
+        "id": "79fdc486-3c41-4063-b0c3-8a7e1fad77f9",
+        "name": "brexe",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "c596b5a1-a408-42cb-aba3-36230aa5efe3",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/amane_kanata/motif.png"
+        }
+      },
+      "created_at": 1757125826,
+      "reaction_total": 3,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "wife",
+      "translations": {
+        "ja": {
+          "body": "妻"
+        },
+        "en": {
+          "body": "wife"
+        },
+        "id": {
+          "body": "istri"
+        }
+      }
+    },
+    {
+      "id": "1c98350d-8390-4547-9058-647979d18072",
+      "parent_id": "",
+      "user": {
+        "id": "67badd83-36cd-423c-9b48-4758f83581de",
+        "name": "flyingpresident",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "d2ec7dcc-849d-4ef1-af0c-e29327d3a894",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/kaela_kovalskia/motif_20240918.png"
+        }
+      },
+      "created_at": 1757125798,
+      "reaction_total": 3,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "no zombie option?",
+      "translations": {
+        "ja": {
+          "body": "ゾンビのオプションはないの？"
+        },
+        "en": {
+          "body": "no zombie option?"
+        },
+        "id": {
+          "body": "tidak ada opsi zombie?"
+        }
+      }
+    },
+    {
+      "id": "058acbd8-d36e-4f69-b9da-bac4dfa90e94",
+      "parent_id": "",
+      "user": {
+        "id": "ec53f3e8-05be-4ecf-a8ab-fb5dc387319e",
+        "name": "altruSP",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "3d449f3d-0daf-4910-b815-bfd78915d9ba",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/irys/motif_20230908.png"
+        }
+      },
+      "created_at": 1757126146,
+      "reaction_total": 2,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "I’m going with “friend” because honestly, having Ollie as a friend sounds fun.",
+      "translations": {
+        "ja": {
+          "body": "正直、オリーが友達だったら楽しそうだから「友達」を選びます。"
+        },
+        "en": {
+          "body": "I’m going with “friend” because honestly, having Ollie as a friend sounds fun."
+        },
+        "id": {
+          "body": "Aku pilih \"teman\" karena sejujurnya, punya Ollie sebagai teman kedengarannya menyenangkan."
+        }
+      }
+    },
+    {
+      "id": "15a39b91-8b9b-4ff7-974e-fbff47d5c6c7",
+      "parent_id": "",
+      "user": {
+        "id": "95bcf8d5-b499-42fe-b4ef-cdeb7f6c80d5",
+        "name": "AyanoAkemi",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "ef0f4119-e439-413b-a278-dd4278251f0a",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/hoshimachi_suisei/motif.png"
+        }
+      },
+      "created_at": 1757125923,
+      "reaction_total": 2,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "If the only person who picked wife is me, will you marry me Ollie?",
+      "translations": {
+        "ja": {
+          "body": "もし妻を選んだのが私だけだったら、私と結婚してくれますか、Ollie？"
+        },
+        "en": {
+          "body": "If the only person who picked wife is me, will you marry me Ollie?"
+        },
+        "id": {
+          "body": "Jika satu-satunya orang yang memilih istri adalah aku, maukah kamu menikah denganku Ollie?"
+        }
+      }
+    },
+    {
+      "id": "502c9fde-dc8d-433b-bca1-148c929c6402",
+      "parent_id": "",
+      "user": {
+        "id": "7362abb0-c994-4abf-82fd-cedbe7816adb",
+        "name": "玄人",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "2e88f768-6666-45d4-831f-d8995c1bc6a1",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/tsunomaki_watame/motif.png"
+        }
+      },
+      "created_at": 1757125832,
+      "reaction_total": 2,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "my friend 🤝",
+      "translations": {
+        "ja": {
+          "body": "友達 🤝"
+        },
+        "en": {
+          "body": "my friend 🤝"
+        },
+        "id": {
+          "body": "teman saya 🤝"
+        }
+      }
+    },
+    {
+      "id": "9bf36cb6-3944-4e54-b0b6-77c7452e0b86",
+      "parent_id": "",
+      "user": {
+        "id": "d942a383-b7a5-4fb0-97b9-9fef87499736",
+        "name": "Abriel Exkaber",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "9025f28a-7c65-4a80-b90e-2577e629c08f",
+          "icon_url": "https://asset.holoplus.com/talents/hololive/shirogane_noel/motif.png"
+        }
+      },
+      "created_at": 1757125822,
+      "reaction_total": 2,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "Sister, no matter older or younger❤",
+      "translations": {
+        "ja": {
+          "body": "姉妹、年上でも年下でも❤"
+        },
+        "en": {
+          "body": "Sister, no matter older or younger❤"
+        },
+        "id": {
+          "body": "Kakak, baik yang lebih tua maupun yang lebih muda❤"
+        }
+      }
+    },
+    {
+      "id": "9b6a71c1-0d75-4ea1-b47b-1fc9bad6be51",
+      "parent_id": "",
+      "user": {
+        "id": "2a7fe09c-c3e7-459d-ae9d-297d6352f422",
+        "name": "Steak Sauce",
+        "role": {
+          "id": "a0a44a43-18bc-4444-96bf-4fb188f3c8d9",
+          "role": "none"
+        },
+        "icon": {
+          "id": "5222c312-ba80-4527-8858-1aeb768787ba",
+          "icon_url": "https://asset.holoplus.com/talents/holoplus/default/motif.png"
+        }
+      },
+      "created_at": 1757125820,
+      "reaction_total": 2,
+      "reply_count": 0,
+      "user_reacted_count": 0,
+      "channel": {
+        "id": "7f237193-e0f7-4127-af78-9f5c255069ac",
+        "name": "Kureiji Ollie",
+        "channel_type": "talent"
+      },
+      "original_language": "en",
+      "is_translated": true,
+      "body": "little sister enemy 😆",
+      "translations": {
+        "ja": {
+          "body": "妹は敵です😆"
+        },
+        "en": {
+          "body": "little sister enemy 😆"
+        },
+        "id": {
+          "body": "Adik perempuan adalah musuh 😆"
+        }
+      }
+    }
+  ],
+  "next_cursor": "#en#1757125820#9b6a71c1-0d75-4ea1-b47b-1fc9bad6be51:1000#000000000000002#1757125820#9b6a71c1-0d75-4ea1-b47b-1fc9bad6be51"
+}

@@ -1,0 +1,3 @@
+from .talent_channel__channels import TalentChannelChannelsResponse
+from .talent_channel__comments import TalentChannelCommentsResponse
+from .talent_channel__threads import TalentChannelThreadsResponse
