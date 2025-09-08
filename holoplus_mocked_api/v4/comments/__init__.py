@@ -1,7 +1,8 @@
 from __future__ import annotations
 
 import uuid
-from typing import Annotated, Any
+import pathlib
+from typing import Annotated
 
 import litestar
 from litestar.exceptions import NotFoundException
@@ -9,7 +10,10 @@ from litestar.params import Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
 
-from .models import CommentContent
+from .models import CommentContent, CommentsMeResponse, CommentsResponse
+
+ROOT_PATH = pathlib.Path(__file__).parent
+DATA_PATH = ROOT_PATH / "data"
 
 
 @litestar.get("/v4/comments/me", summary="/v4/comments/me")
@@ -17,9 +21,8 @@ async def v4__comments__me(
     *,
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/comments/me?limit=20
-    """NOT IMPLEMENTED"""
-    ...
+) -> CommentsMeResponse:
+    return CommentsMeResponse.load_json(DATA_PATH / "comments__me.json")
 
 
 @litestar.get("/v4/comments/popular", summary="/v4/comments/popular")
@@ -31,9 +34,11 @@ async def v4__comments__popular(
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)])] = None,  # TODO: valid range
     filter_language: Annotated[str, Parameter(examples=[Example(value="en")])],
     token: Annotated[str, Parameter(header="authorization")],
-) -> Any:  # FIXME: https://api.holoplus.com/v4/comments/popular?thread_id=a4d526d1-2c97-476f-ae12-849fdef41eb8&limit=20&filter_language=en
-    """NOT IMPLEMENTED"""
-    ...
+) -> CommentsResponse:
+    json_path = DATA_PATH / f"comments__popular__{thread_id}.json"
+    if json_path.exists():
+        return CommentsResponse.load_json(json_path)
+    raise NotFoundException()
 
 
 @litestar.get(
