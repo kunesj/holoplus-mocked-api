@@ -160,8 +160,14 @@ async def v2__group(
 ) -> Group:
     if group_id in GROUPS_MAP:
         return GROUPS_MAP[group_id]
-    # TODO: this is a guess
+
     raise NotFoundException()
+    # TODO: {
+    #     "code": "E100",
+    #     "message": "ネットワークの状況をご確認の上、アプリの再起動などをしても改善しない場合は、「マイページ＞設定・アプリ情報＞お問い合わせ」からお問い合わせください。",
+    #     "detail": "error getting group by id: group not found",
+    #     "title": "不明なエラーが発生しました😢"
+    # }
 
 
 @litestar.get("/v2/units/{unit_id:uuid}", summary="/v2/units/{unit_id:uuid}", raises=[NotFoundException])
@@ -174,8 +180,14 @@ async def v2__unit(
 ) -> Unit:
     if unit_id in UNITS_MAP:
         return UNITS_MAP[unit_id]
-    # TODO: this is a guess
+
     raise NotFoundException()
+    # TODO: {
+    #     "code": "E100",
+    #     "message": "ネットワークの状況をご確認の上、アプリの再起動などをしても改善しない場合は、「マイページ＞設定・アプリ情報＞お問い合わせ」からお問い合わせください。",
+    #     "detail": "error getting unit by id: unit not found",
+    #     "title": "不明なエラーが発生しました😢"
+    # }
 
 
 ROUTES: list[ControllerRouterHandler] = [

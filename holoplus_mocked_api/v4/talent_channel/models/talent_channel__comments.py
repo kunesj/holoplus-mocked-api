@@ -96,7 +96,7 @@ class TalentChannelCommentsResponseItem(msgspec.Struct, kw_only=True):
 class TalentChannelCommentsResponse(msgspec.Struct, kw_only=True):
     items: Annotated[list[TalentChannelCommentsResponseItem], Parameter()] = msgspec.field()
     next_cursor: Annotated[
-        str,
+        str | None,
         Parameter(
             examples=[
                 Example(
@@ -104,7 +104,7 @@ class TalentChannelCommentsResponse(msgspec.Struct, kw_only=True):
                 )
             ]
         ),
-    ] = msgspec.field()
+    ] = msgspec.field(default=None)  # TODO: optional
 
     @classmethod
     def load_json(cls, path: pathlib.Path) -> Self:
