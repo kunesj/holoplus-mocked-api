@@ -10,6 +10,8 @@ from litestar.params import Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
 
+from holoplus_mocked_api.enums import FilterLanguages
+
 from .models import (
     ThreadsFavoriteResponse,
     ThreadsMeResponse,
@@ -48,7 +50,7 @@ async def v4__threads__modules(
         uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("b91175fc-8190-4dde-8e92-01d58ed48f46"))])
     ],
     fav_talent_filter: Annotated[bool, Parameter(examples=[Example(value=False)])],
-    filter_language: Annotated[str, Parameter(examples=[Example(value="en")])],
+    filter_language: Annotated[FilterLanguages | None, Parameter(examples=[Example(value="en")])] = None,
     limit: Annotated[int | None, Parameter(examples=[Example(value=5)], ge=1, le=30)] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> ThreadsModulesResponse:
@@ -66,7 +68,7 @@ async def v4__threads__updated(
         uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("2f495a98-f005-4ef4-b164-be922b823b42"))])
     ],
     fav_talent_filter: Annotated[bool, Parameter(examples=[Example(value=False)])],
-    filter_language: Annotated[str, Parameter(examples=[Example(value="en")])],
+    filter_language: Annotated[FilterLanguages | None, Parameter(examples=[Example(value="en")])] = None,
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)], ge=1, le=30)] = None,
     offset: Annotated[int | None, Parameter(examples=[Example(value=0)], ge=0)] = None,
     token: Annotated[str, Parameter(header="authorization")],

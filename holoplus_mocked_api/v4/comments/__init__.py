@@ -10,6 +10,7 @@ from litestar.params import Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
 
+from holoplus_mocked_api.enums import FilterLanguages
 from .models import CommentContent, CommentsMeResponse, CommentsResponse
 
 ROOT_PATH = pathlib.Path(__file__).parent
@@ -32,7 +33,7 @@ async def v4__comments__popular(
         uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("a4d526d1-2c97-476f-ae12-849fdef41eb8"))])
     ],
     limit: Annotated[int | None, Parameter(examples=[Example(value=20)], ge=1, le=30)] = None,
-    filter_language: Annotated[str, Parameter(examples=[Example(value="en")])],
+    filter_language: Annotated[FilterLanguages | None, Parameter(examples=[Example(value="en")])] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> CommentsResponse:
     json_path = DATA_PATH / f"comments__popular__{thread_id}.json"

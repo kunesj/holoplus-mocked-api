@@ -11,6 +11,8 @@ from litestar.response import Redirect
 from litestar.params import Body, Parameter
 from litestar.openapi.spec import Example
 
+from holoplus_mocked_api.enums import FilterLanguages
+
 from .models import (
     AuthResponse,
     AuthTokenRequest,
@@ -100,7 +102,7 @@ async def v2__me__communities(
 @litestar.get("/v2/banners", summary="/v2/banners")
 async def v2__banners(
     *,
-    filter_language: Annotated[str | None, Parameter(examples=[Example(value="en")])] = None,
+    filter_language: Annotated[FilterLanguages | None, Parameter(examples=[Example(value="en")])] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> BannersResponse:
     return BannersResponse(
