@@ -344,3 +344,5 @@ known-first-party = ["holoplus_mocked_api"]
 [tool.ruff.lint.mccabe]
 # Flag errors (`C901`) whenever the complexity level is exceeded
 max-complexity = 18
+
+[mypy]

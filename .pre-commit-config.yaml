@@ -16,3 +16,10 @@ repos:
       # --exit-non-zero-on-fix - prevent successful pre-commit when files were automatically formatted
       # --config:  must be specified, because it's not in the repo that is being checked
       args: ["--exit-non-zero-on-fix", "--config", "pyproject.toml" ]
+- repo: https://github.com/pre-commit/mirrors-mypy
+  rev: 'v1.18.1'
+  hooks:
+    - id: mypy
+      additional_dependencies: [
+        "msgspec"
+      ]
