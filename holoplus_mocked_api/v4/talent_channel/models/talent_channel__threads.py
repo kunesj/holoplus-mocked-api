@@ -10,7 +10,7 @@ from litestar.openapi.spec import Example
 from litestar.params import Parameter
 
 
-class TalentChannelThreadsResponseItemTalent(msgspec.Struct, kw_only=True, omit_defaults=True):
+class TalentChannelThreadsResponseItemTalent(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0"))])] = (
         msgspec.field()
     )
@@ -24,7 +24,7 @@ class TalentChannelThreadsResponseItemTalent(msgspec.Struct, kw_only=True, omit_
     key_name: Annotated[str, Parameter(examples=[Example(value="kureiji_ollie")])] = msgspec.field()
 
 
-class TalentChannelThreadsResponseItemUser(msgspec.Struct, kw_only=True, omit_defaults=True):
+class TalentChannelThreadsResponseItemUser(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("3545fcfd-e768-452b-b3f1-de25dd5e4264"))])] = (
         msgspec.field()
     )
@@ -38,7 +38,7 @@ class TalentChannelThreadsResponseItemUser(msgspec.Struct, kw_only=True, omit_de
     ] = msgspec.field()
 
 
-class TalentChannelThreadsResponseItemTranslation(msgspec.Struct, kw_only=True, omit_defaults=True):
+class TalentChannelThreadsResponseItemTranslation(msgspec.Struct, kw_only=True):
     title: Annotated[str, Parameter(examples=[Example(value="🔹️ Who do you ship Ollie with?")])] = msgspec.field()
     body: Annotated[
         str,
@@ -67,7 +67,7 @@ class TalentChannelThreadsResponseItemTranslation(msgspec.Struct, kw_only=True, 
     ] = msgspec.field()
 
 
-class TalentChannelThreadsResponseItem(msgspec.Struct, kw_only=True, omit_defaults=True):
+class TalentChannelThreadsResponseItem(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("969c000a-22c2-4c8b-a4d0-c6a61cd2e8c0"))])] = (
         msgspec.field()
     )
@@ -123,7 +123,7 @@ class TalentChannelThreadsResponseItem(msgspec.Struct, kw_only=True, omit_defaul
     user_reacted_count: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field()
 
 
-class TalentChannelThreadsResponseChannel(msgspec.Struct, kw_only=True, omit_defaults=True):
+class TalentChannelThreadsResponseChannel(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("7f237193-e0f7-4127-af78-9f5c255069ac"))])] = (
         msgspec.field()
     )
@@ -137,7 +137,7 @@ class TalentChannelThreadsResponseChannel(msgspec.Struct, kw_only=True, omit_def
     ] = msgspec.field()
 
 
-class TalentChannelThreadsResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
+class TalentChannelThreadsResponse(msgspec.Struct, kw_only=True):
     items: Annotated[list[TalentChannelThreadsResponseItem], Parameter()] = msgspec.field()
     channel: Annotated[TalentChannelThreadsResponseChannel, Parameter()] = msgspec.field()
 

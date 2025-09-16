@@ -10,7 +10,7 @@ from litestar.openapi.spec import Example
 from litestar.params import Parameter
 
 
-class AuthResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
+class AuthResponse(msgspec.Struct, kw_only=True):
     session_id: Annotated[str, Parameter(examples=[Example(value="****-***-*******************************-**=")])] = (
         msgspec.field()
     )
@@ -36,17 +36,17 @@ class AuthResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
     ] = msgspec.field()
 
 
-class AuthTokenRequest(msgspec.Struct, kw_only=True, omit_defaults=True):
+class AuthTokenRequest(msgspec.Struct, kw_only=True):
     code: Annotated[str, Parameter()] = msgspec.field()
     session_id: Annotated[str, Parameter()] = msgspec.field()
     state: Annotated[str, Parameter()] = msgspec.field()
 
 
-class AuthTokenResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
+class AuthTokenResponse(msgspec.Struct, kw_only=True):
     token: Annotated[str, Parameter()] = msgspec.field()
 
 
-class Community(msgspec.Struct, kw_only=True, omit_defaults=True):
+class Community(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("3f255c77-3b3e-4585-8e4f-7e5a4adcef58"))])] = (
         msgspec.field()
     )
@@ -63,11 +63,11 @@ class Community(msgspec.Struct, kw_only=True, omit_defaults=True):
     channels: Annotated[list[Channel], Parameter()] = msgspec.field()
 
 
-class CommunitiesResponseItem(msgspec.Struct, kw_only=True, omit_defaults=True):
+class CommunitiesResponseItem(msgspec.Struct, kw_only=True):
     community: Annotated[Community, Parameter()] = msgspec.field()
 
 
-class CommunitiesResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
+class CommunitiesResponse(msgspec.Struct, kw_only=True):
     items: Annotated[list[CommunitiesResponseItem], Parameter()] = msgspec.field()
 
     @classmethod
@@ -75,7 +75,7 @@ class CommunitiesResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
         return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
 
 
-class Channel(msgspec.Struct, kw_only=True, omit_defaults=True):
+class Channel(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("18eec09c-ce17-4f50-bfc6-8b47457882ed"))])] = (
         msgspec.field()
     )
@@ -99,7 +99,7 @@ class Channel(msgspec.Struct, kw_only=True, omit_defaults=True):
     is_official: Annotated[bool, Parameter(examples=[Example(value=True)])] = msgspec.field()
 
 
-class Banner(msgspec.Struct, kw_only=True, omit_defaults=True):
+class Banner(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("fc7f7724-f78f-40be-8594-aa0e107dd303"))])] = (
         msgspec.field()
     )
@@ -122,15 +122,16 @@ class Banner(msgspec.Struct, kw_only=True, omit_defaults=True):
         ),
     ] = msgspec.field()
     language: Annotated[str, Parameter(examples=[Example(value="en")])] = msgspec.field()
-    # TODO: default value is a guess
-    sort: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field(default=0)
+    sort: Annotated[int | msgspec.UnsetType, Parameter(examples=[Example(value=0)])] = msgspec.field(
+        default=msgspec.UNSET
+    )
     started_at: Annotated[int, Parameter(examples=[Example(value=1756717200)])] = msgspec.field()
     expired_at: Annotated[int, Parameter(examples=[Example(value=1757213940)])] = msgspec.field()
     created_at: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field()
     updated_at: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field()
 
 
-class BannersResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
+class BannersResponse(msgspec.Struct, kw_only=True):
     top: Annotated[list[Banner], Parameter()] = msgspec.field()
     middle: Annotated[list[Banner], Parameter()] = msgspec.field()
 
@@ -139,7 +140,7 @@ class BannersResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
         return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
 
 
-class Module(msgspec.Struct, kw_only=True, omit_defaults=True):
+class Module(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("b91175fc-8190-4dde-8e92-01d58ed48f46"))])] = (
         msgspec.field()
     )
@@ -157,7 +158,7 @@ class Module(msgspec.Struct, kw_only=True, omit_defaults=True):
     updated_at: Annotated[int, Parameter(examples=[Example(value=1672531200)])] = msgspec.field()
 
 
-class ModulesResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
+class ModulesResponse(msgspec.Struct, kw_only=True):
     items: Annotated[list[Module], Parameter()] = msgspec.field()
 
     @classmethod
@@ -165,14 +166,14 @@ class ModulesResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
         return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
 
 
-class GroupUnit(msgspec.Struct, kw_only=True, omit_defaults=True):
+class GroupUnit(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("ebe86ce6-0013-46ff-b787-b1e49a6a1bcb"))])] = (
         msgspec.field()
     )
     name: Annotated[str, Parameter(examples=[Example(value="hololive Generation 0")])] = msgspec.field()
 
 
-class Group(msgspec.Struct, kw_only=True, omit_defaults=True):
+class Group(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("e9171551-cb2a-483e-8a77-fdffba8e632b"))])] = (
         msgspec.field()
     )
@@ -186,7 +187,7 @@ class Group(msgspec.Struct, kw_only=True, omit_defaults=True):
         return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
 
 
-class UnitTalent(msgspec.Struct, kw_only=True, omit_defaults=True):
+class UnitTalent(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("c9d67e5d-2ef2-407c-ab6c-97f7c3e5c662"))])] = (
         msgspec.field()
     )
@@ -202,7 +203,7 @@ class UnitTalent(msgspec.Struct, kw_only=True, omit_defaults=True):
     group_id: Annotated[uuid.UUID | None, Parameter(examples=[Example(value=None)])] = msgspec.field()
 
 
-class Unit(msgspec.Struct, kw_only=True, omit_defaults=True):
+class Unit(msgspec.Struct, kw_only=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("ebe86ce6-0013-46ff-b787-b1e49a6a1bcb"))])] = (
         msgspec.field()
     )
