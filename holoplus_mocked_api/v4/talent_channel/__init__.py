@@ -5,10 +5,11 @@ import pathlib
 from typing import Annotated
 
 import litestar
-from litestar.exceptions import NotFoundException
 from litestar.params import Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
+
+from holoplus_mocked_api.exceptions import HoloplusNotFoundException
 
 from .models import (
     TalentChannelChannelsResponse,
@@ -20,6 +21,10 @@ ROOT_PATH = pathlib.Path(__file__).parent
 DATA_PATH = ROOT_PATH / "data"
 
 
+class TalentNotFoundException(HoloplusNotFoundException):
+    holoplus_detail = "failed to get talents: talent not found"
+
+
 @litestar.get("/v4/talent-channel/channels", summary="/v4/talent-channel/channels")
 async def v4__talent_channel__channels(
     *,
@@ -29,7 +34,7 @@ async def v4__talent_channel__channels(
 
 
 @litestar.get(
-    "/v4/talent-channel/threads/newest", summary="/v4/talent-channel/threads/newest", raises=[NotFoundException]
+    "/v4/talent-channel/threads/newest", summary="/v4/talent-channel/threads/newest", raises=[TalentNotFoundException]
 )
 async def v4__talent_channel__threads__newest(
     *,
@@ -43,22 +48,7 @@ async def v4__talent_channel__threads__newest(
         return TalentChannelThreadsResponse.load_json(
             DATA_PATH / "talent-channel__threads__newest" / "7f237193-e0f7-4127-af78-9f5c255069ac.json"
         )
-
-    raise NotFoundException()
-    # TODO: {
-    #     "code": "E100",
-    #     "message": "ネットワークの状況をご確認の上、アプリの再起動などをしても改善しない場合は、「マイページ＞設定・アプリ情報＞お問い合わせ」からお問い合わせください。",
-    #     "detail": "failed to get talents: talent not found",
-    #     "title": "不明なエラーが発生しました😢"
-    # }
-    # TODO: {
-    #     "name": "missing_field",
-    #     "id": "Dd52rDBj",
-    #     "message": "\"channel_id\" is missing from query string; \"limit\" is missing from query string; limit must be greater or equal than 1 but got value 0",
-    #     "temporary": false,
-    #     "timeout": false,
-    #     "fault": false
-    # }
+    raise TalentNotFoundException()
 
 
 @litestar.get("/v4/talent-channel/comments/popular", summary="/v4/talent-channel/comments/popular")
@@ -75,14 +65,6 @@ async def v4__talent_channel__comments__popular(
         return TalentChannelCommentsResponse.load_json(json_path)
 
     return TalentChannelCommentsResponse(items=[])
-    # TODO: {
-    #     "name": "missing_field",
-    #     "id": "NW4b45sv",
-    #     "message": "\"thread_id\" is missing from query string; \"limit\" is missing from query string; limit must be greater or equal than 1 but got value 0",
-    #     "temporary": false,
-    #     "timeout": false,
-    #     "fault": false
-    # }
 
 
 @litestar.get("/v4/talent-channel/comments/newest", summary="/v4/talent-channel/comments/newest")
@@ -99,14 +81,6 @@ async def v4__talent_channel__comments__newest(
         return TalentChannelCommentsResponse.load_json(json_path)
 
     return TalentChannelCommentsResponse(items=[])
-    # TODO: {
-    #     "name": "missing_field",
-    #     "id": "NW4b45sv",
-    #     "message": "\"thread_id\" is missing from query string; \"limit\" is missing from query string; limit must be greater or equal than 1 but got value 0",
-    #     "temporary": false,
-    #     "timeout": false,
-    #     "fault": false
-    # }
 
 
 ROUTES: list[ControllerRouterHandler] = [

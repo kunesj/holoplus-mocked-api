@@ -4,9 +4,10 @@ from typing import Annotated
 
 import litestar
 from litestar.types import ControllerRouterHandler
-from litestar.exceptions import NotFoundException
 from litestar.params import Body, Parameter
 from litestar.openapi.spec import Example
+
+from holoplus_mocked_api.exceptions import HoloplusNotFoundException
 
 from .models import (
     Application,
@@ -72,7 +73,9 @@ async def v1__me__push_notification_settings(
     return ME
 
 
-@litestar.put("/v1/me/devices/{device_id:str}", summary="/v1/me/devices/{device_id:str}", raises=[NotFoundException])
+@litestar.put(
+    "/v1/me/devices/{device_id:str}", summary="/v1/me/devices/{device_id:str}", raises=[HoloplusNotFoundException]
+)
 async def v1__me__devices(
     *,
     device_id: Annotated[str, Parameter(examples=[Example(value="00000b988c2b9c52")])],

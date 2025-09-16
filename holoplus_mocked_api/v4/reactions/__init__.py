@@ -5,10 +5,11 @@ from typing import Annotated
 
 import litestar
 from litestar import status_codes
-from litestar.exceptions import NotFoundException
 from litestar.params import Body, Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
+
+from holoplus_mocked_api.exceptions import HoloplusNotFoundException
 
 from .models import ReactionsContentsPostRequest
 
@@ -16,7 +17,7 @@ from .models import ReactionsContentsPostRequest
 @litestar.post(
     "/v4/reactions/contents/{record_id:uuid}",
     summary="/v4/reactions/contents/{record_id:uuid}",
-    raises=[NotFoundException],
+    raises=[HoloplusNotFoundException],
     status_code=status_codes.HTTP_204_NO_CONTENT,
 )
 async def v4__reactions__contents__id(

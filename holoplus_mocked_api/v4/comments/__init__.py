@@ -5,12 +5,13 @@ import pathlib
 from typing import Annotated
 
 import litestar
-from litestar.exceptions import NotFoundException
 from litestar.params import Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
 
 from holoplus_mocked_api.enums import FilterLanguages
+from holoplus_mocked_api.exceptions import HoloplusNotFoundException
+
 from .models import CommentContent, CommentsMeResponse, CommentsResponse
 
 ROOT_PATH = pathlib.Path(__file__).parent
@@ -26,7 +27,7 @@ async def v4__comments__me(
     return CommentsMeResponse.load_json(DATA_PATH / "comments__me.json")
 
 
-@litestar.get("/v4/comments/popular", summary="/v4/comments/popular")
+@litestar.get("/v4/comments/popular", summary="/v4/comments/popular", raises=[HoloplusNotFoundException])
 async def v4__comments__popular(
     *,
     thread_id: Annotated[
@@ -39,13 +40,13 @@ async def v4__comments__popular(
     json_path = DATA_PATH / f"comments__popular__{thread_id}.json"
     if json_path.exists():
         return CommentsResponse.load_json(json_path)
-    raise NotFoundException()
+    raise HoloplusNotFoundException()
 
 
 @litestar.get(
     "/v4/comments/{comment_id:uuid}/contents",
     summary="/v4/comments/{comment_id:uuid}/contents",
-    raises=[NotFoundException],
+    raises=[HoloplusNotFoundException],
 )
 async def v4__comments__id__contents(
     *,

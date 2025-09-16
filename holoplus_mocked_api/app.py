@@ -2,9 +2,9 @@ from __future__ import annotations
 
 import litestar
 import litestar.openapi
-from litestar.exceptions import HTTPException
+from litestar.exceptions import HTTPException, NotFoundException
 
-from .exceptions import exception_handler, litestar_monkey_patch
+from .exceptions import HoloplusException, exception_handler, litestar_monkey_patch, root_exception_handler
 from .googleapis_com import ROUTES as GOOGLEAPIS_COM_ROUTES
 from .v1 import ROUTES as V1_ROUTES
 from .v2 import ROUTES as V2_ROUTES
@@ -25,5 +25,7 @@ def create_app() -> litestar.Litestar:
         exception_handlers={
             Exception: exception_handler,
             HTTPException: exception_handler,
+            HoloplusException: exception_handler,
+            NotFoundException: root_exception_handler,
         },
     )

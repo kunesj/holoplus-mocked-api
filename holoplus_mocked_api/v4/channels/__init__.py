@@ -4,19 +4,20 @@ import uuid
 from typing import Annotated
 
 import litestar
-from litestar.exceptions import NotFoundException
 from litestar.params import Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
 
 from holoplus_mocked_api.enums import FilterLanguages
+from holoplus_mocked_api.exceptions import HoloplusNotFoundException
+
 from .models import ChannelsIdUpdatedThreadResponse
 
 
 @litestar.get(
     "/v4/channels/{channel_id:uuid}/updated_thread",
     summary="/v4/channels/{channel_id:uuid}/updated_thread",
-    raises=[NotFoundException],
+    raises=[HoloplusNotFoundException],
 )
 async def v4__channels__id__updated_thread(
     *,

@@ -7,12 +7,12 @@ import urllib.parse
 import litestar
 from litestar import status_codes
 from litestar.types import ControllerRouterHandler
-from litestar.exceptions import NotFoundException
 from litestar.response import Redirect
 from litestar.params import Body, Parameter
 from litestar.openapi.spec import Example
 
 from holoplus_mocked_api.enums import FilterLanguages
+from holoplus_mocked_api.exceptions import HoloplusNotFoundException
 
 from .models import (
     AuthResponse,
@@ -26,6 +26,14 @@ from .models import (
     Unit,
 )
 from .data import COMMUNITIES_MAP, BANNERS_MAP, MODULES_MAP, GROUPS_MAP, UNITS_MAP
+
+
+class GroupNotFoundException(HoloplusNotFoundException):
+    holoplus_detail = "error getting group by id: group not found"
+
+
+class UnitNotFoundException(HoloplusNotFoundException):
+    holoplus_detail = "error getting unit by id: unit not found"
 
 
 @litestar.get("/v2/auth", summary="/v2/auth")
@@ -151,7 +159,7 @@ async def v2__modules(
     )
 
 
-@litestar.get("/v2/groups/{group_id:uuid}", summary="/v2/groups/{group_id:uuid}", raises=[NotFoundException])
+@litestar.get("/v2/groups/{group_id:uuid}", summary="/v2/groups/{group_id:uuid}", raises=[GroupNotFoundException])
 async def v2__group(
     *,
     group_id: Annotated[
@@ -162,16 +170,10 @@ async def v2__group(
     if group_id in GROUPS_MAP:
         return GROUPS_MAP[group_id]
 
-    raise NotFoundException()
-    # TODO: {
-    #     "code": "E100",
-    #     "message": "ネットワークの状況をご確認の上、アプリの再起動などをしても改善しない場合は、「マイページ＞設定・アプリ情報＞お問い合わせ」からお問い合わせください。",
-    #     "detail": "error getting group by id: group not found",
-    #     "title": "不明なエラーが発生しました😢"
-    # }
+    raise GroupNotFoundException()
 
 
-@litestar.get("/v2/units/{unit_id:uuid}", summary="/v2/units/{unit_id:uuid}", raises=[NotFoundException])
+@litestar.get("/v2/units/{unit_id:uuid}", summary="/v2/units/{unit_id:uuid}", raises=[UnitNotFoundException])
 async def v2__unit(
     *,
     unit_id: Annotated[
@@ -182,13 +184,7 @@ async def v2__unit(
     if unit_id in UNITS_MAP:
         return UNITS_MAP[unit_id]
 
-    raise NotFoundException()
-    # TODO: {
-    #     "code": "E100",
-    #     "message": "ネットワークの状況をご確認の上、アプリの再起動などをしても改善しない場合は、「マイページ＞設定・アプリ情報＞お問い合わせ」からお問い合わせください。",
-    #     "detail": "error getting unit by id: unit not found",
-    #     "title": "不明なエラーが発生しました😢"
-    # }
+    raise UnitNotFoundException()
 
 
 ROUTES: list[ControllerRouterHandler] = [

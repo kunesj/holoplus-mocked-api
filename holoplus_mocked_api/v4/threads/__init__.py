@@ -6,12 +6,12 @@ from typing import Annotated
 
 import litestar
 from litestar import status_codes
-from litestar.exceptions import NotFoundException
 from litestar.params import Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
 
 from holoplus_mocked_api.enums import FilterLanguages
+from holoplus_mocked_api.exceptions import HoloplusNotFoundException
 
 from .models import (
     ThreadsFavoriteResponse,
@@ -43,7 +43,7 @@ async def v4__threads__me(
     return ThreadsMeResponse(items=[])
 
 
-@litestar.get("/v4/threads/modules", summary="/v4/threads/modules")
+@litestar.get("/v4/threads/modules", summary="/v4/threads/modules", raises=[HoloplusNotFoundException])
 async def v4__threads__modules(
     *,
     # TODO: unknown if params are required or optional, and what defaults are
@@ -58,10 +58,10 @@ async def v4__threads__modules(
     json_path = DATA_PATH / "threads__modules" / f"{module_id}.json"
     if json_path.exists():
         return ThreadsModulesResponse.load_json(json_path)
-    raise NotFoundException()
+    raise HoloplusNotFoundException()
 
 
-@litestar.get("/v4/threads/updated", summary="/v4/threads/updated")
+@litestar.get("/v4/threads/updated", summary="/v4/threads/updated", raises=[HoloplusNotFoundException])
 async def v4__threads__updated(
     *,
     # TODO: unknown if params are required or optional, and what defaults are
@@ -77,11 +77,13 @@ async def v4__threads__updated(
     json_path = DATA_PATH / "threads__updated" / f"{channel_id}.json"
     if json_path.exists():
         return ThreadsUpdatedResponse.load_json(json_path)
-    raise NotFoundException()
+    raise HoloplusNotFoundException()
 
 
 @litestar.get(
-    "/v4/threads/{thread_id:uuid}/contents", summary="/v4/threads/{thread_id:uuid}/contents", raises=[NotFoundException]
+    "/v4/threads/{thread_id:uuid}/contents",
+    summary="/v4/threads/{thread_id:uuid}/contents",
+    raises=[HoloplusNotFoundException],
 )
 async def v4__threads__id__contents(
     *,
@@ -101,7 +103,7 @@ async def v4__threads__id__contents(
 @litestar.post(
     "/v4/threads/{thread_id:uuid}/favorite",
     summary="/v4/threads/{thread_id:uuid}/favorite",
-    raises=[NotFoundException],
+    raises=[HoloplusNotFoundException],
     status_code=status_codes.HTTP_201_CREATED,
 )
 async def v4__threads__id__favorite__post(
@@ -118,7 +120,7 @@ async def v4__threads__id__favorite__post(
 @litestar.delete(
     "/v4/threads/{thread_id:uuid}/favorite",
     summary="/v4/threads/{thread_id:uuid}/favorite",
-    raises=[NotFoundException],
+    raises=[HoloplusNotFoundException],
     status_code=status_codes.HTTP_204_NO_CONTENT,
 )
 async def v4__threads__id__favorite__delete(

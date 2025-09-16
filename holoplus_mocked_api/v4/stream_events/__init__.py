@@ -4,10 +4,11 @@ import pathlib
 from typing import Annotated, Literal
 
 import litestar
-from litestar.exceptions import NotFoundException
-from litestar.params import Body, Parameter
+from litestar.params import Parameter
 from litestar.openapi.spec import Example
 from litestar.types import ControllerRouterHandler
+
+from holoplus_mocked_api.exceptions import HoloplusNotFoundException
 
 from .models import (
     StreamEventsResponse,
@@ -33,7 +34,7 @@ async def v4__stream_events(
 
 
 @litestar.get(
-    "/v4/stream_events/{event_id:str}", summary="/v4/stream_events/{event_id:str}", raises=[NotFoundException]
+    "/v4/stream_events/{event_id:str}", summary="/v4/stream_events/{event_id:str}", raises=[HoloplusNotFoundException]
 )
 async def v4__stream_events__id(
     *,
@@ -43,7 +44,7 @@ async def v4__stream_events__id(
     json_path = DATA_PATH / "stream_events" / f"{event_id}.json"
     if json_path.exists():
         return StreamEvent.load_json(json_path)
-    raise NotFoundException()
+    raise HoloplusNotFoundException()
 
 
 ROUTES: list[ControllerRouterHandler] = [
