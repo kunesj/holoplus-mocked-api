@@ -20,7 +20,9 @@ from .models import ChannelsIdUpdatedThreadResponse
 )
 async def v4__channels__id__updated_thread(
     *,
-    channel_id: Annotated[str, Parameter(examples=[Example(value=uuid.UUID("18eec09c-ce17-4f50-bfc6-8b47457882ed"))])],
+    channel_id: Annotated[
+        uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("18eec09c-ce17-4f50-bfc6-8b47457882ed"))])
+    ],
     filter_language: Annotated[FilterLanguages | None, Parameter(examples=[Example(value="en")])] = None,
     token: Annotated[str, Parameter(header="authorization")],
 ) -> ChannelsIdUpdatedThreadResponse:

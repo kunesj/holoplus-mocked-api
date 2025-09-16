@@ -14,7 +14,7 @@ from holoplus_mocked_api.v1.models import (
 ROOT_PATH = pathlib.Path(__file__).parent
 
 AGREEMENTS: list[Agreement] = [*AgreementsResponse.load_json(ROOT_PATH / "agreements.json").items]
-AGREEMENTS_MAP: dict[str, Community] = {x.name: x for x in AGREEMENTS}
+AGREEMENTS_MAP: dict[str, Agreement] = {x.name: x for x in AGREEMENTS}
 
 PUSH_NOTIFICATION_GROUPS: list[PushNotificationGroup] = [
     *PushNotificationGroupsResponse.load_json(ROOT_PATH / "push_notification_settings.json").items
