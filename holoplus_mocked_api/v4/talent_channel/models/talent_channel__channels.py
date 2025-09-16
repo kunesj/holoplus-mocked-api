@@ -10,11 +10,11 @@ from litestar.openapi.spec import Example
 from litestar.params import Parameter
 
 
-class TalentChannelChannelsResponseItemThreadTranslation(msgspec.Struct, kw_only=True):
+class TalentChannelChannelsResponseItemThreadTranslation(msgspec.Struct, kw_only=True, omit_defaults=True):
     title: Annotated[str, Parameter(examples=[Example(value="🔹️ Who do you ship Ollie with?")])] = msgspec.field()
 
 
-class TalentChannelChannelsResponseItemThread(msgspec.Struct, kw_only=True):
+class TalentChannelChannelsResponseItemThread(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("969c000a-22c2-4c8b-a4d0-c6a61cd2e8c0"))])] = (
         msgspec.field()
     )
@@ -35,7 +35,7 @@ class TalentChannelChannelsResponseItemThread(msgspec.Struct, kw_only=True):
     created_at: Annotated[int, Parameter(examples=[Example(value=1757126658)])] = msgspec.field()
 
 
-class TalentChannelChannelsResponseItemTalent(msgspec.Struct, kw_only=True):
+class TalentChannelChannelsResponseItemTalent(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0"))])] = (
         msgspec.field()
     )
@@ -48,14 +48,14 @@ class TalentChannelChannelsResponseItemTalent(msgspec.Struct, kw_only=True):
     ] = msgspec.field()
 
 
-class TalentChannelChannelsResponseItemCommunity(msgspec.Struct, kw_only=True):
+class TalentChannelChannelsResponseItemCommunity(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("f30a0c54-73c0-46c1-b413-9e3af0f672ff"))])] = (
         msgspec.field()
     )
     name: Annotated[str, Parameter(examples=[Example(value="hololive")])] = msgspec.field()
 
 
-class TalentChannelChannelsResponseItem(msgspec.Struct, kw_only=True):
+class TalentChannelChannelsResponseItem(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("7f237193-e0f7-4127-af78-9f5c255069ac"))])] = (
         msgspec.field()
     )
@@ -72,7 +72,7 @@ class TalentChannelChannelsResponseItem(msgspec.Struct, kw_only=True):
     community: Annotated[TalentChannelChannelsResponseItemCommunity, Parameter()] = msgspec.field()
 
 
-class TalentChannelChannelsResponse(msgspec.Struct, kw_only=True):
+class TalentChannelChannelsResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
     items: Annotated[list[TalentChannelChannelsResponseItem], Parameter()] = msgspec.field()
 
     @classmethod

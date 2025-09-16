@@ -10,14 +10,14 @@ from litestar.openapi.spec import Example
 from litestar.params import Parameter
 
 
-class TalentChannelCommentsResponseItemUserRole(msgspec.Struct, kw_only=True):
+class TalentChannelCommentsResponseItemUserRole(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("a0a44a43-18bc-4444-96bf-4fb188f3c8d9"))])] = (
         msgspec.field()
     )
     role: Annotated[str, Parameter(examples=[Example(value="none")])] = msgspec.field()
 
 
-class TalentChannelCommentsResponseItemUserIcon(msgspec.Struct, kw_only=True):
+class TalentChannelCommentsResponseItemUserIcon(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("90a8d791-f8f4-4a90-9825-559b463a3f49"))])] = (
         msgspec.field()
     )
@@ -26,7 +26,7 @@ class TalentChannelCommentsResponseItemUserIcon(msgspec.Struct, kw_only=True):
     ] = msgspec.field()
 
 
-class TalentChannelCommentsResponseItemUser(msgspec.Struct, kw_only=True):
+class TalentChannelCommentsResponseItemUser(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("00000000-8def-40c7-bd8d-c44aade2aa10"))])] = (
         msgspec.field()
     )
@@ -35,7 +35,7 @@ class TalentChannelCommentsResponseItemUser(msgspec.Struct, kw_only=True):
     icon: Annotated[TalentChannelCommentsResponseItemUserIcon, Parameter()] = msgspec.field()
 
 
-class TalentChannelCommentsResponseItemChannel(msgspec.Struct, kw_only=True):
+class TalentChannelCommentsResponseItemChannel(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("7f237193-e0f7-4127-af78-9f5c255069ac"))])] = (
         msgspec.field()
     )
@@ -43,7 +43,7 @@ class TalentChannelCommentsResponseItemChannel(msgspec.Struct, kw_only=True):
     channel_type: Annotated[str, Parameter(examples=[Example(value="talent")])] = msgspec.field()
 
 
-class TalentChannelCommentsResponseItemTranslation(msgspec.Struct, kw_only=True):
+class TalentChannelCommentsResponseItemTranslation(msgspec.Struct, kw_only=True, omit_defaults=True):
     body: Annotated[
         str,
         Parameter(
@@ -59,7 +59,7 @@ class TalentChannelCommentsResponseItemTranslation(msgspec.Struct, kw_only=True)
     ] = msgspec.field()
 
 
-class TalentChannelCommentsResponseItem(msgspec.Struct, kw_only=True):
+class TalentChannelCommentsResponseItem(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("32cec3c7-5f7f-475c-8ac2-e287f493add0"))])] = (
         msgspec.field()
     )
@@ -93,7 +93,7 @@ class TalentChannelCommentsResponseItem(msgspec.Struct, kw_only=True):
     user_reacted_count: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field()
 
 
-class TalentChannelCommentsResponse(msgspec.Struct, kw_only=True):
+class TalentChannelCommentsResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
     items: Annotated[list[TalentChannelCommentsResponseItem], Parameter()] = msgspec.field()
     next_cursor: Annotated[
         str | None,
@@ -104,7 +104,7 @@ class TalentChannelCommentsResponse(msgspec.Struct, kw_only=True):
                 )
             ]
         ),
-    ] = msgspec.field(default=None)  # TODO: optional
+    ] = msgspec.field(default=None)
 
     @classmethod
     def load_json(cls, path: pathlib.Path) -> Self:

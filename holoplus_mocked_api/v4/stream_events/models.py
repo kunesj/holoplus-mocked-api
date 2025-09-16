@@ -10,7 +10,7 @@ from litestar.openapi.spec import Example
 from litestar.params import Parameter
 
 
-class StreamEventsResponseItem(msgspec.Struct, kw_only=True):
+class StreamEventsResponseItem(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[str, Parameter(examples=[Example(value="7tyO2iBAdAA")])] = msgspec.field()
     date_time: Annotated[int, Parameter(examples=[Example(value=1757134803)])] = msgspec.field()
     is_live: Annotated[bool, Parameter(examples=[Example(value=True)])] = msgspec.field()
@@ -46,7 +46,7 @@ class StreamEventsResponseItem(msgspec.Struct, kw_only=True):
     updated_at: Annotated[int, Parameter(examples=[Example(value=0)])] = msgspec.field()
 
 
-class StreamEventsResponse(msgspec.Struct, kw_only=True):
+class StreamEventsResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
     items: Annotated[list[StreamEventsResponseItem], Parameter()] = msgspec.field()
 
     @classmethod
@@ -54,7 +54,7 @@ class StreamEventsResponse(msgspec.Struct, kw_only=True):
         return litestar.serialization.decode_json(path.read_bytes(), cls, strict=True)
 
 
-class StreamEventStreamer(msgspec.Struct, kw_only=True):
+class StreamEventStreamer(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[str, Parameter(examples=[Example(value="")])] = msgspec.field()
     name: Annotated[str, Parameter(examples=[Example(value="Aragami Oga")])] = msgspec.field()
     image_url: Annotated[
@@ -71,7 +71,7 @@ class StreamEventStreamer(msgspec.Struct, kw_only=True):
     updated_at: Annotated[int | None, Parameter(examples=[Example(value=None)])] = msgspec.field()
 
 
-class StreamEventTalent(msgspec.Struct, kw_only=True):
+class StreamEventTalent(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("d464459c-758c-4c12-92cf-cb7e648a0fb8"))])] = (
         msgspec.field()
     )
@@ -88,7 +88,7 @@ class StreamEventTalent(msgspec.Struct, kw_only=True):
     ] = msgspec.field()
 
 
-class StreamEvent(msgspec.Struct, kw_only=True):
+class StreamEvent(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[str, Parameter(examples=[Example(value="60js97Pfc6I")])] = msgspec.field()
     date_time: Annotated[int, Parameter(examples=[Example(value=1757206200)])] = msgspec.field()
     is_live: Annotated[bool, Parameter(examples=[Example(value=False)])] = msgspec.field()

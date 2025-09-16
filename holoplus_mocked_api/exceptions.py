@@ -19,7 +19,7 @@ from litestar.params import Parameter
 from litestar.utils import get_name
 
 
-class ErrorResponse(msgspec.Struct, kw_only=True):
+class ErrorResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
     code: Annotated[str, Parameter(examples=[Example(value="Bad Request")])] = msgspec.field()
     message: Annotated[
         str,
@@ -28,9 +28,10 @@ class ErrorResponse(msgspec.Struct, kw_only=True):
         ),
     ] = msgspec.field()
     detail: Annotated[str, Parameter(examples=[Example(value="authorization header is missing")])] = msgspec.field()
+    title: Annotated[str | None, Parameter()] = msgspec.field(default=None)
 
 
-class RootErrorResponse(msgspec.Struct, kw_only=True):
+class RootErrorResponse(msgspec.Struct, kw_only=True, omit_defaults=True):
     name: Annotated[str, Parameter(examples=[Example(value="fault")])] = msgspec.field()
     id: Annotated[str, Parameter(examples=[Example(value="7HSr-dWY")])] = msgspec.field()
     message: Annotated[str, Parameter(examples=[Example(value="404 page not found")])] = msgspec.field()
@@ -63,6 +64,7 @@ def exception_handler(_: litestar.Request, exc: Exception) -> litestar.Response[
             code="Exception",
             message=exc.__class__.__name__,
             detail=exc.detail if isinstance(exc, HTTPException) else str(exc),
+            # `title` not set
         ),
         status_code=exc.status_code if isinstance(exc, HTTPException) else 500,
     )

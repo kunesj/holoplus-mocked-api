@@ -10,7 +10,7 @@ from litestar.openapi.spec import Example
 from litestar.params import Parameter
 
 
-class ThreadCategory(msgspec.Struct, kw_only=True):
+class ThreadCategory(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("805c061d-a33a-47be-a10a-cfd5d12c631c"))])] = (
         msgspec.field()
     )
@@ -19,7 +19,7 @@ class ThreadCategory(msgspec.Struct, kw_only=True):
     sort: Annotated[int, Parameter(examples=[Example(value=8)])] = msgspec.field()
 
 
-class ThreadChannelCommunity(msgspec.Struct, kw_only=True):
+class ThreadChannelCommunity(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("f30a0c54-73c0-46c1-b413-9e3af0f672ff"))])] = (
         msgspec.field()
     )
@@ -28,7 +28,7 @@ class ThreadChannelCommunity(msgspec.Struct, kw_only=True):
     ] = msgspec.field()
 
 
-class ThreadChannel(msgspec.Struct, kw_only=True):
+class ThreadChannel(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("2f495a98-f005-4ef4-b164-be922b823b42"))])] = (
         msgspec.field()
     )
@@ -60,7 +60,7 @@ class ThreadChannel(msgspec.Struct, kw_only=True):
     icon_url: Annotated[str, Parameter(examples=[Example(value="")])] = msgspec.field()
 
 
-class ThreadImage(msgspec.Struct, kw_only=True):
+class ThreadImage(msgspec.Struct, kw_only=True, omit_defaults=True):
     url: Annotated[
         str,
         Parameter(
@@ -71,7 +71,7 @@ class ThreadImage(msgspec.Struct, kw_only=True):
     ] = msgspec.field()
 
 
-class ThreadTalent(msgspec.Struct, kw_only=True):
+class ThreadTalent(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("17492aaf-a9bc-48e1-b00c-eeaeefa6b5b0"))])] = (
         msgspec.field()
     )
@@ -85,7 +85,7 @@ class ThreadTalent(msgspec.Struct, kw_only=True):
     ] = msgspec.field()
 
 
-class ThreadUserIcon(msgspec.Struct, kw_only=True):
+class ThreadUserIcon(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("0b4a2e27-7ff3-491a-a056-8d534d59a87f"))])] = (
         msgspec.field()
     )
@@ -94,14 +94,14 @@ class ThreadUserIcon(msgspec.Struct, kw_only=True):
     ] = msgspec.field()
 
 
-class ThreadUserRole(msgspec.Struct, kw_only=True):
+class ThreadUserRole(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("a0a44a43-18bc-4444-96bf-4fb188f3c8d9"))])] = (
         msgspec.field()
     )
     name: Annotated[str, Parameter(examples=[Example(value="none")])] = msgspec.field()
 
 
-class ThreadUser(msgspec.Struct, kw_only=True):
+class ThreadUser(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("00000000-3945-4173-af80-ee683388cb4b"))])] = (
         msgspec.field()
     )
@@ -110,7 +110,7 @@ class ThreadUser(msgspec.Struct, kw_only=True):
     role: Annotated[ThreadUserRole, Parameter()] = msgspec.field()
 
 
-class ThreadTranslation(msgspec.Struct, kw_only=True):
+class ThreadTranslation(msgspec.Struct, kw_only=True, omit_defaults=True):
     title: Annotated[str, Parameter(examples=[Example(value="🔹️ What do you see Ollie as?")])] = msgspec.field()
     body: Annotated[
         str,
@@ -139,7 +139,7 @@ class ThreadTranslation(msgspec.Struct, kw_only=True):
     ] = msgspec.field()
 
 
-class Thread(msgspec.Struct, kw_only=True):
+class Thread(msgspec.Struct, kw_only=True, omit_defaults=True):
     id: Annotated[uuid.UUID, Parameter(examples=[Example(value=uuid.UUID("e1272fb1-38bc-4e29-aeb8-f8a9443c3340"))])] = (
         msgspec.field()
     )
