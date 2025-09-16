@@ -4,6 +4,7 @@ import uuid
 from typing import Annotated
 
 import litestar
+from litestar import status_codes
 from litestar.exceptions import NotFoundException
 from litestar.params import Parameter
 from litestar.openapi.spec import Example
@@ -13,7 +14,10 @@ from holoplus_mocked_api.enums import FilterLanguages
 
 
 @litestar.post(
-    "/v4/pins/{record_id:uuid}", summary="/v4/pins/{record_id:uuid}", raises=[NotFoundException], status_code=204
+    "/v4/pins/{record_id:uuid}",
+    summary="/v4/pins/{record_id:uuid}",
+    raises=[NotFoundException],
+    status_code=status_codes.HTTP_204_NO_CONTENT,
 )
 async def v4__pins__id(
     *,

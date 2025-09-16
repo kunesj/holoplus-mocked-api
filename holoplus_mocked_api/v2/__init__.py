@@ -5,6 +5,7 @@ from typing import Annotated
 
 import urllib.parse
 import litestar
+from litestar import status_codes
 from litestar.types import ControllerRouterHandler
 from litestar.exceptions import NotFoundException
 from litestar.response import Redirect
@@ -60,7 +61,7 @@ async def v2__auth() -> AuthResponse:
     )
 
 
-@litestar.get("/v2/auth/callback", summary="/v2/auth/callback", status_code=302)
+@litestar.get("/v2/auth/callback", summary="/v2/auth/callback", status_code=status_codes.HTTP_302_FOUND)
 async def v2__auth__callback(
     *,
     code: Annotated[str, Parameter()],
@@ -70,10 +71,10 @@ async def v2__auth__callback(
     Doesn't need Authorization header.
     """
     query = urllib.parse.urlencode({"code": code, "state": state_})
-    return Redirect(f"holoplus:///signup?{query}", status_code=302)
+    return Redirect(f"holoplus:///signup?{query}", status_code=status_codes.HTTP_302_FOUND)
 
 
-@litestar.post("/v2/auth/token", summary="/v2/auth/token", status_code=200)
+@litestar.post("/v2/auth/token", summary="/v2/auth/token", status_code=status_codes.HTTP_200_OK)
 async def v2__auth__token(
     data: Annotated[AuthTokenRequest, Body()],
 ) -> AuthTokenResponse:

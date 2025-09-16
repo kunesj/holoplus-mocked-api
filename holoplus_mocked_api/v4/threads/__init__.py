@@ -5,6 +5,7 @@ import pathlib
 from typing import Annotated
 
 import litestar
+from litestar import status_codes
 from litestar.exceptions import NotFoundException
 from litestar.params import Parameter
 from litestar.openapi.spec import Example
@@ -101,7 +102,7 @@ async def v4__threads__id__contents(
     "/v4/threads/{thread_id:uuid}/favorite",
     summary="/v4/threads/{thread_id:uuid}/favorite",
     raises=[NotFoundException],
-    status_code=201,
+    status_code=status_codes.HTTP_201_CREATED,
 )
 async def v4__threads__id__favorite__post(
     *,
@@ -118,7 +119,7 @@ async def v4__threads__id__favorite__post(
     "/v4/threads/{thread_id:uuid}/favorite",
     summary="/v4/threads/{thread_id:uuid}/favorite",
     raises=[NotFoundException],
-    status_code=204,
+    status_code=status_codes.HTTP_204_NO_CONTENT,
 )
 async def v4__threads__id__favorite__delete(
     *,
