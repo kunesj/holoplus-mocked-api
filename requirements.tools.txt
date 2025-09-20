@@ -1,0 +1,3 @@
+requests==2.31.0
+yt-dlp==2025.9.5
+secretstorage==3.4.0

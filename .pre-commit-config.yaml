@@ -21,5 +21,6 @@ repos:
   hooks:
     - id: mypy
       additional_dependencies: [
-        "msgspec"
+        "msgspec",
+        "types-requests"
       ]

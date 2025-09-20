@@ -58,3 +58,10 @@ user-agent: Dart/3.7 (dart:io)
 - Install Holoplus with `adb install-multiple -r "com.cover_corp.holoplus.apk" "config.arm64_v8a.apk" "config.en.apk" "config.fr.apk" "config.mdpi.apk"`
 - Open HTTP Toolkit and select to connect to Android over adb. Follow instructions on screen. Everything should be green.
 - Open Holoplus app and do something, the requests should be visible in HTTP Toolkit.
+
+### Tools
+
+`holoplus_tools` is a small package that has tools for getting tokens and more.
+
+- Install dependencies with `pip install -r requirements.tools.txt -c constraints.txt`
+- Run with `python -m holoplus_tools --help`
