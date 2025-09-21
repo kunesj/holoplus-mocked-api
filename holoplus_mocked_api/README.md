@@ -5,7 +5,7 @@ Mock version of the `api.holoplus.com` API. **Currently incomplete, and might be
 The main purpose of this project is to document the API, to make it easier to develop apps that need to access it.
 It should also be useful for testing.
 
-Built docs can be found here: https://kunesj.github.io/holoplus-mocked-api
+Built docs can be found here: https://kunesj.github.io/holoplus-resources
 
 
 ## Quick Setup
