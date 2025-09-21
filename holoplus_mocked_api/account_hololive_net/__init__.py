@@ -27,7 +27,9 @@ async def v1_ep_auth(
     redirect_uri: Annotated[str, Parameter(examples=[Example(value="https://api.holoplus.com/v2/auth/callback")])],
     response_type: Annotated[str, Parameter(examples=[Example(value="code")])],
     scope: Annotated[str, Parameter(examples=[Example(value="openid+profile")])],
-    state: Annotated[str, Parameter(examples=[Example(value="kMRJ2iYeaDYYDlJj13Azse6_GGbyZr1ZC5x5UvrfmIM=")])] = "",
+    state_: Annotated[
+        str, Parameter(query="state", examples=[Example(value="kMRJ2iYeaDYYDlJj13Azse6_GGbyZr1ZC5x5UvrfmIM=")])
+    ] = "",
 ) -> Redirect:
     """
     - Redirects to "https://api.holoplus.com/v2/auth/callback" if signed in
@@ -40,7 +42,7 @@ async def v1_ep_auth(
     logged_in = True
 
     if logged_in:
-        query = urllib.parse.urlencode({"code": "some-auth-code", "state": state})
+        query = urllib.parse.urlencode({"code": "some-auth-code", "state": state_})
         url = f"{redirect_uri}?{query}"
     else:
         url = "/account.hololive.net/v1/signin"
@@ -71,14 +73,15 @@ async def v1_signin() -> Response:
 async def v1_auth_google_callback(
     request: Request[Any, Any, Any],
     *,
-    state: Annotated[
+    state_: Annotated[
         str,
         Parameter(
+            query="state",
             examples=[
                 Example(
                     value="5lYionNCuqGUzZb5yrRPuKvbjgxIn_0jh2EqgyRip7Bio64NN6rNJNha6w0Zm2bUER4ugfNFSeXm4l4fV7BiwQ=="
                 )
-            ]
+            ],
         ),
     ],
     code: Annotated[
