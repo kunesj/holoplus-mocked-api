@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import logging
+import os
 import urllib.parse
+import uuid
 from typing import TypedDict
 
 import requests
@@ -9,29 +11,40 @@ import requests.cookies
 
 _logger = logging.getLogger(__name__)
 
+# This key should be static and same for everyone (I think)
+HOLOPLUS_GOOGLE_KEY = os.getenv("HOLOPLUS_GOOGLE_KEY", default="AIzaSyBIBy1CboBwrCShfY1CixfRRynJRF06vx0")
+
 
 class HoloplusAuthError(requests.HTTPError):
     pass
 
 
-class HoloplusToken(TypedDict):
+class AuthTokenResponse(TypedDict):
     id_token: str
     refresh_token: str
     expires_in: int
     is_new_user: bool
 
 
-def get_auth_token(
-    *,
-    cookie_jar: requests.cookies.RequestsCookieJar,
-    # This key should be static and same for everyone (I think)
-    holoplus_google_key: str = "AIzaSyBIBy1CboBwrCShfY1CixfRRynJRF06vx0",
-) -> HoloplusToken:
+class RefreshTokenResponse(TypedDict):
+    id_token: str
+    access_token: str
+    refresh_token: str
+    token_type: str
+    expires_in: int
+    user_id: uuid.UUID
+    project_id: str
+
+
+def auth_token(cookie_jar: requests.cookies.RequestsCookieJar, timeout: int = 30) -> AuthTokenResponse:
+    """
+    Uses browser cookies to get new ID/Access Token and Refresh Token.
+    """
     # 1. `https://api.holoplus.com/v2/auth` -> `https://account.hololive.net/v1/ep/auth?***`
 
     api_auth_url = "https://api.holoplus.com/v2/auth"
 
-    response = requests.request("GET", api_auth_url, timeout=30)
+    response = requests.request("GET", api_auth_url, timeout=timeout)
     if not response.ok:
         _logger.error("Response: %s", response.content)
     response.raise_for_status()
@@ -51,7 +64,7 @@ def get_auth_token(
     with requests.Session() as session:
         session.cookies = cookie_jar
 
-        response = session.request(method="GET", url=account_auth_url, timeout=30, allow_redirects=False)
+        response = session.request(method="GET", url=account_auth_url, timeout=timeout, allow_redirects=False)
         api_callback_url = response.headers.get("Location")
 
         if response.status_code != 302:
@@ -70,7 +83,7 @@ def get_auth_token(
         # 3. `https://api.holoplus.com/v2/auth/callback?***` -> `holoplus://****`
         # - this is done in browser via redirect
 
-        response = session.request(method="GET", url=api_callback_url, timeout=30, allow_redirects=False)
+        response = session.request(method="GET", url=api_callback_url, timeout=timeout, allow_redirects=False)
         holoplus_url = response.headers.get("Location")
 
         if response.status_code != 302:
@@ -100,7 +113,7 @@ def get_auth_token(
             "code": query_encoded["code"],
             "state": query_encoded["state"],
         },
-        timeout=30,
+        timeout=timeout,
     )
     if not response.ok:
         _logger.error("Response: %s", response.content)
@@ -116,22 +129,54 @@ def get_auth_token(
         "POST",
         "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyCustomToken",
         params={
-            "key": holoplus_google_key,
+            "key": HOLOPLUS_GOOGLE_KEY,
         },
         json={
             "token": firebase_token,
             "returnSecureToken": True,
         },
-        timeout=30,
+        timeout=timeout,
     )
     if not response.ok:
         _logger.error("Response: %s", response.content)
     response.raise_for_status()
 
     data = response.json()
-    return HoloplusToken(
+    return AuthTokenResponse(
         id_token=data["idToken"],
         refresh_token=data["refreshToken"],
         expires_in=int(data["expiresIn"]),
         is_new_user=data["isNewUser"],
+    )
+
+
+def refresh_token(token: str, timeout: int = 30) -> RefreshTokenResponse:
+    """
+    Uses Refresh Token to get new ID/Access Token.
+    """
+    response = requests.request(
+        "POST",
+        "https://securetoken.googleapis.com/v1/token",
+        params={
+            "key": HOLOPLUS_GOOGLE_KEY,
+        },
+        json={
+            "grantType": "refresh_token",
+            "refreshToken": token,
+        },
+        timeout=timeout,
+    )
+    if not response.ok:
+        _logger.error("Response: %s", response.content)
+    response.raise_for_status()
+
+    data = response.json()
+    return RefreshTokenResponse(
+        id_token=data["id_token"],
+        access_token=data["access_token"],
+        refresh_token=data["refresh_token"],
+        token_type=data["token_type"],
+        expires_in=int(data["expires_in"]),
+        user_id=uuid.UUID(data["user_id"]),
+        project_id=data["project_id"],
     )
