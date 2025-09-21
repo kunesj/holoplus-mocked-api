@@ -1,4 +1,4 @@
-# Holoplus
+# Holoplus Resources
 
 Collection of different tools and resources that can be useful when working with Holoplus API.
 
