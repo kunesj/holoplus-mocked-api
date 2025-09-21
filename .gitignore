@@ -1,4 +1,5 @@
 .venv*
+/holoplus_apk
 
 # PyCharm,VSCode
 .idea/
